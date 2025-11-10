@@ -3,6 +3,7 @@ import json
 import tempfile
 import subprocess
 from typing import List, Optional, Tuple
+from slugify import slugify
 
 
 def predict_label(line: str, separator: str)-> Tuple[str, str]:
@@ -15,7 +16,6 @@ def predict_label(line: str, separator: str)-> Tuple[str, str]:
         return (label[0], line)
     else:
         return (' ', line)
-
 
 def predict_line_types(lines: List[str]) -> List[Tuple[Optional[str], str]]:
     prediction = []
@@ -64,20 +64,36 @@ def annotate_lines_with_char(lines: List[str]) -> List[Tuple[Optional[str], str]
     with open(tmp_path, "r") as f:
         edited_lines = f.read().splitlines()
 
-    for original, edited in zip(lines, edited_lines):
+    for edited in edited_lines:
         # Expect format "<char> > <original>"
         # The annotation slot is edited[0]
         if len(edited) >= 3 and edited[2:4] == "> ":
             c = edited[0]
             if c == " ":
-                out.append((None, original))
+                out.append((None, edited))
             else:
-                out.append((c, original))
+                out.append((c, edited))
         else:
             # malformed → treat as None
-            out.append((None, original))
+            print(f"WARNING: malformed line >{edited}<")
+            out.append((None, edited))
 
     return out
+
+def user_check(song):
+
+    head_lines = ["\\begin{song}{}", f"\\mysong{{{song['title']}}}{{{song['artist'] + ' ' + song['release_year']}}}{{1/0}}"]
+    lines = [*head_lines, *song['latex'], "\\end{song}"]
+
+    text = "\n".join(lines)
+    path = "songs/" + slugify(song['title']) + ".tex"
+    with open(path, "w+") as tf:
+        tmp_path = tf.name
+        tf.write(text)
+        tf.flush()
+
+    # Launch vim
+    subprocess.run(["vim", path])
 
 def insert_chords_to_line(chords, line):
   
@@ -129,6 +145,7 @@ def format_annotated_lines(annotated_lines: List[Tuple[Optional[str], str]]):
   chord_line_buffer = ""
   prefix_length = 0
   is_in_verse = False
+  verse_type = ""
 
   for i in range(len(annotated_lines)):
     curr_type, curr_line = annotated_lines[i]
@@ -138,12 +155,27 @@ def format_annotated_lines(annotated_lines: List[Tuple[Optional[str], str]]):
       is_in_verse = True
       ignore_chords = curr_type.islower()
 
-      if ignore_chords:
-        output_lines.append(curr_line[prefix_length:])
+      if curr_type.lower() == "v":
+        verse_type = "verse"
+      elif curr_type.lower() == "r":
+        verse_type = "refren"
       else:
-        output_lines.append(insert_chords_to_line(chord_line_buffer[prefix_length:], curr_line[prefix_length:]))
+        verse_type = "other"
+      output_lines.append("\\begin{" + verse_type + "}")
+
+      if ignore_chords:
+        output_lines.append(" " * 3 + curr_line[prefix_length:] + " \\\\")
+      else:
+        output_lines.append(" " * 3 + insert_chords_to_line(chord_line_buffer[prefix_length:], curr_line[prefix_length:]) + " \\\\")
 
     elif curr_type == "e": 
+      if is_in_verse:
+        last_line = output_lines.pop()
+        if last_line.endswith("\\\\"):
+          last_line = re.sub(r"\\\\$", "", last_line)
+        output_lines.append(last_line)
+        output_lines.append("\\end{" + verse_type + "}")
+      verse_type = "" 
       is_in_verse = False
       prefix_length = 0
       pass
@@ -153,47 +185,16 @@ def format_annotated_lines(annotated_lines: List[Tuple[Optional[str], str]]):
     
     elif curr_type is None:
       if ignore_chords:
-        output_lines.append(curr_line[prefix_length:])
+        output_lines.append(" " * 3 + curr_line[prefix_length:] + " \\\\")
       else:
-        output_lines.append(insert_chords_to_line(chord_line_buffer[prefix_length:], curr_line[prefix_length:]))
+        output_lines.append(" " * 3 + insert_chords_to_line(chord_line_buffer[prefix_length:], curr_line[prefix_length:]) + " \\\\")
 
-    continue 
-
-
-
-
-
-    if curr_type == 'e':
-      if chord_line_buffer != "":
-        output_lines.append(curr_line) # a trailing line of chords, should be handled explicitely
-      chord_line_buffer = ""
-      is_in_verse = False
-      prefix_length = 0
-      ignore_chords = True
- 
-    elif curr_type == 'c':
-      if is_in_verse == False:
-        output_lines.append(chord_line_buffer[prefix_length:])
-      chord_line_buffer = curr_line
-      continue
-
-    elif curr_type != None and curr_type.isupper():
-      if is_in_verse == False:
-        output_lines.append(chord_line_buffer[prefix_length:])
-      ignore_chords = False
-      is_in_verse = True
-      prefix_length = len(re.split('[.:]', curr_line)) + 1 # mad heuristic
-      output_lines.append(insert_chords_to_line(chord_line_buffer[prefix_length:], curr_line[prefix_length:]))
-
-    elif curr_type == "":
-      if is_in_verse == False:
-        output_lines.append(chord_line_buffer[prefix_length:])
-      if ignore_chords:
-        output_lines.append(curr_line[prefix_length:])
-      else:
-        output_lines.append(insert_chords_to_line(chord_line_buffer[prefix_length:], curr_line[prefix_length:]))
-    
-    print("==========================\n" + "\n".join(output_lines))
+  if verse_type != "":
+    last_line = output_lines.pop()
+    if last_line.endswith("\\\\"):
+      last_line = re.sub(r"\\\\$", "", last_line)
+    output_lines.append(last_line)
+    output_lines.append("\\end{" + verse_type + "}")
   return output_lines
     
     
@@ -218,20 +219,19 @@ def chords_2_latex(content: str):
 
   formatted_lines = format_annotated_lines(annotated_lines)
 
-  print("\n".join(formatted_lines))
-  return
-
-  for line in content.splitlines():
-    is_chords = is_chord_line(line)
-    print(("X" if is_chords else " ") + " | " + line)
-    
-
+  # print("\n".join(formatted_lines))
+  return formatted_lines
 
 def main():
   with open("song_with_chords.json") as input_file:
     songs = json.load(input_file)
   for song in songs:
-    song['latex_chords'] = chords_2_latex(song['chords'])
+    try:
+      song['latex'] = chords_2_latex(song['chords'])
+      user_check(song)
+    except:
+      print("Encountered error formatting " + song['title'])
+   
 
 
 
