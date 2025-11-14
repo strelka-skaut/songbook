@@ -138,7 +138,11 @@ def format_annotated_lines(lines):
         nonlocal group_padding
         nonlocal merge_chords
 
-        output_lines.extend(group_lines)
+        if len(group_lines) > 0:
+            base_lines = [line + " \\\\" for line in group_lines[:-1]]
+            last_line = group_lines[-1]
+            output_lines.extend(base_lines)
+            output_lines.append(last_line)
         output_lines.append(f"\\end{{{getGroupName(current_group_type)}}}")
         current_group_type = None
         group_lines = []
@@ -173,9 +177,9 @@ def format_annotated_lines(lines):
             if current_group_type == LineType.SOLO:
                 group_lines.append(format_solo_line(line[group_padding:]))
             elif current_group_type in has_chords:
-                group_lines.append(" " * 3 + merge(line[group_padding:], chord_buffer[group_padding:]))
+                group_lines.append(" " * 3 + merge(line[group_padding:], chord_buffer[group_padding:], False))
             else:
-                group_lines.append(" " * 3 + line[group_padding:])
+                group_lines.append(" " * 3 + merge(line[group_padding:], chord_buffer[group_padding:], True))
         elif line_type == LineType.CHORDS:
             chord_buffer = line
             
@@ -188,13 +192,15 @@ def format_annotated_lines(lines):
     return output_lines
 
 def format_chord(chord, is_optional, is_special):
-    return "\\" + (if is_optional 'o' else 'm') + f"chord{{{chord}}}"
+    return "\\" + ('o' if is_optional else 'm') + f"chord{ '*' if is_special else ''}{{{chord}}}"
 
 def format_solo_line(line):
     chords = re.split("\\s", line)
     return " ".join([f"\\inlinechord{{{chord}}}" for chord in chords])
 
-def merge(base, details):
+def merge(base, details, are_chords_optional):
+    if len(details.strip()) == 0:
+        return base
     details = details.rstrip()
 
     base_length = len(base)
@@ -223,9 +229,9 @@ def merge(base, details):
     if (last_segment_length := len(base) - sum(segment_length_list)) != 0:
         segment_length_list.append(last_segment_length)
 
-    total_segment_length = 0
     # setup so that we always add a chord and it's fill as a suffix (not prefix)
-    merged = base[:segment_length_list.pop(0)]
+    total_segment_length = segment_length_list.pop(0)
+    merged = base[:total_segment_length]
     segment_length_list.append(0)
     is_starred = False
     for segment_length, detail in zip(segment_length_list, detail_list):
@@ -247,7 +253,8 @@ def merge(base, details):
             if (replaced_count := segment_space_count - segment_far_space_count) != 0:
                 segment = re.sub("\\s", "~", segment, count=replaced_count)
 
-        merged += f"^{'*' if is_starred else ''}{{" + detail + "}"
+        merged += format_chord(detail, are_chords_optional, is_starred)
+        # merged += f"^{'*' if is_starred else ''}{{" + detail + "}"
         merged += segment
         total_segment_length += segment_length
         is_starred = False
@@ -365,7 +372,7 @@ def process_song(song, use_existing_annotations, use_existing_formatted):
                 use_existing_formatted = False
                 use_existing_annotations = True
                 break
-            elif seleciton == try_again:
+            elif selection == try_again:
                 use_existing_formatted = False
                 use_existing_annotations = False
                 break

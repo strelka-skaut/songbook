@@ -1,0 +1,39 @@
+
+
+\titlecontents{subsection}
+  [1.25cm]
+  {\footnotesize}
+  {\contentslabel{0em}}
+  {}
+  {\titlerule*[0.75pc]{.}\contentspage}      % dotted line and page number
+  []
+\titlespacing*{\subsection}{1.25cm}{0cm}{0cm}
+\titleformat*{\subsection}{\huge\textbf}
+
+\titlelabel{}
+\setcounter{secnumdepth}{0}
+
+\makeatletter
+\newcommand{\subsectiontoc}{%
+\newgeometry{paper=a5paper, nohead, bottom=1.25cm, top=1.125cm, left=0cm, right=1.25cm, footskip=0.5cm}
+\pagenumbering{gobble}
+  \begingroup
+  \label{content}
+    \setcounter{tocdepth}{2}%
+      \renewcommand{\numberline}[1]{}% remove numbers only locally
+      \setlength{\columnsep}{0cm}
+      %\tableofcontents
+      %\begin{minipage}{\dimexpr\textwidth-0.5cm\relax}
+    \begin{multicols}{2}
+        \@starttoc{toc}% insert TOC entries
+    \end{multicols}
+  %\end{minipage}
+      %\@starttoc{toc}
+  \endgroup
+\pagebreak
+\pagenumbering{arabic}
+\restoregeometry
+}
+\makeatother
+
+
