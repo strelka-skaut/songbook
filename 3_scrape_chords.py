@@ -72,6 +72,12 @@ def extract_chords_and_lyrics(html: str, url: str):
     output_lines = []
 
     # find all chord blocks
+ 
+    # for simpler songs without chord links
+    if len(soup.find("pre").find_all("el", class_="aline")) == 0:
+        return soup.find("pre").get_text() 
+
+
     for el in soup.find("pre").find_all("el", class_="aline"):
         # ----- extract chord line -----
         chord_line = ""

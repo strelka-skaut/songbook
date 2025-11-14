@@ -99,8 +99,8 @@ def main():
             "release_year": release_year
         })
 
-    print("\nFinal results:")
-    print(json.dumps(final_results, ensure_ascii=False, indent=4))
+    with open("song_metadata.json", "wt") as output_file:
+        output_file.write(json.dumps(final_results, ensure_ascii=False, indent=4))
 
 if __name__ == "__main__":
     main()

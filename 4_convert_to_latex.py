@@ -2,6 +2,7 @@ import re
 import json
 import tempfile
 import subprocess
+import os.path
 from typing import List, Optional, Tuple
 from slugify import slugify
 
@@ -12,8 +13,8 @@ def predict_label(line: str, separator: str)-> Tuple[str, str]:
         return ('r', line)
     elif label in [str(i) for i in range(10)]:
         return ('v', line)
-    elif label in ["intro", "outro", "bridge"]:
-        return (label[0], line)
+    elif label in ["*", "intro", "outro", "bridge"]:
+        return ('d', line)
     else:
         return (' ', line)
 
@@ -83,7 +84,7 @@ def annotate_lines_with_char(lines: List[str]) -> List[Tuple[Optional[str], str]
 def user_check(song):
 
     head_lines = ["\\begin{song}{}", f"\\mysong{{{song['title']}}}{{{song['artist'] + ' ' + song['release_year']}}}{{1/0}}"]
-    lines = [*head_lines, *song['latex'], "\\end{song}"]
+    lines = [*head_lines, *song['latex'], "\\end{song}", "\\pagebreak"]
 
     text = "\n".join(lines)
     path = "songs/" + slugify(song['title']) + ".tex"
@@ -96,7 +97,6 @@ def user_check(song):
     subprocess.run(["vim", path])
 
 def insert_chords_to_line(chords, line):
-  
   chords_left = chords
   tmp_line = line + (abs(len(line) - len(chords)) + 1) * " "
   cursor_pos = 0
@@ -104,9 +104,9 @@ def insert_chords_to_line(chords, line):
   line_segments = []
   candidate_segments = []
 
+  chord_length = 0
   while chords_left != "":
-    
-    chord_shift = len(chords_left) - len(chords_left.lstrip())
+    chord_shift = len(chords_left) - len(chords_left.lstrip()) + chord_length
     
     chords_left = chords_left.lstrip() 
     chord = re.split(r"\s", chords_left, maxsplit = 1)[0]
@@ -115,8 +115,8 @@ def insert_chords_to_line(chords, line):
 
     cursor_pos += chord_shift
 
-    upcoming_cord_shift = len(chords_left) - len(chords_left.lstrip())
-    upcoming_line = tmp_line[cursor_pos:cursor_pos + 1 + upcoming_cord_shift]
+    upcoming_cord_shift = len(chords_left) - len(chords_left.lstrip()) + chord_length
+    upcoming_line = tmp_line[cursor_pos:cursor_pos + upcoming_cord_shift]
     if len(chords_left) == 0:
       upcoming_line = tmp_line[cursor_pos:]
     
@@ -124,16 +124,20 @@ def insert_chords_to_line(chords, line):
     if ' ' in upcoming_line:
       new_content = "^{" + chord + "}"
       tmp_line = tmp_line[:cursor_pos] + new_content + tmp_line[cursor_pos:]
-      cursor_pos += len(new_content) + 1
+      cursor_pos += len(new_content)
     else:
       new_content = "^*{" + chord + "}"
       pre_added_space_len = min(len(chord) + 1, len(upcoming_line))
       tmp_line = tmp_line[:cursor_pos] + new_content + tmp_line[cursor_pos:cursor_pos + pre_added_space_len]  + " " + tmp_line[cursor_pos + pre_added_space_len:]
-      cursor_pos += len(new_content) + 1 + 1 # +1 for the extra space
+      cursor_pos += len(new_content) # +1 for the extra space
 
     if ' ' in upcoming_line:
-      while (index := tmp_line.find(" ", cursor_pos, cursor_pos + len(chord) + 1)) > 0: # heuristics for length
-        tmp_line = tmp_line[:index] + "~" + tmp_line[index + 1:]
+      if upcoming_line.strip() != "": # don't do ~ heuristics for blank lines
+        while (index := tmp_line.find(" ", cursor_pos, cursor_pos + len(chord) + 1)) > 0: # heuristics for length
+          if ' ' not in tmp_line[index + 1:]:
+            break # KISS
+          else:
+            tmp_line = tmp_line[:index] + "~" + tmp_line[index + 1:]
 
   return tmp_line.rstrip()
 
@@ -143,15 +147,18 @@ def format_annotated_lines(annotated_lines: List[Tuple[Optional[str], str]]):
 
   ignore_chords = True
   chord_line_buffer = ""
-  prefix_length = 0
+  prefix_length = 4
   is_in_verse = False
   verse_type = ""
 
   for i in range(len(annotated_lines)):
     curr_type, curr_line = annotated_lines[i]
   
-    if curr_type != None and curr_type.lower() in ['v', 'r', 'i', 'o', 'b']:
-      prefix_length = len(re.split('[\\.:]', curr_line)[0]) + 2 # mad heuristic
+    if curr_type != None and curr_type.lower() in ['v', 'r', 'd']:
+      if ('.' not in curr_line[:min(len(curr_line),10)]) and (':' not in curr_line):
+        prefix_length = 4 # the 'c > '
+      else:
+        prefix_length = len(re.split('[\\.:]', curr_line)[0]) + 2 # mad heuristic
       is_in_verse = True
       ignore_chords = curr_type.islower()
 
@@ -159,8 +166,10 @@ def format_annotated_lines(annotated_lines: List[Tuple[Optional[str], str]]):
         verse_type = "verse"
       elif curr_type.lower() == "r":
         verse_type = "refren"
+      elif curr_type.lower() == "d":
+        verse_type = "deco"
       else:
-        verse_type = "other"
+        verse_type = "undefined"
       output_lines.append("\\begin{" + verse_type + "}")
 
       if ignore_chords:
@@ -175,12 +184,17 @@ def format_annotated_lines(annotated_lines: List[Tuple[Optional[str], str]]):
           last_line = re.sub(r"\\\\$", "", last_line)
         output_lines.append(last_line)
         output_lines.append("\\end{" + verse_type + "}")
+      elif ignore_chords == False:
+        output_lines.append(chord_line_buffer[prefix_length:])
       verse_type = "" 
       is_in_verse = False
-      prefix_length = 0
+      ignore_chords = True
+      prefix_length = 4 # see above
       pass
 
-    elif curr_type == "c":
+    elif curr_type != None and curr_type.lower() == "c":
+      if curr_type.isupper():
+        ignore_chords = False
       chord_line_buffer = curr_line
     
     elif curr_type is None:
@@ -195,6 +209,9 @@ def format_annotated_lines(annotated_lines: List[Tuple[Optional[str], str]]):
       last_line = re.sub(r"\\\\$", "", last_line)
     output_lines.append(last_line)
     output_lines.append("\\end{" + verse_type + "}")
+  if ignore_chords == False and chord_line_buffer != "":
+    output_lines.append(chord_line_buffer[prefix_length:])
+
   return output_lines
     
     
@@ -219,18 +236,39 @@ def chords_2_latex(content: str):
 
   formatted_lines = format_annotated_lines(annotated_lines)
 
-  # print("\n".join(formatted_lines))
   return formatted_lines
 
 def main():
   with open("song_with_chords.json") as input_file:
     songs = json.load(input_file)
+  prev_song = None
   for song in songs:
     try:
+      is_in_done = os.path.exists("songs/done/" + slugify(song['title']) + ".tex")
+      should_skip = input(f"Format '{song['title']}'  ({'y/N' if is_in_done else 'Y/n'}/a/r):")
+      while should_skip != "" and should_skip[0] == 'r' and prev_song != None:
+        song['latex'] = chords_2_latex(prev_song['chords'])
+        user_check(prev_song)
+        should_skip = input(f"Format '{song['title']}'  (Y/n/a/r):")
+     
+      if should_skip == "":
+        if is_in_done:
+          continue
+        else:
+          pass 
+      elif should_skip.lower() == "y":
+        pass
+      elif should_skip[0].lower() == "n":
+        continue
+      elif should_skip[0] == 'a':
+        return
+        
       song['latex'] = chords_2_latex(song['chords'])
       user_check(song)
-    except:
-      print("Encountered error formatting " + song['title'])
+
+      prev_song = song
+    except Exception as x:
+      print("Encountered error formatting " + song['title'] + "\n" + str(x))
    
 
 
