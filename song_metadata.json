@@ -1,237 +1,207 @@
 [
     {
-        "title": "Amazonka",
+        "title": "1982",
+        "artist": "Vypsaná fixa",
+        "release_year": "1998"
+    },
+    {
+        "title": "Bedna od whisky",
+        "artist": "Miki Ryvola",
+        "release_year": "1991"
+    },
+    {
+        "title": "Divocí koně",
+        "artist": "Jaromír Nohavica",
+        "release_year": "1984"
+    },
+    {
+        "title": "Dům u vycházejícího slunce",
+        "artist": "Jaromír Mayer",
+        "release_year": "1965"
+    },
+    {
+        "title": "Eldorádo",
+        "artist": "Waldemar Matuška",
+        "release_year": "1982"
+    },
+    {
+        "title": "Hercegovina",
+        "artist": "Tabor",
+        "release_year": "-1"
+    },
+    {
+        "title": "Hlupáku, najdu tě",
+        "artist": "Jaroslav Uhlíř",
+        "release_year": "1999"
+    },
+    {
+        "title": "Hudsonské šífy",
+        "artist": "Wabi Daněk",
+        "release_year": "1984"
+    },
+    {
+        "title": "Jacek",
+        "artist": "Jaromír Nohavica",
+        "release_year": "1989"
+    },
+    {
+        "title": "Když mě brali za vojáka",
+        "artist": "Jaromír Nohavica",
+        "release_year": "1982"
+    },
+    {
+        "title": "Kutil",
+        "artist": "Chinaski",
+        "release_year": "1999"
+    },
+    {
+        "title": "Let It Be",
+        "artist": "John Lennon",
+        "release_year": "1970"
+    },
+    {
+        "title": "Lilie",
+        "artist": "Karel Kryl",
+        "release_year": "1983"
+    },
+    {
+        "title": "Lokomotiva",
+        "artist": "Poletíme?",
+        "release_year": "2012"
+    },
+    {
+        "title": "Lásko!",
+        "artist": "Karel Kryl",
+        "release_year": "1970"
+    },
+    {
+        "title": "Medvědi nevědí",
+        "artist": "Ivan Mládek",
+        "release_year": "1976"
+    },
+    {
+        "title": "Montgomery",
+        "artist": "Wabi Daněk",
+        "release_year": "2002"
+    },
+    {
+        "title": "Mám jizvu na rtu",
+        "artist": "Jaromír Nohavica",
+        "release_year": "2007"
+    },
+    {
+        "title": "Na Kolena",
+        "artist": "Ivan Hlas",
+        "release_year": "1993"
+    },
+    {
+        "title": "Na širém moři",
+        "artist": "Traband",
+        "release_year": "2000"
+    },
+    {
+        "title": "Petěrburg",
+        "artist": "Jaromír Nohavica",
+        "release_year": "1994"
+    },
+    {
+        "title": "Po schodoch",
+        "artist": "Vašo Patejdl",
+        "release_year": "1986"
+    },
+    {
+        "title": "Pocity",
+        "artist": "Tomáš Klus",
+        "release_year": "2017"
+    },
+    {
+        "title": "Podvod",
+        "artist": "Jan Nedvěd",
+        "release_year": "1991"
+    },
+    {
+        "title": "Povídej",
+        "artist": "Petr Novák",
+        "release_year": "1967"
+    },
+    {
+        "title": "Pověste ho vejš",
+        "artist": "Michal Tučný",
+        "release_year": "1983"
+    },
+    {
+        "title": "Proklinam",
+        "artist": "Janek Ledecký",
+        "release_year": "1994"
+    },
+    {
+        "title": "Růže z Texasu",
+        "artist": "Waldemar Matuška",
+        "release_year": "1965"
+    },
+    {
+        "title": "Stýskání",
+        "artist": "Bratři Ebenové",
+        "release_year": "1982"
+    },
+    {
+        "title": "Tři kříže",
+        "artist": "Hop Trop",
+        "release_year": "1993"
+    },
+    {
+        "title": "Variace na renesanční téma",
+        "artist": "Vladimír Mišík",
+        "release_year": "1980"
+    },
+    {
+        "title": "Velrybářská výprava",
+        "artist": "Pacifik",
+        "release_year": "1982"
+    },
+    {
+        "title": "Vodácká holka",
         "artist": "Hop Trop",
         "release_year": "2000"
     },
     {
-        "title": "Anděl",
-        "artist": "Karel Kryl",
-        "release_year": "1969"
+        "title": "Válečná",
+        "artist": "Tomáš Klus",
+        "release_year": "2008"
     },
     {
-        "title": "Batalion",
+        "title": "Válka růží",
         "artist": "Spirituál kvintet",
-        "release_year": "1972"
+        "release_year": "1985"
     },
     {
-        "title": "Blátivá cesta",
-        "artist": "Pacifik",
-        "release_year": "1981"
-    },
-    {
-        "title": "Bláznova ukolébavka",
-        "artist": "Tabor",
-        "release_year": "1970"
-    },
-    {
-        "title": "Černej pasažér",
-        "artist": "Traband",
-        "release_year": "2004"
-    },
-    {
-        "title": "Darmoděj",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1988"
-    },
-    {
-        "title": "Dej mi víc své lásky",
-        "artist": "Olympic",
-        "release_year": "1965"
-    },
-    {
-        "title": "Dokud se zpívá",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1984"
-    },
-    {
-        "title": "Hejkal",
-        "artist": "Wabi Danek",
-        "release_year": "1995"
-    },
-    {
-        "title": "Ho Ho Watanay",
-        "artist": "Žalman",
-        "release_year": "1993"
-    },
-    {
-        "title": "Hrobař",
-        "artist": "Premier",
-        "release_year": "1995"
-    },
-    {
-        "title": "Hvězdář",
-        "artist": "UDG",
-        "release_year": "2004"
-    },
-    {
-        "title": "Indiáni ve městě",
-        "artist": "Traband",
-        "release_year": "2010"
-    },
-    {
-        "title": "Jdem zpátky do lesů",
-        "artist": "Žalman",
-        "release_year": "1987"
-    },
-    {
-        "title": "Jdou po mně jdou",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1984"
-    },
-    {
-        "title": "Jeste jedno kafe",
-        "artist": "Robert Křesťan",
-        "release_year": "1995"
-    },
-    {
-        "title": "Jožin z bažin",
-        "artist": "Ivan Mládek",
-        "release_year": "1977"
-    },
-    {
-        "title": "Knockin' On Heaven's Door",
-        "artist": "Guns N' Roses",
-        "release_year": "1991"
-    },
-    {
-        "title": "Kometa",
-        "artist": "Jaromír Nohavica",
+        "title": "Vítr",
+        "artist": "Wabi Daněk",
         "release_year": "1986"
     },
     {
-        "title": "Közel",
-        "artist": "Lotfi Behnam",
-        "release_year": "1994"
-    },
-    {
-        "title": "Lilie Skautská",
-        "artist": "Taxmeni",
-        "release_year": "1991"
-    },
-    {
-        "title": "Lou z Lille",
-        "artist": "Klíč",
-        "release_year": "1997"
-    },
-    {
-        "title": "Lovci lebek",
-        "artist": "Traband",
-        "release_year": "2004"
-    },
-    {
-        "title": "Magdalena",
-        "artist": "Jelen",
-        "release_year": "2014"
-    },
-    {
-        "title": "Malování",
-        "artist": "Divokej Bill",
-        "release_year": "2003"
-    },
-    {
-        "title": "Mezi horami",
-        "artist": "Čechomor",
-        "release_year": "1996"
-    },
-    {
-        "title": "Morituri te salutant",
-        "artist": "Karel Kryl",
-        "release_year": "1969"
-    },
-    {
-        "title": "O malém rytíři",
-        "artist": "Traband",
-        "release_year": "2004"
-    },
-    {
-        "title": "Omnia vincit amor",
-        "artist": "Klíč",
-        "release_year": "1993"
-    },
-    {
-        "title": "Pažitka",
-        "artist": "Xavier Baumaxa",
-        "release_year": "2005"
-    },
-    {
-        "title": "Promeny",
-        "artist": "Cechomor",
-        "release_year": "2001"
-    },
-    {
-        "title": "Racci",
-        "artist": "Iamme Candlewick",
-        "release_year": "2016"
-    },
-    {
-        "title": "Rosa na kolejích",
-        "artist": "Spirituál kvintet",
-        "release_year": "1984"
-    },
-    {
-        "title": "Rána v trávě",
-        "artist": "Žalman",
-        "release_year": "1987"
-    },
-    {
-        "title": "Řekni, kde ty kytky jsou",
-        "artist": "Marie Rottrová",
-        "release_year": "1975"
-    },
-    {
-        "title": "Severní vítr",
-        "artist": "Jaroslav Uhlíř",
-        "release_year": "1981"
-    },
-    {
-        "title": "Slavíci z Madridu (Rossignol Anglais)",
-        "artist": "Waldemar Matuška",
-        "release_year": "1968"
-    },
-    {
-        "title": "Sáro!",
-        "artist": "Traband",
-        "release_year": "2005"
-    },
-    {
-        "title": "Traktor",
-        "artist": "Visací zámek",
-        "release_year": "2002"
-    },
-    {
-        "title": "Těšínská",
+        "title": "Zatímco se koupeš",
         "artist": "Jaromír Nohavica",
-        "release_year": "1994"
+        "release_year": "1983"
     },
     {
-        "title": "Už to nenapravím",
-        "artist": "Jaroslav Samson Lenk",
-        "release_year": "2013"
+        "title": "Zkouška dospělosti",
+        "artist": "Karel Kryl",
+        "release_year": "1988"
     },
     {
-        "title": "Vlaštovky",
-        "artist": "Traband",
-        "release_year": "2007"
+        "title": "Známka punku",
+        "artist": "Visací Zámek",
+        "release_year": "2005"
     },
     {
-        "title": "Vítr to ví (Blowin' In The Wind)",
-        "artist": "Waldemar Matuška",
-        "release_year": "1968"
+        "title": "Zuzana",
+        "artist": "Tabor",
+        "release_year": "-1"
     },
     {
-        "title": "Vcelin",
-        "artist": "Čechomor",
-        "release_year": "1996"
-    },
-    {
-        "title": "Zejtra mam",
-        "artist": "Ready Kirken",
-        "release_year": "2001"
-    },
-    {
-        "title": "1. signální",
-        "artist": "Chinaski",
-        "release_year": "1999"
+        "title": "Zítra ráno v pět",
+        "artist": "Jaromír Nohavica",
+        "release_year": "1988"
     }
 ]

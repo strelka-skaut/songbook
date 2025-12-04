@@ -5,6 +5,8 @@
 \usepackage{etoolbox} % freaking toc
 \usepackage{ifthen}
 \usepackage{xspace}
+\usepackage{xcolor}
+\usepackage{float}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{tabularx}
@@ -20,21 +22,26 @@
 \usepackage{hyperref}
 %\usepackage[default,regular,bold]{sourceserifpro}
 \usepackage[t,lf]{spectral}
-\usepackage{fontspec}
+%\usepackage{fontspec}
 %\setmainfont{QTHeidelbergType}
 
 %%% Style %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newboolean{showchords}
 \newboolean{showoptionalchords}
+\newboolean{iscompact}
 
 \setboolean{showchords}{true}
 \setboolean{showoptionalchords}{false}
+\setboolean{iscompact}{false}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\makeindex
+%\input{covers.tex}
+
+%\makeindex
 
 \renewcommand{\baselinestretch}{1.25} 
 
@@ -69,7 +76,6 @@
 
 \newversetype{refren}
 \newversetype{deco}
-\newversetype{solo}
 \setleadsheets{
   title-template = empty,
   after-title = \vspace{0pt},
@@ -77,7 +83,7 @@
   refren/numbered=false,
   refren/name=R,
   refren/after-label=.,
-  refren/label-format=\textbf,
+  refren/label-format=\bfseries,
   deco/numbered=false,
   deco/name= \ding{107},
   deco/after-label=,
@@ -94,14 +100,28 @@
   output-notation = {german}
 }
 
-\subsectiontoc
+%\subsectiontoc
+X
+\pagebreak
 
-\importsong{amazonka.tex}
+\setboolean{showchords}{true}
+\setboolean{showoptionalchords}{false}
+\setboolean{iscompact}{false}
+\importsong{preview.tex}
 
-% honorable-mentions: byt stale mlad, chci ti rict, all star?
-%\importsong{honorable-mentions.tex}
-% Touhaa
-%\input{assets/hymny.tex}
-%\printindex
+\setboolean{showchords}{true}
+\setboolean{showoptionalchords}{true}
+\setboolean{iscompact}{true}
+\importsong{preview.tex}
+
+
+\setboolean{showchords}{false}
+\setboolean{showoptionalchords}{false}
+\setboolean{iscompact}{false}
+\importsong{preview.tex}
+
+\setboolean{showoptionalchords}{true}
+
+%\subsectiontoc
 \end{document}
 

@@ -20,6 +20,16 @@
     \enforcechords{\boolean{showchords} \AND \boolean{showoptionalchords}}\IfBooleanTF{#1}{\chord*{#2}}{\chord{#2}}}
 
 
+\NewDocumentCommand{\hchord}{sm}{%
+  \disablechords\IfBooleanTF{#1}{\chord*{#2}}{\chord{#2}}}
+
+
 \NewDocumentCommand{\inlinechord}{m}{%
     \enablechords\writechord{#1}
 }
+
+\newcommand{\chordbreak}{\ifthenelse{\boolean{iscompact}}{}{\ifthenelse{\boolean{showchords}}{\pagebreak}{}}}
+
+\newcommand{\compactbreak}{\ifthenelse{\boolean{iscompact}}{\pagebreak}{}}
+
+\newcommand{\nochordbreak}{\ifthenelse{\boolean{showchords}}{}{\pagebreak}}

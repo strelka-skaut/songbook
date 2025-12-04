@@ -1,0 +1,34 @@
+
+
+%\fontspec{QTHeidelbergType}
+%    \normalfont
+
+
+\NewDocumentCommand{\frontcover}{}{
+    \newgeometry{nohead, nofoot, bottom=1.125cm, top=1.125cm, left=1.25cm, right=1.25cm, margin=0cm}
+    \vspace*{\fill}
+    \begin{center}
+
+    \fontsize{70}{40}\selectfont
+    \textbf{Zpěvník} \\
+    \vspace{5pt}
+    \fontsize{25}{15}\selectfont
+    \textbf{Střediska Střelky} \\
+    \vspace{5pt}
+    \fontsize{15}{8}\selectfont
+    \textcolor{darkgray}{z Kralup nad Vltavou} \\
+    \vspace{7pt}
+    
+    \begin{figure}[H] % H forces placement "here" on the current page
+        \centering
+        \includegraphics[width=0.7\textwidth]{Strelka_logo.pdf} % set size here
+    \end{figure}
+    \vspace{-18pt} 
+    \end{center}
+    \vspace*{\fill}
+    \begin{center}
+        \fontsize{12}{8}\selectfont
+        \textcolor{gray}{0. vydání} 
+    \end{center}
+    \pagebreak
+}

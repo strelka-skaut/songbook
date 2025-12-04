@@ -234,13 +234,16 @@ def merge(base, details, are_chords_optional):
     merged = base[:total_segment_length]
     segment_length_list.append(0)
     is_starred = False
-    for segment_length, detail in zip(segment_length_list, detail_list):
+    for index, (segment_length, detail) in enumerate(zip(segment_length_list, detail_list)):
+        is_last = index == len(detail_list) - 1
         segment = base[total_segment_length:total_segment_length + segment_length]
         segment_space_count = len(re.sub("[^\\s]", "", segment))
-        detail_length = max(len(detail), 2)
+        detail_length = max(len(detail) + 1, 3)
+        if "m" in detail.lower() or "dim" in detail.lower():
+            detail_length += 2
         segment_far_space_count = 0 if detail_length >= len(segment) else len(re.sub("[^\\s]", "", segment[detail_length:]))
 
-        if segment_space_count == 0 and len(segment) != 0:
+        if not is_last and segment_space_count == 0 and len(segment) != 0:
             is_starred = True
             # single word, we need to split it with space and add a star
             if len(segment) >= detail_length:
@@ -353,16 +356,22 @@ def process_song(song, use_existing_annotations, use_existing_formatted):
                 formatted_lines.append("\\pagebreak")
 
 
-            formatted_lines = present_to_user('\n'.join(formatted_lines))
+            formatted_lines = present_to_user('\n'.join(formatted_lines), "songs/preview.tex")
+            # add to main.tex
+
             song['formatted_lines'] = formatted_lines
+
+
 
             save = "Save"
             retry_with_changes = "Try formatting again"
             retry_ignoring_changes = "Edit line annotations"
             try_again = "Clear annotation changes and retry"
-            cancel = "Cancel"
+            cancel = "Clear all edits and cancel"
             
             selection, _ = pick([save, retry_with_changes, retry_ignoring_changes, try_again, cancel], "Next step:")
+            with open('songs/preview.tex', 'wt') as preview_file:
+                preview_file.write("x\n\\pagebreak\n\n" * 3)
 
             if selection == save:
                 return song
@@ -413,8 +422,11 @@ def process_song_list():
         if 'formatted_lines' in curr_song:
             options.append(edit_formatted_lines)
         options.append(stop)
+        default_index = 0
+        if os.path.exists(f"songs/{slugify(curr_song['title'])}.tex"):
+            default_index = 1
 
-        task, _ = pick(options, prompt, default_index = 0, indicator=">")
+        task, _ = pick(options, prompt, default_index = default_index, indicator=">")
 
         if task == stop:
             processed_song_list.append(curr_song)

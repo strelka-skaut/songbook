@@ -1,0 +1,171 @@
+\documentclass[14pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{etoolbox} % freaking toc
+\usepackage{ifthen}
+\usepackage{xspace}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{xparse} % NewDocumentCommand
+\usepackage{csquotes}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{censor} % for █████████████
+\usepackage{pifont} % for solo versestyle star
+\usepackage[paper=a5paper, nohead, bottom=1.25cm, top=1cm, left=0cm, right=0.75cm, footskip=0.5cm]{geometry}
+\usepackage{imakeidx}
+\usepackage{hyperref}
+%\usepackage[default,regular,bold]{sourceserifpro}
+\usepackage[t,lf]{spectral}
+%\usepackage{fontspec}
+%\setmainfont{QTHeidelbergType}
+
+%%% Style %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newboolean{showchords}
+\newboolean{showoptionalchords}
+\newboolean{iscompact}
+
+\setboolean{showchords}{true}
+\setboolean{showoptionalchords}{false}
+\setboolean{iscompact}{false}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\input{covers.tex}
+
+%\makeindex
+
+\renewcommand{\baselinestretch}{1.25} 
+
+\usepackage{leadsheets} % the following lines fix problems with newer latex
+\setleadsheets{align-chords={l}}
+\definesongtitletemplate{empty}{} 
+\setleadsheets{disable-measuring = true}
+\ExplSyntaxOn
+    \UseName{prop_new:c}{l__leadsheets_songs_height_prop}
+\ExplSyntaxOff
+\definesongtitletemplate{empty}{
+  % an “empty” template: do nothing for title
+}
+
+\title{Střediskový zpěvník}
+\author{José Smutný}
+\date{November 2025}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\thepage}
+\setlength{\parindent}{0cm}
+
+\newcommand{\importsong}[1]{\input{songs/#1}}
+
+\input{utilities.tex}
+
+\input{toc.tex}
+
+\begin{document}
+
+\newversetype{refren}
+\newversetype{deco}
+\setleadsheets{
+  title-template = empty,
+  after-title = \vspace{0pt},
+  before-song = \vspace{0pt},
+  refren/numbered=false,
+  refren/name=R,
+  refren/after-label=.,
+  refren/label-format=\bfseries,
+  deco/numbered=false,
+  deco/name= \ding{107},
+  deco/after-label=,
+  deco/label-format=,  % TODO: shouldn't be too visually bold
+  solo/numbered=false,
+  solo/name=,
+  solo/after-label=,
+  verse/numbered=true,
+%  smash-chords = true
+}
+\setchords{
+  format = \bfseries,
+  input-notation = {german},
+  output-notation = {german}
+}
+
+%\subsectiontoc
+
+\setboolean{showchords}{true}
+\setboolean{showoptionalchords}{true}
+\importsong{preview.tex}
+\setboolean{showchords}{true}
+\setboolean{showoptionalchords}{false}
+%\importsong{preview.tex}
+
+%\frontcover
+
+\subsectiontoc
+
+\importsong{amazonka.tex}
+\importsong{andel.tex}
+\importsong{batalion.tex}
+\importsong{blaznova-ukolebavka.tex}
+\importsong{cernej-pasazer.tex}
+\importsong{darmodej.tex}
+\importsong{dej-mi-vic-sve-lasky.tex}
+\importsong{dokud-se-zpiva.tex}
+\importsong{hejkal.tex}
+\importsong{ho-ho-watanay.tex}
+\importsong{hrobar.tex}
+\importsong{hvezdar.tex}
+\importsong{indiani-ve-meste.tex}
+\importsong{jdem-zpatky-do-lesu.tex}
+\importsong{jdou-po-mne-jdou.tex}
+\importsong{jeste-jedno-kafe.tex}
+\importsong{jozin-z-bazin.tex}
+\importsong{knockin-on-heaven-s-door.tex}
+\importsong{kometa.tex}
+\importsong{kozel.tex}
+\importsong{lilie-skautska.tex}
+\importsong{lou-z-lille.tex}
+\importsong{lovci-lebek.tex}
+\importsong{malovani.tex}
+\importsong{mezi-horami.tex}
+\importsong{morituri-te-salutant.tex}
+\importsong{o-malem-rytiri.tex}
+\importsong{omnia-vincit-amor.tex}
+\importsong{pazitka.tex}
+\importsong{preview.tex}
+\importsong{promeny.tex}
+\importsong{racci.tex}
+\importsong{rana-v-trave.tex}
+\importsong{rekni-kde-ty-kytky-jsou.tex}
+\importsong{rosa-na-kolejich.tex}
+\importsong{saro.tex}
+\importsong{severni-vitr.tex}
+\importsong{slavici-z-madridu-rossignol-anglais.tex}
+\importsong{tesinska.tex}
+\importsong{traktor.tex}
+\importsong{uz-to-nenapravim.tex}
+\importsong{vcelin.tex}
+\importsong{vitr-to-vi-blowin-in-the-wind.tex}
+\importsong{vlastovky.tex}
+\importsong{zejtra-mam.tex}
+\importsong{1-signalni.tex}
+\importsong{preview.tex}
+
+% honorable-mentions: byt stale mlad, chci ti rict, all star?
+%\importsong{honorable-mentions.tex}
+% Touhaa
+%\input{assets/hymny.tex}
+%\printindex
+
+\subsectiontoc
+\end{document}
+
