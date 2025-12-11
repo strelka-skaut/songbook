@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.14)  12 DEC 2025 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.14)  12 DEC 2025 00:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,12 +1115,56 @@ ech.trsl' found. on input line 103.
 \c@deco=\count374
 
 
+Package geometry Warning: `a5paper': not available in `\newgeometry'; skipped.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 385.53485pt, 35.56593pt)
+* v-part:(T,H,B)=(32.00934pt, 529.9326pt, 35.56593pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=385.53485pt
+* \textheight=529.9326pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-40.26065pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=14.22636pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./main.toc
+LaTeX Font Info:    Font shape `T1/Spectral-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
+
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 17.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{17.0pt}.
 
 [1
+
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/spectral/spctrl_jn4bsu.enc}]
@@ -1159,7 +1203,7 @@ Package geometry Warning: `a5paper': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./songs/preview.tex
+(./songs/1982.tex
 LaTeX Font Info:    Font shape `T1/Spectral-TLF/m/n' will be
 (Font)              scaled to size 29.86pt on input line 1.
 LaTeX Font Info:    Font shape `T1/Spectral-TLF/b/n' will be
@@ -1167,7 +1211,11 @@ LaTeX Font Info:    Font shape `T1/Spectral-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/Spectral-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/Spectral-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 29.
+(Font)              scaled to size 14.4pt on input line 30.
+LaTeX Font Info:    Font shape `U/musix/m/n' will be
+(Font)              scaled to size 21.59999pt on input line 30.
+LaTeX Font Info:    Font shape `T1/Spectral-TLF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 30.
 )
 
 
@@ -1175,122 +1223,557 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 17.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{17.0pt}.
 
-[2
+[1
 
-]
 
-Package geometry Warning: `a5paper': not available in `\newgeometry'; skipped.
+] (./songs/bedna-od-whisky.tex
+LaTeX Font Info:    Font shape `T1/Spectral-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 50.
 
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a5paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(0.0pt, 406.87442pt, 14.22636pt)
-* v-part:(T,H,B)=(14.22636pt, 554.82877pt, 28.45274pt)
-* \paperwidth=421.10078pt
-* \paperheight=597.50787pt
-* \textwidth=406.87442pt
-* \textheight=554.82877pt
-* \oddsidemargin=-72.26999pt
-* \evensidemargin=-72.26999pt
-* \topmargin=-58.04362pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=14.0pt
-* \footskip=14.22636pt
-* \marginparwidth=24.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(./songs/preview.tex)
 
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 17.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{17.0pt}.
 
-[3
-
-]
-
-Package geometry Warning: `a5paper': not available in `\newgeometry'; skipped.
-
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a5paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(0.0pt, 399.76123pt, 21.33955pt)
-* v-part:(T,H,B)=(28.45274pt, 533.4892pt, 35.56593pt)
-* \paperwidth=421.10078pt
-* \paperheight=597.50787pt
-* \textwidth=399.76123pt
-* \textheight=533.4892pt
-* \oddsidemargin=-72.26999pt
-* \evensidemargin=-72.26999pt
-* \topmargin=-43.81725pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=14.0pt
-* \footskip=14.22636pt
-* \marginparwidth=24.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(./songs/preview.tex)
+[2])
 
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 17.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{17.0pt}.
 
-[4
+[3] (./songs/divoci-kone.tex)
 
-] (./main.aux)
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[4] (./songs/dum-u-vychazejiciho-slunce.tex
+Overfull \hbox (10.64021pt too wide) in paragraph at lines 1--1
+ |\T1/Spectral-TLF/b/n/29.86 D·m u vy-chá-ze-jí-cího slunce| 
+ []
+
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[5] (./songs/eldorado.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[6]
+Overfull \hbox (0.72946pt too wide) in paragraph at lines 36--36
+\T1/Spectral-TLF/m/n/14.4 nosime je v sob¥ [] se na n¥[] na²e p°i-ro-zená [] 
+ []
+
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[7] (./songs/hercegovina.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[8] (./songs/hlupaku-najdu-te.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[9])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[10] (./songs/hudsonske-sify.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[11])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[12] (./songs/jacek.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[13])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[14] (./songs/kdyz-me-brali-za-vojaka.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[15])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[16] (./songs/kutil.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[17] (./songs/lasko.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[18])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[19] (./songs/let-it-be.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[20])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[21] (./songs/lilie.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[22] (./songs/lokomotiva.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[23])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[24] (./songs/mam-jizvu-na-rtu.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+
+ []
+
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[26] (./songs/medvedi-nevedi.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[27] (./songs/montgomery.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[28])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[29] (./songs/na-kolena.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[30] (./songs/na-sirem-mori.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[31])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[32] (./songs/peterburg.tex
+LaTeX Font Info:    Font shape `T1/Spectral-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `T1/Spectral-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 25.
+LaTeX Font Info:    Font shape `T1/Spectral-TLF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 25.
+LaTeX Font Info:    Font shape `T1/Spectral-TLF/b/n' will be
+(Font)              scaled to size 20.74pt on input line 25.
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[33] (./songs/po-schodoch.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[34] (./songs/pocity.tex
+Overfull \hbox (7.93658pt too wide) in paragraph at lines 33--33
+[][] \T1/Spectral-TLF/m/n/14.4 poci[][] je²t¥ jed-nou [] chvíli 
+ []
+
+
+Overfull \hbox (3.05882pt too wide) in paragraph at lines 33--33
+\T1/Spectral-TLF/m/n/14.4 una-ven, bez-mocný, usí-nám ve-dle Tebe, n¥co ve mn¥ 
+praská. 
+ []
+
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[35] (./songs/podvod.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[36]
+LaTeX Font Info:    Font shape `U/musix/m/n' will be
+(Font)              scaled to size 18.0pt on input line 48.
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[37] (./songs/poveste-ho-vejs.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[38])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[39] (./songs/povidej.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[40] (./songs/preview.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[41] (./songs/proklinam.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[42] (./songs/ruze-z-texasu.tex
+Overfull \hbox (1.75739pt too wide) in paragraph at lines 57--57
+\T1/Spectral-TLF/m/n/14.4 znám [] hezkejch [] k sv¥tu, ale [] hraje [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[43]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[44] (./songs/styskani.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[45])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[46] (./songs/tri-krize.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[47])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[48] (./songs/valecna.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[49])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[50] (./songs/valka-ruzi.tex
+Overfull \hbox (1.25313pt too wide) in paragraph at lines 27--27
+[]\T1/Spectral-TLF/m/n/14.4 Uº roz[] se hust[][] down, hej, [] 
+ []
+
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[51] (./songs/variace-na-renesancni-tema.tex
+Overfull \hbox (6.42998pt too wide) in paragraph at lines 1--1
+ |\T1/Spectral-TLF/b/n/29.86 Variace na re-ne-san£ní téma| 
+ []
+
+)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[52] (./songs/velrybarska-vyprava.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[53])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[54] (./songs/vitr.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[55] (./songs/vodacka-holka.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[56])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[57] (./songs/zatimco-se-koupes.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[58])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[59] (./songs/zitra-rano-v-pet.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[60]
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[61] (./songs/zkouska-dospelosti.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[62])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[63] (./songs/znamka-punku.tex
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[64])
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[65] (./songs/zuzana.tex)
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{17.0pt}.
+
+[66] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F97079C1AD811824359998A094AEBCA6;255.
+(rerunfilecheck)             Checksum: 0FF7247E1AD1DFBAD91A373D13427903;4744.
  ) 
 Here is how much of TeX's memory you used:
- 27853 strings out of 473190
- 541415 string characters out of 5715799
- 923060 words of memory out of 5000000
- 50570 multiletter control sequences out of 15000+600000
- 626471 words of font info for 53 fonts, out of 8000000 for 9000
+ 29715 strings out of 473190
+ 597907 string characters out of 5715799
+ 951086 words of memory out of 5000000
+ 52194 multiletter control sequences out of 15000+600000
+ 727609 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,121p,452b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,121p,452b,1090s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/production/spectral/Spectral-
 Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/production/spectral/Sp
-ectral-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding
-/uzdr.pfb>
-Output written on main.pdf (4 pages, 39693 bytes).
+ectral-Italic.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/production/sp
+ectral/Spectral-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
+ic/musixtex-fonts/musix13.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/u
+rw/zapfding/uzdr.pfb>
+Output written on main.pdf (67 pages, 172751 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 477 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
