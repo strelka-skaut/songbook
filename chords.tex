@@ -1,0 +1,218 @@
+
+\newcommand{\n}{6}
+%\pgfkeys{/chordbox/numfrets=6}
+
+\NewDocumentCommand{\createchord}{m m m}{%
+   \expandafter\newcommand\csname chord#1\endcsname{%
+   \pgfkeys{/chordbox/name/.code=\writechord{#2}}%
+   \chordbox{}{#3}}}
+
+\NewDocumentCommand{\createbarchord}{m m m m m}{%
+   \expandafter\newcommand\csname chord#1\endcsname{%
+   \pgfkeys{/chordbox/name/.code=\writechord{#2}}%
+   \bchordbox[#4]{}{#3}{#5}}}
+
+\tikzset{chordbox/.style={scale=0.22, thick}}
+\pgfkeys{/chordbox/name/.code=\small\writechord{#1}}
+\pgfkeys{/chordbox/base fret/.code=\small#1}
+
+\newcommand{\chordAmSharpSeven}{%
+ \chordbox{Am7}{x, 0, 2, 0, 1, 0}}
+
+%\createchord{Am}{Am#}{x,0,2,2,1,0}
+%\createchord{Amseven}{Am7}{x,0,2,0,1,0}
+%\createbarchord{Asharpseven}{A#}{3,5,5,3,4,3}{3}{3}
+
+%\NewDocumentEnvironment{chords}{}{\begin{center}\hspace{\leftpadding}}{\end{center}}
+
+\NewDocumentEnvironment{chords}{+b}{%
+  \ifthenelse{\boolean{showchords}}{\vfill\begin{center}\hspace{\leftpadding}#1\end{center}}{}}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% =========================================
+% COMPLETE GUITAR CHORD DEFINITIONS
+% Including: Major, Minor, 7, 9, dim,sus2, sus4,maj7, m7, m9
+% =========================================
+
+% -----------------------------------------
+% Special commands
+% -----------------------------------------
+
+\newcommand{\chordDsevenFsharp}{\chordbox{D7/F\sharp}{2,0,0,2,1,2}}
+\newcommand{\chordAmC}{\chordbox{Am/C}{x,3,2,2,1,0}}
+
+% -----------------------------------------
+% A chords
+% -----------------------------------------
+\newcommand{\chordA}{\chordbox{A}{x,0,2,2,2,0}}
+\newcommand{\chordAm}{\chordbox{Am}{x,0,2,2,1,0}}
+\newcommand{\chordAseven}{\chordbox{A7}{x,0,2,0,2,0}}
+\newcommand{\chordAnine}{\chordbox{A9}{x,0,2,1,0,0}}
+\newcommand{\chordAdim}{\chordbox{Adim}{x,x,1,2,1,2}}
+\newcommand{\chordAsusTwo}{\chordbox{Asus2}{x,0,2,2,0,0}}
+\newcommand{\chordAsusFour}{\chordbox{Asus4}{x,0,2,2,3,0}}
+\newcommand{\chordAmajSeven}{\chordbox{Amaj7}{x,0,2,1,2,0}}
+\newcommand{\chordAmSeven}{\chordbox{Am7}{x,0,2,0,1,0}}
+\newcommand{\chordAmSix}{\chordbox{Am6}{x,0,2,2,1,2}}
+\newcommand{\chordAmNine}{\chordbox{Am9}{x,0,2,0,0,0}}
+
+% A♯ / Bb
+\newcommand{\chordAsharp}{\bchordbox[1]{A\sharp}{x,1,3,3,3,1}{1}}
+\newcommand{\chordAsharpm}{\bchordbox[1]{A\sharp m}{x,1,3,3,2,1}{1}}
+\newcommand{\chordAsharpseven}{\bchordbox[1]{A\sharp7}{x,1,3,1,3,1}{1}}
+\newcommand{\chordAsharpnine}{\bchordbox[1]{A\sharp9}{x,1,0,1,1,1}{1}}
+\newcommand{\chordAsharpdim}{\chordbox{A\sharp dim}{x,x,2,3,2,3}}
+\newcommand{\chordAsharpsusTwo}{\bchordbox[1]{A\sharpsus2}{x,1,3,3,1,1}{1}}
+\newcommand{\chordAsharpsusFour}{\bchordbox[1]{A\sharpsus4}{x,1,3,3,4,1}{1}}
+\newcommand{\chordAsharpmajSeven}{\bchordbox[1]{A\sharpmaj7}{x,1,3,2,3,1}{1}}
+\newcommand{\chordAsharpmSeven}{\bchordbox[1]{A\sharp m7}{x,1,3,1,2,1}{1}}
+\newcommand{\chordAsharpmNine}{\bchordbox[1]{A\sharp m9}{x,1,3,1,1,1}{1}}
+
+% -----------------------------------------
+% B chords
+% -----------------------------------------
+\newcommand{\chordB}{\bchordbox[2]{B}{x,2,4,4,4,2}{2}}
+\newcommand{\chordBm}{\bchordbox[2]{Bm}{x,2,4,4,3,2}{2}}
+\newcommand{\chordBseven}{\bchordbox[2]{B7}{x,2,1,2,0,2}{2}}
+\newcommand{\chordBnine}{\bchordbox[2]{B9}{x,2,1,2,2,2}{2}}
+\newcommand{\chordBdim}{\chordbox{Bdim}{x,x,3,4,3,4}}
+\newcommand{\chordBsusTwo}{\bchordbox[2]{Bsus2}{x,2,4,4,2,2}{2}}
+\newcommand{\chordBsusFour}{\bchordbox[2]{Bsus4}{x,2,4,4,5,2}{2}}
+\newcommand{\chordBmajSeven}{\bchordbox[2]{Bmaj7}{x,2,4,3,4,2}{2}}
+\newcommand{\chordBmSeven}{\bchordbox[2]{Bm7}{x,2,4,2,3,2}{2}}
+\newcommand{\chordBmNine}{\bchordbox[2]{Bm9}{x,2,0,2,2,2}{2}}
+
+% -----------------------------------------
+% C chords
+% -----------------------------------------
+\newcommand{\chordC}{\chordbox{C}{x,3,2,0,1,0}}
+\newcommand{\chordCm}{\bchordbox[3]{Cm}{x,3,5,5,4,3}{3}}
+\newcommand{\chordCseven}{\chordbox{C7}{x,3,2,3,1,0}}
+\newcommand{\chordCnine}{\chordbox{C9}{x,3,2,3,3,3}}
+\newcommand{\chordCdim}{\chordbox{Cdim}{x,x,1,2,1,2}}
+\newcommand{\chordCsusTwo}{\chordbox{Csus2}{x,3,5,5,3,3}}
+\newcommand{\chordCsusFour}{\chordbox{Csus4}{x,3,3,0,1,3}}
+\newcommand{\chordCmajSeven}{\chordbox{Cmaj7}{x,3,2,0,0,0}}
+\newcommand{\chordCmSeven}{\bchordbox[3]{Cm7}{x,3,5,3,4,3}{3}}
+\newcommand{\chordCmNine}{\bchordbox[3]{Cm9}{x,3,1,3,3,3}{3}}
+
+% C♯
+\newcommand{\chordCsharp}{\bchordbox[4]{C\sharp}{x,4,6,6,6,4}{4}}
+\newcommand{\chordCsharpm}{\bchordbox[4]{C\sharp m}{x,4,6,6,5,4}{4}}
+\newcommand{\chordCsharpseven}{\bchordbox[4]{C\sharp7}{x,4,6,4,6,4}{4}}
+\newcommand{\chordCsharpnine}{\bchordbox[4]{C\sharp9}{x,4,3,4,4,4}{4}}
+\newcommand{\chordCsharpdim}{\chordbox{C\sharp dim}{x,x,2,3,2,3}}
+\newcommand{\chordCsharpsusTwo}{\bchordbox[4]{C\sharpsus2}{x,4,6,6,4,4}{4}}
+\newcommand{\chordCsharpsusFour}{\bchordbox[4]{C\sharpsus4}{x,4,6,6,7,4}{4}}
+\newcommand{\chordCsharpmajSeven}{\bchordbox[4]{C\sharpmaj7}{x,4,6,5,6,4}{4}}
+\newcommand{\chordCsharpmSeven}{\bchordbox[4]{C\sharp m7}{x,4,6,4,5,4}{4}}
+\newcommand{\chordCsharpmNine}{\bchordbox[4]{C\sharp m9}{x,4,2,4,4,4}{4}}
+
+% -----------------------------------------
+% D chords
+% -----------------------------------------
+\newcommand{\chordD}{\chordbox{D}{x,x,0,2,3,2}}
+\newcommand{\chordDm}{\chordbox{Dm}{x,x,0,2,3,1}}
+\newcommand{\chordDseven}{\chordbox{D7}{x,x,0,2,1,2}}
+\newcommand{\chordDnine}{\chordbox{D9}{x,5,4,5,5,5}}
+\newcommand{\chordDdim}{\chordbox{Ddim}{x,x,0,1,0,1}}
+\newcommand{\chordDsusTwo}{\chordbox{Dsus2}{x,x,0,2,3,0}}
+\newcommand{\chordDsusFour}{\chordbox{Dsus4}{x,x,0,2,3,3}}
+\newcommand{\chordDmajSeven}{\chordbox{Dmaj7}{x,x,0,2,2,2}}
+\newcommand{\chordDmSeven}{\chordbox{Dm7}{x,x,0,2,1,1}}
+\newcommand{\chordDmNine}{\chordbox{Dm9}{x,5,3,5,5,5}}
+
+% D♯
+\newcommand{\chordDsharp}{\bchordbox[6]{D\sharp}{x,6,8,8,8,6}{6}}
+\newcommand{\chordDsharpm}{\bchordbox[6]{D\sharp m}{x,6,8,8,7,6}{6}}
+\newcommand{\chordDsharpseven}{\bchordbox[6]{D\sharp7}{x,6,8,6,8,6}{6}}
+\newcommand{\chordDsharpnine}{\bchordbox[6]{D\sharp9}{x,6,5,6,6,6}{6}}
+\newcommand{\chordDsharpdim}{\chordbox{D\sharp dim}{x,x,4,5,4,5}}
+\newcommand{\chordDsharpsusTwo}{\bchordbox[6]{D\sharpsus2}{x,6,8,8,6,6}{6}}
+\newcommand{\chordDsharpsusFour}{\bchordbox[6]{D\sharpsus4}{x,6,8,8,9,6}{6}}
+\newcommand{\chordDsharpmajSeven}{\bchordbox[6]{D\sharpmaj7}{x,6,8,7,8,6}{6}}
+\newcommand{\chordDsharpmSeven}{\bchordbox[6]{D\sharp m7}{x,6,8,6,7,6}{6}}
+\newcommand{\chordDsharpmNine}{\bchordbox[6]{D\sharp m9}{x,6,4,6,6,6}{6}}
+
+% -----------------------------------------
+% E chords
+% -----------------------------------------
+\newcommand{\chordE}{\chordbox{E}{0,2,2,1,0,0}}
+\newcommand{\chordEm}{\chordbox{Em}{0,2,2,0,0,0}}
+\newcommand{\chordEseven}{\chordbox{E7}{0,2,0,1,0,0}}
+\newcommand{\chordEnine}{\chordbox{E9}{0,2,0,1,2,0}}
+\newcommand{\chordEdim}{\chordbox{Edim}{0,x,1,2,1,2}}
+\newcommand{\chordEsusTwo}{\chordbox{Esus2}{0,2,2,1,0,0}}
+\newcommand{\chordEsusFour}{\chordbox{Esus4}{0,2,2,2,0,0}}
+\newcommand{\chordEmajSeven}{\chordbox{Emaj7}{0,2,1,1,0,0}}
+\newcommand{\chordEmSeven}{\chordbox{Em7}{0,2,2,0,3,0}}
+\newcommand{\chordEmNine}{\chordbox{Em9}{0,2,0,0,0,0}}
+
+% -----------------------------------------
+% F chords
+% -----------------------------------------
+\newcommand{\chordF}{\bchordbox[1]{F}{1,3,3,2,1,1}{1}}
+\newcommand{\chordFm}{\bchordbox[1]{Fm}{1,3,3,1,1,1}{1}}
+\newcommand{\chordFseven}{\bchordbox[1]{F7}{1,3,1,2,1,1}{1}}
+\newcommand{\chordFnine}{\bchordbox[1]{F9}{1,3,0,2,1,1}{1}}
+\newcommand{\chordFdim}{\chordbox{Fdim}{x,x,2,3,2,3}}
+\newcommand{\chordFsusTwo}{\bchordbox[1]{Fsus2}{1,3,3,1,1,1}{1}}
+\newcommand{\chordFsusFour}{\bchordbox[1]{Fsus4}{1,3,3,3,1,1}{1}}
+\newcommand{\chordFmajSeven}{\bchordbox[1]{Fmaj7}{1,3,2,2,1,1}{1}}
+\newcommand{\chordFmSeven}{\bchordbox[1]{Fm7}{1,3,1,1,1,1}{1}}
+\newcommand{\chordFmNine}{\bchordbox[1]{Fm9}{1,3,0,1,1,1}{1}}
+
+% F♯
+\newcommand{\chordFsharp}{\bchordbox[2]{F\sharp}{2,4,4,3,2,2}{2}}
+\newcommand{\chordFsharpm}{\bchordbox[2]{F\sharp m}{2,4,4,2,2,2}{2}}
+\newcommand{\chordFsharpseven}{\bchordbox[2]{F\sharp7}{2,4,2,3,2,2}{2}}
+\newcommand{\chordFsharpnine}{\bchordbox[2]{F\sharp9}{2,4,1,3,2,2}{2}}
+\newcommand{\chordFsharpdim}{\chordbox{F\sharp dim}{x,x,3,4,3,4}}
+\newcommand{\chordFsharpsusTwo}{\bchordbox[2]{F\sharpsus2}{2,4,4,1,2,2}{2}}
+\newcommand{\chordFsharpsusFour}{\bchordbox[2]{F\sharpsus4}{2,4,4,4,2,2}{2}}
+\newcommand{\chordFsharpmajSeven}{\bchordbox[2]{F\sharpmaj7}{2,4,3,3,2,2}{2}}
+\newcommand{\chordFsharpmSeven}{\bchordbox[2]{F\sharp m7}{2,4,2,2,2,2}{2}}
+\newcommand{\chordFsharpmNine}{\bchordbox[2]{F\sharp m9}{2,4,1,2,2,2}{2}}
+
+% -----------------------------------------
+% G chords
+% -----------------------------------------
+\newcommand{\chordG}{\chordbox{G}{3,2,0,0,0,3}}
+\newcommand{\chordGm}{\bchordbox[3]{Gm}{3,5,5,3,3,3}{3}}
+\newcommand{\chordGseven}{\chordbox{G7}{3,2,0,0,0,1}}
+\newcommand{\chordGnine}{\chordbox{G9}{3,2,0,2,3,3}}
+\newcommand{\chordGdim}{\chordbox{Gdim}{x,x,2,3,2,3}}
+\newcommand{\chordGsusTwo}{\chordbox{Gsus2}{3,2,0,0,3,3}}
+\newcommand{\chordGsusFour}{\chordbox{Gsus4}{3,2,0,0,1,3}}
+\newcommand{\chordGmajSeven}{\chordbox{Gmaj7}{3,2,0,0,0,2}}
+\newcommand{\chordGmSeven}{\bchordbox[3]{Gm7}{3,5,3,3,3,3}{3}}
+\newcommand{\chordGmNine}{\bchordbox[3]{Gm9}{3,5,2,3,3,3}{3}}
+
+% G♯
+\newcommand{\chordGsharp}{\bchordbox[4]{G\sharp}{4,6,6,5,4,4}{4}}
+\newcommand{\chordGsharpm}{\bchordbox[4]{G\sharp m}{4,6,6,4,4,4}{4}}
+\newcommand{\chordGsharpseven}{\bchordbox[4]{G\sharp7}{4,6,4,5,4,4}{4}}
+\newcommand{\chordGsharpnine}{\bchordbox[4]{G\sharp9}{4,6,3,5,4,4}{4}}
+\newcommand{\chordGsharpdim}{\chordbox{G\sharp dim}{x,x,5,6,5,6}}
+\newcommand{\chordGsharpsusTwo}{\bchordbox[4]{G\sharpsus2}{4,6,6,3,4,4}{4}}
+\newcommand{\chordGsharpsusFour}{\bchordbox[4]{G\sharpsus4}{4,6,6,6,4,4}{4}}
+\newcommand{\chordGsharpmajSeven}{\bchordbox[4]{G\sharpmaj7}{4,6,5,5,4,4}{4}}
+\newcommand{\chordGsharpmSeven}{\bchordbox[4]{G\sharp m7}{4,6,4,4,4,4}{4}}
+\newcommand{\chordGsharpmNine}{\bchordbox[4]{G\sharp m9}{4,6,3,4,4,4}{4}}
+
+% -----------------------------------------
+% H (German B)
+% -----------------------------------------
+\newcommand{\chordH}{\bchordbox[2]{H}{x,2,4,4,4,2}{2}}
+\newcommand{\chordHm}{\bchordbox[2]{Hm}{x,2,4,4,3,2}{2}}
+\newcommand{\chordHseven}{\chordbox{H7}{x,2,1,2,0,2}}
+\newcommand{\chordHnine}{\bchordbox[2]{H9}{x,2,1,2,2,2}{2}}
+\newcommand{\chordHdim}{\chordbox{Hdim}{x,x,3,4,3,4}}
+\newcommand{\chordHsusTwo}{\bchordbox[2]{Hsus2}{x,2,4,4,2,2}{2}}
+\newcommand{\chordHsusFour}{\bchordbox[2]{Hsus4}{x,2,4,4,5,2}{2}}
+\newcommand{\chordHmajSeven}{\bchordbox[2]{Hmaj7}{x,2,4,3,4,2}{2}}
+\newcommand{\chordHmSeven}{\bchordbox[2]{Hm7}{x,2,4,2,3,2}{2}}
+\newcommand{\chordHmNine}{\bchordbox[2]{Hm9}{x,2,0,2,2,2}{2}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

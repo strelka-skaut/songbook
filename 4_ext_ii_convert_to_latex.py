@@ -370,7 +370,7 @@ def process_song(song, use_existing_annotations, use_existing_formatted):
             cancel = "Clear all edits and cancel"
             
             selection, _ = pick([save, retry_with_changes, retry_ignoring_changes, try_again, cancel], "Next step:")
-            with open('songs/preview.tex', 'wt') as preview_file:
+            with open('songs/preview.tex', 'wt', encoding="utf-8") as preview_file:
                 preview_file.write("x\n\\pagebreak\n\n" * 3)
 
             if selection == save:
@@ -426,6 +426,12 @@ def process_song_list():
         if os.path.exists(f"songs/{slugify(curr_song['title'])}.tex"):
             default_index = 1
 
+
+        # show formatted lines in preview if exists
+        if 'formatted_lines' in curr_song:
+            with open("songs/preview.tex", "w", encoding="utf-8") as preview_file:
+                preview_file.write(curr_song['formatted_lines'])
+
         task, _ = pick(options, prompt, default_index = default_index, indicator=">")
 
         if task == stop:
@@ -442,7 +448,7 @@ def process_song_list():
                 continue
             processed_song = process_song(curr_song, task == edit_line_types, task == edit_formatted_lines)
             if 'formatted_lines' in processed_song:
-                with open(f"songs/{slugify(curr_song['title'])}.tex", "wt") as output_file:
+                with open(f"songs/{slugify(curr_song['title'])}.tex", "wt", encoding="utf-8") as output_file:
                     output_file.write(processed_song['formatted_lines'])
             processed_song_list.append(processed_song)
             prev_song = curr_song
@@ -457,8 +463,8 @@ def process_song_list():
             prev_title = ""
             prev_song = None
 
-    with open("song_with_chords.json", "wt") as output_file:
-        output_file.write(json.dumps(processed_song_list))
+    with open("song_with_chords.json", "wt", encoding="utf-8") as output_file:
+        output_file.write(json.dumps(processed_song_list, indent=3, ensure_ascii=False))
 
 if __name__ == "__main__":
     process_song_list()

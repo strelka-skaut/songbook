@@ -2,11 +2,16 @@
 \usepackage[utf8]{inputenc}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{comment}
 \usepackage{etoolbox} % freaking toc
 \usepackage{ifthen}
 \usepackage{xspace}
 \usepackage{xcolor}
 \usepackage{float}
+\usepackage{chordbox}
+\usepackage{tikz}
+\usepackage{xifthen}
+\usepackage{pgf}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{tabularx}
@@ -17,13 +22,6 @@
 \usepackage{titletoc}
 \usepackage{censor} % for █████████████
 \usepackage{pifont} % for solo versestyle star
-\usepackage[paper=a5paper, nohead, bottom=1.25cm, top=1cm, left=0cm, right=0.75cm, footskip=0.5cm]{geometry}
-\usepackage{imakeidx}
-\usepackage{hyperref}
-%\usepackage[default,regular,bold]{sourceserifpro}
-\usepackage[t,lf]{spectral}
-%\usepackage{fontspec}
-%\setmainfont{QTHeidelbergType}
 
 %%% Style %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -37,13 +35,42 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifthenelse{\boolean{iscompact}}{
+    \newcommand{\leftpadding}{1.25cm}
+    \renewcommand{\baselinestretch}{1.15} 
+    \usepackage[paper=a5paper, nohead, bottom=1cm, top=0.5cm, left=0cm, right=0.5cm, footskip=0.5cm]{geometry}
+  }{
+    \newcommand{\leftpadding}{1cm}
+    \renewcommand{\baselinestretch}{1.25} 
+    \usepackage[paper=a5paper, nohead, bottom=1.25cm, top=1cm, left=0cm, right=0.75cm, footskip=0.5cm]{geometry}
+  }
+
+\newcommand{\setgeometry}{
+  \ifthenelse{\boolean{iscompact}}{
+    \renewcommand{\leftpadding}{0.75cm}
+    \renewcommand{\baselinestretch}{1.15} 
+    \newgeometry{paper=a5paper, nohead, bottom=1cm, top=0.5cm, left=0cm, right=0.5cm, footskip=0.5cm}
+               }{
+    \renewcommand{\leftpadding}{1.25cm}
+    \renewcommand{\baselinestretch}{1.15} 
+    \newgeometry{paper=a5paper, nohead, bottom=1.25cm, top=1cm, left=0cm, right=0.75cm, footskip=0.5cm}
+               }
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{imakeidx}
+\usepackage{hyperref}
+%\usepackage[default,regular,bold]{sourceserifpro}
+\usepackage[t,lf]{spectral}
+%\usepackage{fontspec}
+%\setmainfont{QTHeidelbergType}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\input{covers.tex}
 
 %\makeindex
-
-\renewcommand{\baselinestretch}{1.25} 
 
 \usepackage{leadsheets} % the following lines fix problems with newer latex
 \setleadsheets{align-chords={l}}
@@ -69,6 +96,7 @@
 \newcommand{\importsong}[1]{\input{songs/#1}}
 
 \input{utilities.tex}
+\input{chords.tex}
 
 \input{toc.tex}
 
@@ -107,20 +135,21 @@ X
 \setboolean{showchords}{true}
 \setboolean{showoptionalchords}{false}
 \setboolean{iscompact}{false}
+\setgeometry
 \importsong{preview.tex}
 
 \setboolean{showchords}{true}
 \setboolean{showoptionalchords}{true}
 \setboolean{iscompact}{true}
+\setgeometry
 \importsong{preview.tex}
 
 
 \setboolean{showchords}{false}
 \setboolean{showoptionalchords}{false}
 \setboolean{iscompact}{false}
+\setgeometry
 \importsong{preview.tex}
-
-\setboolean{showoptionalchords}{true}
 
 %\subsectiontoc
 \end{document}

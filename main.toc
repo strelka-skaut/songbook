@@ -1,4 +1,0 @@
-\babel@toc {czech}{}\relax 
-\contentsline {subsection}{1982}{1}{subsection*.1}%
-\contentsline {subsection}{1982}{1}{subsection*.2}%
-\contentsfinish 

@@ -2,7 +2,7 @@
 \newcommand{\mysong}[3]{
     \subsection{#1\index{#1}}
     \vspace{-0.33em}
-    \hspace{1.25cm}\small #2 %\hyperref[content]{#2}
+    \hspace{\leftpadding}\small #2 %\hyperref[content]{#2}
     \vspace{0.5em}
     \normalsize
 }
@@ -33,3 +33,18 @@
 \newcommand{\compactbreak}{\ifthenelse{\boolean{iscompact}}{\pagebreak}{}}
 
 \newcommand{\nochordbreak}{\ifthenelse{\boolean{showchords}}{}{\pagebreak}}
+
+\RenewDocumentCommand{\capo}{m}{%
+  \ifthenelse{\boolean{showchords}}{\hspace{\leftpadding}\textit{Capo #1}}{}}
+
+\NewDocumentCommand{\goto}{m}{%
+  $\rightarrow$~~#1}
+
+
+\NewDocumentCommand{\instruction}{m}{%
+  ~~\textit{(#1)}}
+
+\NewDocumentEnvironment{optional}{m +b}{%
+  \ifthenelse{\boolean{showchords}}{\begin{#1}#2\end{#1}}{}}{}
+
+\NewDocumentCommand{\solospace}{}{~~~}
