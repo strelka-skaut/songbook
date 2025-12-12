@@ -1,11 +1,63 @@
 
-\newcommand{\mysong}[3]{
-    \subsection{#1\index{#1}}
+% TODO: move to appropriate file
+\patchcmd{\chordboxenv}
+  {\StrBehind{\pdflastmatch 0}{>}[\num]}% don't need that anymore
+  {}{}{\errmessage{Oh no.}}
+\patchcmd{\chordboxenv}
+  {\ifnum\pdfmatch{^[0-9]+}{\fret}=1}
+  {%
+    \StrBefore{\fret:}{:}[\num]% we've got it here now anyway
+    % could be x, could be a number, let's test it:
+    \IfDecimal{\num}{\def\chordboxresult{1}}{\def\chordboxresult{0}}%
+    \ifnum\chordboxresult=1
+  }
+  {}{\errmessage{Oh no.}}
+
+
+
+\NewDocumentCommand{\mysongx}{mmm}{
+  \subsection{\fontsize{23}{7}\setmainfont{Larken Bold} #1 \index{#1}}
+    \ifblank{#2}{}{%
     \vspace{-0.33em}
-    \hspace{\leftpadding}\small #2 %\hyperref[content]{#2}
-    \vspace{0.5em}
+    \hspace{\leftpadding}\small#2} %\hyperref[content]{#2}}
+    \vspace{-0.33em}
+    %\vspace{0.25em}
     \normalsize
 }
+
+\NewDocumentCommand{\mysonxg}{mmm}{%
+  \subsection{%
+    \makebox{%[\linewidth]{%
+      {\fontsize{23}{7}\setmainfont{Larken Bold}\selectfont #1 \index{#1}}%
+      \ifblank{#3}{}{%
+        \hspace{\stretch{1}}
+        \normalsize #3%
+      }%
+    }%
+  }%
+  \ifblank{#2}{}{%
+    \vspace{-0.3em}%
+    \hspace{\leftpadding}\small #2%
+  }%
+  \vspace{-0.4em}%
+  \normalsize
+}
+
+\NewDocumentCommand{\mysong}{mmm}{%
+  \subsection*{%
+    \begin{tabularx}{\linewidth - \leftpadding}{@{}lXr@{}} % left | stretchable middle | right
+      {\fontsize{23}{7}\setmainfont{Larken Bold}\selectfont #1 \index{#1}} & & 
+      \ifblank{#3}{}{{\small\raisebox{0.5em}[0pt][0pt] {\normalfont #3}\hspace{\dimexpr\leftpadding / 2}}} \\
+    \end{tabularx}%
+  }%
+  \ifblank{#2}{\vspace{0.5em}}{%
+    \vspace{-0.125em}%
+    {\hspace{\leftpadding}\small #2\par}%
+  }%
+  \vspace{-0.125em}%
+  \normalsize
+}
+
 
 \newcommand{\enablechords}{\setleadsheets{print-chords=true}}
 \newcommand{\disablechords}{\setleadsheets{print-chords=false}}
@@ -35,7 +87,7 @@
 \newcommand{\nochordbreak}{\ifthenelse{\boolean{showchords}}{}{\pagebreak}}
 
 \RenewDocumentCommand{\capo}{m}{%
-  \ifthenelse{\boolean{showchords}}{\hspace{\leftpadding}\textit{Capo #1}}{}}
+  \ifthenelse{\boolean{showchords}}{\hspace{\leftpadding}{Capo #1}}{}}
 
 \NewDocumentCommand{\goto}{m}{%
   $\rightarrow$~~#1}

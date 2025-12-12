@@ -5,6 +5,7 @@
 \usepackage{comment}
 \usepackage{etoolbox} % freaking toc
 \usepackage{ifthen}
+\usepackage{calc}
 \usepackage{xspace}
 \usepackage{xcolor}
 \usepackage{float}
@@ -22,6 +23,23 @@
 \usepackage{titletoc}
 \usepackage{censor} % for █████████████
 \usepackage{pifont} % for solo versestyle star
+
+
+%\usepackage{cochineal} % crimson font fork
+\usepackage{fontspec} % for eczar
+%\setmainfont{Eczar-Medium.otf}[BoldFont=Eczar-Bold.otf]
+\usepackage{addfont}            % for segment font
+\addfont{OT1}{d7seg}{\dviiseg}
+\addfont{OT1}{deseg}{\deseg}
+\usepackage{yfonts}    % baroque font (\initfamily)
+\input Zallman.fd
+\renewcommand*\initfamily{\usefont{U}{Zallman}{xl}{n}}
+%\setmainfont{QTOKCorral-Ext}
+
+
+
+
+
 
 %%% Style %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -97,6 +115,8 @@
 
 \input{utilities.tex}
 \input{chords.tex}
+\input{rhythm.tex}
+\input{covers.tex}
 
 \input{toc.tex}
 
@@ -130,6 +150,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Uncomment for song book %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\frontcover
+
 \subsectiontoc
 
 \setboolean{showchords}{true}
@@ -137,26 +159,58 @@
 \setboolean{iscompact}{false}
 \setgeometry
 
+\importsong{1-signalni.tex}
 \importsong{1982.tex}
+\importsong{amazonka.tex}
+\importsong{andel.tex}
+\importsong{batalion.tex}
 \importsong{bedna-od-whisky.tex}
+\importsong{blativa-cesta.tex}
+\importsong{blaznova-ukolebavka.tex}
+\importsong{cernej-pasazer.tex}
+\importsong{darmodej.tex}
+\importsong{dej-mi-vic-sve-lasky.tex}
 \importsong{divoci-kone.tex}
+\importsong{dokud-se-zpiva.tex}
 \importsong{dum-u-vychazejiciho-slunce.tex}
 \importsong{eldorado.tex}
+\importsong{hejkal.tex}
 \importsong{hercegovina.tex}
 \importsong{hlupaku-najdu-te.tex}
+\importsong{ho-ho-watanay.tex}
+\importsong{hrobar.tex}
 \importsong{hudsonske-sify.tex}
+\importsong{hvezdar.tex}
+\importsong{indiani-ve-meste.tex}
 \importsong{jacek.tex}
+\importsong{jdem-zpatky-do-lesu.tex}
+\importsong{jdou-po-mne-jdou.tex}
+\importsong{jeste-jedno-kafe.tex}
+\importsong{jozin-z-bazin.tex}
 \importsong{kdyz-me-brali-za-vojaka.tex}
+\importsong{knockin-on-heaven-s-door.tex}
+\importsong{kometa.tex}
+\importsong{kozel.tex}
 \importsong{kutil.tex}
 \importsong{lasko.tex}
 \importsong{let-it-be.tex}
+\importsong{lilie-skautska.tex}
 \importsong{lilie.tex}
 \importsong{lokomotiva.tex}
+\importsong{lou-z-lille.tex}
+\importsong{lovci-lebek.tex}
+\importsong{love-story.tex}
+\importsong{malovani.tex}
 \importsong{mam-jizvu-na-rtu.tex}
 \importsong{medvedi-nevedi.tex}
+\importsong{mezi-horami.tex}
 \importsong{montgomery.tex}
+\importsong{morituri-te-salutant.tex}
 \importsong{na-kolena.tex}
 \importsong{na-sirem-mori.tex}
+\importsong{o-malem-rytiri.tex}
+\importsong{omnia-vincit-amor.tex}
+\importsong{pazitka.tex}
 \importsong{peterburg.tex}
 \importsong{po-schodoch.tex}
 \importsong{pocity.tex}
@@ -165,16 +219,31 @@
 \importsong{povidej.tex}
 \importsong{preview.tex}
 \importsong{proklinam.tex}
+\importsong{promeny.tex}
+\importsong{racci.tex}
+\importsong{rana-v-trave.tex}
+\importsong{rekni-kde-ty-kytky-jsou.tex}
+\importsong{rosa-na-kolejich.tex}
 \importsong{ruze-z-texasu.tex}
+\importsong{saro.tex}
+\importsong{severni-vitr.tex}
+\importsong{slavici-z-madridu-rossignol-anglais.tex}
 \importsong{styskani.tex}
+\importsong{tesinska.tex}
+\importsong{traktor.tex}
 \importsong{tri-krize.tex}
+\importsong{uz-to-nenapravim.tex}
 \importsong{valecna.tex}
 \importsong{valka-ruzi.tex}
 \importsong{variace-na-renesancni-tema.tex}
+\importsong{vcelin.tex}
 \importsong{velrybarska-vyprava.tex}
+\importsong{vitr-to-vi-blowin-in-the-wind.tex}
 \importsong{vitr.tex}
+\importsong{vlastovky.tex}
 \importsong{vodacka-holka.tex}
 \importsong{zatimco-se-koupes.tex}
+\importsong{zejtra-mam.tex}
 \importsong{zitra-rano-v-pet.tex}
 \importsong{zkouska-dospelosti.tex}
 \importsong{znamka-punku.tex}
@@ -184,20 +253,20 @@
 
 %X
 %\pagebreak
-
+%
 %\setboolean{showchords}{true}
 %\setboolean{showoptionalchords}{false}
 %\setboolean{iscompact}{false}
 %\setgeometry
 %\importsong{preview.tex}
-
+%
 %\setboolean{showchords}{true}
 %\setboolean{showoptionalchords}{true}
 %\setboolean{iscompact}{true}
 %\setgeometry
 %\importsong{preview.tex}
-
-
+%
+%
 %\setboolean{showchords}{false}
 %\setboolean{showoptionalchords}{false}
 %\setboolean{iscompact}{false}
