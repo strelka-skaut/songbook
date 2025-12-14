@@ -26,7 +26,7 @@
 %\NewDocumentEnvironment{chords}{}{\begin{center}\hspace{\leftpadding}}{\end{center}}
 
 \NewDocumentEnvironment{chords}{+b}{%
-  \ifthenelse{\boolean{showchords}}{\vfill\begin{center}\hspace{\leftpadding}#1\end{center}}{}}{}
+  \ifthenelse{\boolean{showchords}}{\vfill\begin{center}\hspace{\leftpadding / 2}#1\end{center}}{}}{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -58,6 +58,11 @@
 \newcommand{\chordAmNine}{\chordbox{Am9}{x,0,2,0,0,0}}
 
 % A♯ / Bb
+
+\newcommand{\chordBflatseven}{\bchordbox[1]{B\flat7}{x,1,3,1,3,1}{1}}
+\newcommand{\chordFsusthirteen}{\bchordbox[1]{Fsus13}{x,1,1,3,3,1}{1}}
+
+\newcommand{\chordBflat}{\bchordbox[1]{B\flat}{x,1,3,3,3,1}{1}}
 \newcommand{\chordAsharp}{\bchordbox[1]{A\sharp}{x,1,3,3,3,1}{1}}
 \newcommand{\chordAsharpm}{\bchordbox[1]{A\sharp m}{x,1,3,3,2,1}{1}}
 \newcommand{\chordAsharpseven}{\bchordbox[1]{A\sharp7}{x,1,3,1,3,1}{1}}
@@ -169,7 +174,7 @@
 % F♯
 \newcommand{\chordFsharp}{\bchordbox[2]{F\sharp}{2,4,4,3,2,2}{2}}
 \newcommand{\chordFsharpm}{\bchordbox[2]{F\sharp m}{2,4,4,2,2,2}{2}}
-\newcommand{\chordFsharpseven}{\bchordbox[2]{F\sharp7}{2,4,2,3,2,2}{2}}
+\newcommand{\chordFsharpSeven}{\bchordbox[2]{F\sharp7}{2,4,2,3,2,2}{2}}
 \newcommand{\chordFsharpnine}{\bchordbox[2]{F\sharp9}{2,4,1,3,2,2}{2}}
 \newcommand{\chordFsharpdim}{\chordbox{F\sharp dim}{x,x,3,4,3,4}}
 \newcommand{\chordFsharpsusTwo}{\bchordbox[2]{F\sharpsus2}{2,4,4,1,2,2}{2}}

@@ -1,4 +1,7 @@
 
+% TODO: move somewhere as well
+\newcommand{\tallspace}{\vphantom{h}}
+
 % TODO: move to appropriate file
 \patchcmd{\chordboxenv}
   {\StrBehind{\pdflastmatch 0}{>}[\num]}% don't need that anymore
@@ -13,49 +16,20 @@
   }
   {}{\errmessage{Oh no.}}
 
-
-
-\NewDocumentCommand{\mysongx}{mmm}{
-  \subsection{\fontsize{23}{7}\setmainfont{Larken Bold} #1 \index{#1}}
-    \ifblank{#2}{}{%
-    \vspace{-0.33em}
-    \hspace{\leftpadding}\small#2} %\hyperref[content]{#2}}
-    \vspace{-0.33em}
-    %\vspace{0.25em}
-    \normalsize
-}
-
-\NewDocumentCommand{\mysonxg}{mmm}{%
-  \subsection{%
-    \makebox{%[\linewidth]{%
-      {\fontsize{23}{7}\setmainfont{Larken Bold}\selectfont #1 \index{#1}}%
-      \ifblank{#3}{}{%
-        \hspace{\stretch{1}}
-        \normalsize #3%
-      }%
-    }%
-  }%
-  \ifblank{#2}{}{%
-    \vspace{-0.3em}%
-    \hspace{\leftpadding}\small #2%
-  }%
-  \vspace{-0.4em}%
-  \normalsize
-}
+%\renewcommand\tabularxcolumn[1]{p{#1}}% for vertical centering text in X column
+\setlength\tabcolsep{0pt}
+\renewcommand{\arraystretch}{0.75}
 
 \NewDocumentCommand{\mysong}{mmm}{%
-  \subsection*{%
-    \begin{tabularx}{\linewidth - \leftpadding}{@{}lXr@{}} % left | stretchable middle | right
-      {\fontsize{23}{7}\setmainfont{Larken Bold}\selectfont #1 \index{#1}} & & 
-      \ifblank{#3}{}{{\small\raisebox{0.5em}[0pt][0pt] {\normalfont #3}\hspace{\dimexpr\leftpadding / 2}}} \\
-    \end{tabularx}%
-  }%
-  \ifblank{#2}{\vspace{0.5em}}{%
-    \vspace{-0.125em}%
-    {\hspace{\leftpadding}\small #2\par}%
-  }%
-  \vspace{-0.125em}%
-  \normalsize
+  \phantomsection
+  %\addcontentsline{toc}{subsection}{#1}
+  \hspace{\leftpadding}
+  \begin{tabularx}{\linewidth - \leftpadding - 0.5cm}{Xr} 
+    \savecellbox{\fontsize{24}{24}\setmainfont{Larken Bold} #1%\hyperref[content]{#1}
+    } & \savecellbox{\ifthenelse{\boolean{showchords}}{$\text{\footnotesize{#3}}$}{}} \\ [-\rowheight]
+    \printcellmiddle & \printcelltop \\
+    \ifblank{#2}{}{\small #2 & \\ }
+  \end{tabularx}
 }
 
 
@@ -66,14 +40,17 @@
 \NewDocumentCommand{\enforcechords}{m}{\ifthenelse{#1}{\enablechords}{\disablechords}}
 
 \NewDocumentCommand{\mchord}{sm}{%
-    \enforcechords{\boolean{showchords}}\IfBooleanTF{#1}{\chord*{#2}}{\chord{#2}}}
+    \enforcechords{\boolean{showchords}}\IfBooleanTF{#1}{\chord*{#2}\tallspace}{\chord{#2}\tallspace}}
 
 \NewDocumentCommand{\ochord}{sm}{%
-    \enforcechords{\boolean{showchords} \AND \boolean{showoptionalchords}}\IfBooleanTF{#1}{\chord*{#2}}{\chord{#2}}}
+    \enforcechords{\boolean{showchords} \AND \boolean{showoptionalchords}}\IfBooleanTF{#1}{\chord*{#2}\tallspace}{\chord{#2}\tallspace}}
 
 
 \NewDocumentCommand{\hchord}{sm}{%
-  \disablechords\IfBooleanTF{#1}{\chord*{#2}}{\chord{#2}}}
+  \disablechords\IfBooleanTF{#1}{\chord*{#2}\tallspace}{\chord{#2}\tallspace}}
+
+\NewDocumentCommand{\ifchords}{mm}{%
+  \ifthenelse{\boolean{showchords}}{#1}{#2}}
 
 
 \NewDocumentCommand{\inlinechord}{m}{%

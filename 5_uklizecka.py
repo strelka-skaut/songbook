@@ -57,8 +57,9 @@ TEMPLATE = """
         }
         .one-page { background: #d9f5d9; }
         .two-page { background: #fff6c7; }
-        #save-btn {
-            margin-top: 1rem;
+        button {
+            margin-top: 0.5rem;
+            margin-right: 0.5rem
             padding: 0.6rem 1.2rem;
             font-size: 1rem;
             border: none;
@@ -67,7 +68,7 @@ TEMPLATE = """
             background: #4a7bd1;
             color: white;
         }
-        #save-btn:hover { background: #3a66b3; }
+        button:hover { background: #3a66b3; }
         .order-note { font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem; }
     </style>
 </head>
@@ -85,6 +86,7 @@ TEMPLATE = """
     </div>
 
     <button id=\"save-btn\">Save Order</button>
+    <button id=\"copy-btn\">Copy to clipboard</button>
 
     <script>
         const list = document.getElementById('list');
@@ -104,232 +106,17 @@ TEMPLATE = """
                 alert('Saved!');
             });
         };
-    </script>
-</body>
-</html>
-"""
+        document.getElementById('copy-btn').onclick = function() {
+            const lines = Array.from(document.querySelectorAll('.item'))
+                .map(el => `\\importsong{${el.dataset.title}}`);
 
-z= """
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Manual Sorter</title>
-    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
-    <style>
-        body { font-family: sans-serif; margin: 1rem auto; max-width: 60ch; font-size: 0.9rem; }
-        #list { margin-top: 0.5rem; }
-        .item {
-            padding: 0.4rem 0.6rem;
-            margin: 0.3rem 0;
-            border-radius: 6px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.9rem;
-        }
-        .title { font-weight: 500; text-transform: capitalize; }
-        .page-chip {
-            padding: 0.15rem 0.35rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
-        }
-        .one-page { background: #d9f5d9; }
-        .two-page { background: #fff6c7; }
-        #save-btn {
-            margin-top: 1rem;
-            padding: 0.6rem 1.2rem;
-            font-size: 1rem;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            background: #4a7bd1;
-            color: white;
-        }
-        #save-btn:hover {
-            background: #3a66b3;
-        }
-    </style>
-</head>
-<body>
-    <h1>Manual Sorting UI</h1>
-    <p>Drag data to reorder them. Page count is displayed but does not change.</p>
+            const text = lines.join('\\n');
 
-    <div id="list">
-        {% for title in titles %}
-        <div class="item" data-title="{{ title }}"
-             style="background: {{ '#d9f5d9' if data[title].page_count == 1 else ('#fff6c7' if data[title].page_count == 2 else '#f2f2f2') }};">
-            <span class="title">{{ title.split('.tex')[0] }}</span>
-            <span class="page-chip {{ 'one-page' if data[title].page_count == 1 else ('two-page' if data[title].page_count == 2 else '') }}">
-                {{ data[title].page_count }} pages
-            </span>
-        </div>
-        {% endfor %}
-    </div>
-
-    <button id="save-btn">Save Order</button>
-
-    <script>
-        const list = document.getElementById('list');
-        Sortable.create(list, {
-            animation: 150
-        });
-
-        document.getElementById('save-btn').onclick = function() {
-            const result = Array.from(document.querySelectorAll('.item'))
-                .map((el, index) => ({
-                    title: el.dataset.title,
-                    order: index
-                }));
-
-            fetch('/save', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(result)
-            }).then(r => r.json()).then(data => {
-                alert('Saved!');
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Copied to clipboard!');
             });
         };
-    </script>
-</body>
-</html>
-"""
-
-y = """
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Manual Sorter</title>
-    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
-    <style>
-        body { font-family: sans-serif; margin: 2rem auto; max-width: 60ch; }
-        #list { margin-top: 1rem; }
-        .item {
-            padding: 0.6rem 0.8rem;
-            margin: 0.4rem 0;
-            border-radius: 6px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .title { text-transform: capitalize; font-weight: normal; }
-        .page-chip {
-            padding: 0.2rem 0.5rem;
-            border-radius: 4px;
-        }
-        .one-page { background: #d9f5d9; }
-        .two-page { background: #fff6c7; }
-        #save-btn {
-            margin-top: 1rem;
-            padding: 0.6rem 1.2rem;
-            font-size: 1rem;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            background: #4a7bd1;
-            color: white;
-        }
-        #save-btn:hover {
-            background: #3a66b3;
-        }
-    </style>
-</head>
-<body>
-    <h1>Manual Sorting UI</h1>
-    <p>Drag data to reorder them. Page count is displayed but does not change.</p>
-
-    <div id="list">
-        {% for title in titles %}
-        <div class="item" data-title="{{ title }}"
-             style="background: {{ 'd9f5d9' if data[title].page_count == 1 else ('fff6c7' if data[title].page_count == 2 else 'f2f2f2') }};">
-            <span class="title">{{ title }}</span>
-            <span class="page-chip {{ 'one-page' if data[title].page_count == 1 else ('two-page' if data[title].page_count == 2 else '') }}">
-                {{ data[title].page_count }} pages
-            </span>
-        </div>
-        {% endfor %}
-    </div>
-
-    <button id="save-btn">Save Order</button>
-
-    <script>
-        const list = document.getElementById('list');
-        Sortable.create(list, {
-            animation: 150
-        });
-
-        document.getElementById('save-btn').onclick = function() {
-            const result = Array.from(document.querySelectorAll('.item'))
-                .map((el, index) => ({
-                    title: el.dataset.title,
-                    order: index
-                }));
-
-            fetch('/save', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(result)
-            }).then(r => r.json()).then(data => {
-                alert('Saved!');
-            });
-        };
-    </script>
-</body>
-</html>
-"""
-
-x = """
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Manual Sorter</title>
-    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
-    <style>
-        body { font-family: sans-serif; margin: 40px; }
-        .item { padding: 10px; margin: 5px 0; background: #f2f2f2; border-radius: 6px; display: flex; justify-content: space-between; }
-        .title { font-weight: bold; }
-        #save-btn { padding: 10px 20px; font-size: 16px; }
-    </style>
-</head>
-<body>
-    <h1>Manual Sorting UI</h1>
-    <p>Drag items to reorder them. Page count is displayed but does not change.</p>
-
-    <div id="list">
-        {% for title in titles %}
-        <div class="item" data-title="{{ title }}">
-            <span class="title">{{ title }}</span>
-            <span>{{ data[title].page_count }} pages</span>
-        </div>
-        {% endfor %}
-    </div>
-
-    <button id="save-btn">Save Order</button>
-
-    <script>
-        const list = document.getElementById('list');
-        Sortable.create(list, {
-            animation: 150
-        });
-
-        document.getElementById('save-btn').onclick = function() {
-            const result = Array.from(document.querySelectorAll('.item'))
-                .map((el, index) => ({
-                    title: el.dataset.title,
-                    order: index
-                }));
-
-            fetch('/save', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(result)
-            }).then(r => r.json()).then(data => {
-                alert('Saved!');
-            });
-        };
-    </script>
+     </script>
 </body>
 </html>
 """
