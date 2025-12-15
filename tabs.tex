@@ -1,0 +1,143 @@
+
+\newcommand{\tabrows}{6}
+
+\newcommand{\barwidth}{4}
+\newcommand{\stringheight}{1.05}
+
+
+\newcounter{barindex}
+\newcounter{totalbarcount}
+\newcounter{barcount}
+
+
+\NewDocumentCommand{\tabseparator}{}{
+  \pgfmathsetmacro{\barstart}{\value{totalbarcount} * \barwidth}
+  \draw [thick] (\barstart, \stringheight) -- (\barstart, \tabrows * \stringheight);
+}
+
+\NewDocumentCommand{\tabdots}{}{
+  \pgfmathsetmacro{\barstart}{\value{totalbarcount} * \barwidth}
+  \pgfmathsetmacro{\barcenter}{(\value{totalbarcount} * \barwidth) + (1 * \barwidth) * 0.5}
+
+  \draw  (\barcenter, 3.5 * \stringheight) node {\ldots};
+
+  \addtocounter{totalbarcount}{1}
+  \stepcounter{barindex}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcounter{beatcount}
+\newcounter{beatindex}
+
+% length, beat count
+\NewDocumentEnvironment{tabbarExt}{mm}{
+  \setcounter{barcount}{#1}
+  \setcounter{beatcount}{#2}
+  \pgfmathsetmacro{\barstart}{\value{totalbarcount} * \barwidth}
+  \pgfmathsetmacro{\barend}{(\value{totalbarcount} * \barwidth) + (#1 * \barwidth)}
+
+  \foreach \row in {1,...,\tabrows}{
+    \draw (\barstart, \row * \stringheight) -- (\barend, \row * \stringheight);
+  };
+  
+  \barline
+}{
+  \barline
+  \addtocounter{totalbarcount}{#1}
+  \stepcounter{barindex}
+  \setcounter{beatcount}{0}
+  \setcounter{beatindex}{0}
+}
+
+\NewDocumentCommand{\tabbeatExt}{sm}{
+  \stepcounter{beatindex}
+  \pgfmathsetmacro{\beatend}{\barstart + ((\barwidth * \value{barcount}) / \value{beatcount} * \value{beatindex})}
+  \pgfmathsetmacro{\beatcenter}{\beatend - \barwidth * \value{barcount} / \value{beatcount} * 0.5}
+  \pgfmathsetmacro{\beatstart}{\beatend - \barwidth * \value{barcount} / \value{beatcount}}
+  \readlist*\notelist{#2}
+
+  \foreach \row in {1,...,\tabrows}{
+    \pgfmathsetmacro{\stringY}{(\tabrows - \row + 1) * \stringheight}
+    \itemtomacro\notelist[\row]\currnote
+      \IfInteger{\currnote}{\draw (\beatcenter, \stringY) node[circle, fill=white, scale = 0.6, inner sep=1pt] {\IfBooleanTF{#1}{\currentchord[\row]}{\currnote}};}{}
+  }
+
+}
+
+\NewDocumentCommand{\tabchord}{m}{\readlist*\currentchord{#1}}
+
+\NewDocumentCommand{\tabbeatExtStar}{m}{
+  \stepcounter{beatindex}
+  \pgfmathsetmacro{\beatend}{\barstart + ((\barwidth * \value{barcount}) / \value{beatcount} * \value{beatindex})}
+  \pgfmathsetmacro{\beatcenter}{\beatend - \barwidth * \value{barcount} / \value{beatcount} * 0.5}
+  \pgfmathsetmacro{\beatstart}{\beatend - \barwidth * \value{barcount} / \value{beatcount}}
+  \readlist*\notelist{#1}
+
+  \foreach \row in {1,...,\tabrows}{
+    \pgfmathsetmacro{\stringY}{(\tabrows - \row + 1) * \stringheight}
+    \itemtomacro\notelist[\row]\currnote
+      \IfInteger{\currnote}{\draw (\beatcenter, \stringY) node[circle, fill=white, scale = 0.6, inner sep=1pt] {\currentchord[\row]};}{}
+  }
+
+}
+
+% (bar divisions, division index), name 
+\NewDocumentCommand{\barcommentExt}{O{1,1}m}{
+  \readlist*\commentposition{#1}
+
+  \pgfmathsetmacro{\stepshift}{\barwidth * \value{barcount} / \commentposition[1]}
+  \pgfmathsetmacro{\commentstart}{\barstart + (\stepshift * (\commentposition[2] - 0.5))}
+
+  \draw (\commentstart, -\stringheight * 0.75) node {\footnotesize\writechord{#2}};
+}
+
+
+\NewDocumentCommand{\barline}{}{
+  \pgfmathsetmacro{\beatend}{\barstart + ((\barwidth * \value{barcount}) / \value{beatcount} * (1 + \value{beatindex}))}
+  \pgfmathsetmacro{\beatcenter}{\beatend - \barwidth * \value{barcount} / \value{beatcount} * 0.5}
+    \pgfmathsetmacro{\beatstart}{\beatend - \barwidth * \value{barcount} / \value{beatcount}}
+   \draw [thick] (\beatstart, \stringheight) -- (\beatstart, \tabrows * \stringheight);
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NewDocumentEnvironment{tabbar}{som}{%
+  \setcounter{barcount}{#3}
+  \pgfmathsetmacro{\barstart}{\value{totalbarcount} * \barwidth}
+  \pgfmathsetmacro{\barend}{(\value{totalbarcount} * \barwidth) + (#3 * \barwidth)}
+
+  
+  \IfBooleanTF{#1}{}{\draw [thick] (\barstart, \stringheight) -- (\barstart, \tabrows * \stringheight);\draw [thick] (\barend, \stringheight) -- (\barend, \tabrows * \stringheight);}
+  \foreach \row in {1,...,\tabrows}{
+    \draw (\barstart, \row * \stringheight) -- (\barend, \row * \stringheight);
+  };
+  \IfNoValueTF{#2}{}{\barcomment{#2}}
+}{
+  \addtocounter{totalbarcount}{#3}
+  \stepcounter{barindex}
+}
+
+\NewDocumentCommand{\barcomment}{m}{%
+  \pgfmathsetmacro{\barcenter}{\barstart + 0.5 * \value{barcount} * \barwidth}
+  \draw (\barcenter, -\stringheight * 0.75) node {\footnotesize\writechord{#1}};
+}
+
+\def\stringNames{{"e", "B", "G", "D", "A", "E"}}
+
+\NewDocumentCommand{\tabstart}{}{
+  \foreach \row in {1,...,\tabrows}{
+    \draw (-\barwidth * 0.25, \row * \stringheight) node {\scriptsize\pgfmathparse{\stringNames[6 - \row ]}\pgfmathresult};
+  };
+}
+
+% number of divisions, division of self, string, fret
+\NewDocumentCommand{\tabbeat}{m m m m}{%
+  \pgfmathsetmacro{\beatend}{\barstart + ((\barwidth * \value{barcount}) / #1 * #2)}
+  \pgfmathsetmacro{\beatcenter}{\beatend - \barwidth * \value{barcount} / #1 * 0.5}
+  \pgfmathsetmacro{\stringY}{(6 - #3 + 1) * \stringheight}
+   \draw (\beatcenter, \stringY) node[circle, fill=white, scale = 0.6, inner sep=1pt] {#4};
+}
+
+\NewDocumentEnvironment{tab}{}{\vfill\begin{center}\usetikzlibrary{calc}\begin{optional}{tikzpicture}[scale=0.25, inner sep=0pt]\tabstart}{\setcounter{barindex}{0}\setcounter{totalbarcount}{0}\end{optional}\end{center}}
+
