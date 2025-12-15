@@ -1,13 +1,17 @@
 
+\NewDocumentCommand{\noarrow}{}{\hphantom{$\uparrow$}~}
 
-\newcommand{\noarrow}{~~~}
-\NewDocumentCommand{\twofour}{}{2$/$4: $\downarrow \noarrow \downarrow \uparrow$}
-\NewDocumentCommand{\threefour}{}{3$/$4: $\downarrow \noarrow \downarrow \uparrow \downarrow \uparrow$}
-\NewDocumentCommand{\threefourstar}{}{3$/$4*: $\downarrow \noarrow \noarrow \uparrow \downarrow \uparrow$}
-\NewDocumentCommand{\fourfour}{}{4$/$4: $\downarrow \noarrow \downarrow \uparrow \noarrow \uparrow \downarrow \uparrow$}
-\NewDocumentCommand{\fourfourstar}{}{4$/$4*}%: $\downarrow \noarrow \downarrow \noarrow \downarrow \uparrow \downarrow$ }
+\NewDocumentCommand{\up}{}{$\uparrow$~}
+\NewDocumentCommand{\down}{}{$\downarrow$~}
 
-\NewDocumentCommand{\eighteight}{}{$\downarrow \noarrow \downarrow \uparrow \downarrow \uparrow \downarrow \noarrow \downarrow \noarrow \downarrow \noarrow \downarrow \noarrow \downarrow$}
-\NewDocumentCommand{\eighteightend}{}{8$/$8: $\downarrow \noarrow \downarrow \noarrow \downarrow \noarrow \downarrow \noarrow \downarrow \noarrow \downarrow \uparrow \noarrow \uparrow \downarrow \uparrow $}
 
-\NewDocumentCommand{\eighteightstar}{}{8$/$8: $\downarrow \noarrow \downarrow \uparrow \downarrow \uparrow  \downarrow \noarrow \downarrow \uparrow \downarrow \uparrow \downarrow \uparrow \downarrow \uparrow$}
+\NewDocumentCommand{\twofour}{}{2$/$4:~\down\noarrow\down\up}
+\NewDocumentCommand{\threefour}{}{3$/$4:~\down\noarrow\down\up\down\up}
+\NewDocumentCommand{\threefourstar}{}{3$/$4*:~\down\noarrow\noarrow\up\down\up}
+\NewDocumentCommand{\fourfour}{}{4$/$4:~\down\noarrow\down\up\noarrow\up\down\up}
+\NewDocumentCommand{\fourfourstar}{}{4$/$4*}%:\down\noarrow\down\noarrow\down\up\down}
+
+\NewDocumentCommand{\eighteight}{}{\down\noarrow\down\up\down\up\down\noarrow\down\noarrow\down\noarrow\down\noarrow\down\noarrow}
+\NewDocumentCommand{\eighteightend}{}{8$/$8:~\down\noarrow\down\noarrow\down\noarrow\down\noarrow\down\noarrow\down\up\noarrow\up\down\up}
+
+\NewDocumentCommand{\eighteightstar}{}{8$/$8:~\down\noarrow\down\up\down\up\down\noarrow\down\up\down\up\down\up\down\up}

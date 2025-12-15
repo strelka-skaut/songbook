@@ -20,14 +20,16 @@
 \setlength\tabcolsep{0pt}
 \renewcommand{\arraystretch}{0.75}
 
-\NewDocumentCommand{\mysong}{mmm}{%
+\NewDocumentCommand{\mysong}{mm+m}{%
   \phantomsection
   %\addcontentsline{toc}{subsection}{#1}
   \hspace{\leftpadding}
   \begin{tabularx}{\linewidth - \leftpadding - 0.5cm}{Xr} 
     \savecellbox{\fontsize{24}{24}\setmainfont{Larken Bold} #1%\hyperref[content]{#1}
-    } & \savecellbox{\ifthenelse{\boolean{showchords}}{$\text{\footnotesize{#3}}$}{}} \\ [-\rowheight]
-    \printcellmiddle & \printcelltop \\
+    } & \savecellbox{\ifthenelse{\boolean{showchords}}{$\text{\footnotesize \shortstack[r]{#3} }$}{}} \\ [-\rowheight]
+    %} & \savecellbox{\ifthenelse{\boolean{showchords}}{\footnotesize #3}{}} \\ [-\rowheight]
+    \printcellmiddle & \multirow[t]{2}{*}{\printcelltop} \\
+    %\fontsize{24}{24}\setmainfont{Larken Bold} #1 & \multirow[t]{2}{*}{\footnotesize #3} \\
     \ifblank{#2}{}{\small #2 & \\ }
   \end{tabularx}
 }
@@ -77,3 +79,5 @@
   \ifthenelse{\boolean{showchords}}{\begin{#1}#2\end{#1}}{}}{}
 
 \NewDocumentCommand{\solospace}{}{~~~}
+
+
