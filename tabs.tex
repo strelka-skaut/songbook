@@ -1,61 +1,90 @@
 
-\newcommand{\tabrows}{6}
+\newcommand{\rowcount}      {6}
+\newcommand{\barwidth}      {4}
+\newcommand{\stringheight}  {1.05}
+\newcommand{\stringNames}   {{"e", "B", "G", "D", "A", "E"}}
 
-\newcommand{\barwidth}{4}
-\newcommand{\stringheight}{1.05}
+\NewDocumentEnvironment{tab}{}{%
+  \vfill\begin{center}%
+    \usetikzlibrary{calc}%
+    \begin{optional}{tikzpicture}[scale=0.25, inner sep=0pt]%
+      \pgfmathparse{0}
+      \global\let\totalbarcount\pgfmathresult
+      \pgfmathparse{\totalbarcount * \barwidth}
+      \global\let\barstart\pgfmathresult
+      \global\let\barend\barstart
+      \global\let\beatstart\barstart
+      \global\let\beatend\beatstart
 
-\newcounter{barindex}
-\newcounter{totalbarcount}
-\newcounter{barcount}
-
-\NewDocumentCommand{\tabdots}{}{
-  \pgfmathsetmacro{\barstart}{\value{totalbarcount} * \barwidth}
-  \pgfmathsetmacro{\barcenter}{(\value{totalbarcount} * \barwidth) + (1 * \barwidth) * 0.5}
-
-  \draw  (\barcenter, 3.5 * \stringheight) node {\ldots};
-
-  \addtocounter{totalbarcount}{1}
-  \stepcounter{barindex}
+      \tabstart
+      \barline
+}{%
+    \end{optional}
+  \end{center}%
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcounter{beatcount}
-\newcounter{beatindex}
 
 % length, beat count
 \NewDocumentEnvironment{tabbar}{mm}{
-  \setcounter{barcount}{#1}
-  \setcounter{beatcount}{#2}
-  \pgfmathsetmacro{\barstart}{\value{totalbarcount} * \barwidth}
-  \pgfmathsetmacro{\barend}{(\value{totalbarcount} * \barwidth) + (#1 * \barwidth)}
+  \setglobal{\barcount}{#1} % width of this bar
+  \setglobal{\beatcount}{#2} % number of beats in whole bar
+  \setglobal{\beatindex}{0} % working end of the environment
 
-  \foreach \row in {1,...,\tabrows}{
+  \setglobal{\barstart}{\barend}
+  \setglobal{\barend}{\barstart + (\barcount * \barwidth)}
+
+  \setglobal{\beatstart}{\barstart}
+  \setglobal{\beatend}{\barstart + \barcount * \barwidth / \beatcount}
+
+  \foreach \row in {1,...,\rowcount}{
     \draw (\barstart, \row * \stringheight) -- (\barend, \row * \stringheight);
   };
-  
-  \barline
 }{
+  \setglobal{\totalbarcount}{\totalbarcount + \barcount}
+  \setglobal{\barstart}{\barend}
+  \setglobal{\beatstart}{\barstart}
   \barline
-  \addtocounter{totalbarcount}{#1}
-  \stepcounter{barindex}
-  \setcounter{beatcount}{0}
-  \setcounter{beatindex}{0}
 }
 
-\NewDocumentCommand{\tabbeat}{sm}{
-  \stepcounter{beatindex}
-  \pgfmathsetmacro{\beatend}{\barstart + ((\barwidth * \value{barcount}) / \value{beatcount} * \value{beatindex})}
-  \pgfmathsetmacro{\beatcenter}{\beatend - \barwidth * \value{barcount} / \value{beatcount} * 0.5}
-  \pgfmathsetmacro{\beatstart}{\beatend - \barwidth * \value{barcount} / \value{beatcount}}
-  \readlist*\notelist{#2}
+\NewDocumentCommand{\tabstart}{}{
+  \foreach \row in {1,...,\rowcount}{
+    \draw (-\barwidth * 0.25, \row * \stringheight) node {\scriptsize\pgfmathparse{\stringNames[6 - \row ]}\pgfmathresult};
+  };
+}
 
-  \foreach \row in {1,...,\tabrows}{
-    \pgfmathsetmacro{\stringY}{(\tabrows - \row + 1) * \stringheight}
-    \itemtomacro\notelist[\row]\currnote
-      \IfInteger{\currnote}{\draw (\beatcenter, \stringY) node[circle, fill=white, scale = 0.6, inner sep=1pt] {\IfBooleanTF{#1}{\currentchord[\row]}{\currnote}};}{}
+\NewDocumentCommand{\barline}{}{
+  \draw [thick] (\beatstart, \stringheight) -- (\beatstart, \rowcount * \stringheight);}
+
+
+\NewDocumentCommand{\setglobal}{mm}{\pgfmathparse{#2}\global\edef#1{\pgfmathresult}}
+
+\NewDocumentCommand{\tabdots}{}{
+  \setglobal{\barstart}{\totalbarcount * \barwidth}
+  \setglobal{\beatstart}{\barstart}
+
+  \setglobal{\barcenter}{\barend + \barwidth * 0.5}
+  \draw  (\barcenter, 3.5 * \stringheight) node {\ldots};
+  \setglobal{\totalbarcount}{\totalbarcount + 1}
+  
+  \setglobal{\barstart}{\barend + \barwidth}
+  \setglobal{\barend}{\barstart}
+  \setglobal{\beatstart}{\barstart}
+  \barline
+}
+
+% if currentchord should be used, base beat count multiplier (for fractions), frets
+\NewDocumentCommand{\tabbeat}{sO{1}m}{
+  \setglobal{\beatwidth}{\barcount * \barwidth / \beatcount * #2}
+
+  \readlist*\notelist{#3}
+
+  \foreach \row in {1,...,\rowcount}{
+    \setglobal{\stringY}{(\rowcount - \row + 1) * \stringheight}
+    \itemtomacro\notelist[\rowcount - \row + 1]\currnote
+      \IfInteger{\currnote}{\draw (\beatstart + \beatwidth / 2, \stringY) node[circle, fill=white, scale = 0.6, inner sep=1pt] {\IfBooleanTF{#1}{\currentchord[\rowcount - \row + 1]}{\currnote}};}{}
   }
 
+  \setglobal{\beatend}{\beatstart + \beatwidth}
+  \setglobal{\beatstart}{\beatend}
 }
 
 \NewDocumentCommand{\setchord}{m}{\readlist*\currentchord{#1}}
@@ -64,26 +93,52 @@
 \NewDocumentCommand{\barcomment}{O{1,1}m}{
   \readlist*\commentposition{#1}
 
-  \pgfmathsetmacro{\stepshift}{\barwidth * \value{barcount} / \commentposition[1]}
-  \pgfmathsetmacro{\commentstart}{\barstart + (\stepshift * (\commentposition[2] - 0.5))}
+  \setglobal{\stepshift}{\barwidth * \barcount / \commentposition[1]}
+  \setglobal{\commentstart}{\barstart + (\stepshift * (\commentposition[2] - 0.5))}
 
   \draw (\commentstart, -\stringheight * 0.75) node {\footnotesize\writechord{#2}};
 }
 
-\NewDocumentCommand{\barline}{}{
-  \pgfmathsetmacro{\beatend}{\barstart + ((\barwidth * \value{barcount}) / \value{beatcount} * (1 + \value{beatindex}))}
-  \pgfmathsetmacro{\beatcenter}{\beatend - \barwidth * \value{barcount} / \value{beatcount} * 0.5}
-    \pgfmathsetmacro{\beatstart}{\beatend - \barwidth * \value{barcount} / \value{beatcount}}
-   \draw [thick] (\beatstart, \stringheight) -- (\beatstart, \tabrows * \stringheight);
-}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\def\stringNames{{"e", "B", "G", "D", "A", "E"}}
 
-\NewDocumentCommand{\tabstart}{}{
-  \foreach \row in {1,...,\tabrows}{
-    \draw (-\barwidth * 0.25, \row * \stringheight) node {\scriptsize\pgfmathparse{\stringNames[6 - \row ]}\pgfmathresult};
-  };
-}
-
-\NewDocumentEnvironment{tab}{}{\vfill\begin{center}\usetikzlibrary{calc}\begin{optional}{tikzpicture}[scale=0.25, inner sep=0pt]\tabstart}{\setcounter{barindex}{0}\setcounter{totalbarcount}{0}\end{optional}\end{center}}
-
+%\NewDocumentCommand{\tabdots}{}{
+%  \setglobal{\barstart}{\value{totalbarcount} * \barwidth}
+%  \setglobal{\barcenter}{(\value{totalbarcount} * \barwidth) + (1 * \barwidth) * 0.5}
+%
+%  \draw  (\barcenter, 3.5 * \stringheight) node {\ldots};
+%
+%  \addtocounter{totalbarcount}{1}
+%  \stepcounter{barindex}
+%}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%
+%\NewDocumentCommand{\tabbeat}{sm}{
+%  \stepcounter{beatindex}
+%  \setglobal{\beatend}{\barstart + ((\barwidth * \value{barcount}) / \value{beatcount} * \value{beatindex})}
+%  \setglobal{\beatcenter}{\beatend - \barwidth * \value{barcount} / \value{beatcount} * 0.5}
+%  \setglobal{\beatstart}{\beatend - \barwidth * \value{barcount} / \value{beatcount}}
+%  \readlist*\notelist{#2}
+%
+%  \foreach \row in {1,...,\rowcount}{
+%    \setglobal{\stringY}{(\rowcount - \row + 1) * \stringheight}
+%    \itemtomacro\notelist[\row]\currnote
+%      \IfInteger{\currnote}{\draw (\beatcenter, \stringY) node[circle, fill=white, scale = 0.6, inner sep=1pt] {\IfBooleanTF{#1}{\currentchord[\row]}{\currnote}};}{}
+%  }
+%
+%}
+%
+%\NewDocumentCommand{\setchord}{m}{\readlist*\currentchord{#1}}
+%
+%
+%
+%\NewDocumentCommand{\tabstart}{}{
+%  \foreach \row in {1,...,\rowcount}{
+%    \draw (-\barwidth * 0.25, \row * \stringheight) node {\scriptsize\pgfmathparse{\stringNames[6 - \row ]}\pgfmathresult};
+%  };
+%}
+%
