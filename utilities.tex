@@ -22,10 +22,10 @@
 
 \NewDocumentCommand{\mysong}{mm+m}{%
   \phantomsection
-  %\addcontentsline{toc}{subsection}{#1}
+  \addcontentsline{toc}{subsection}{#1}
   \hspace{\leftpadding}
   \begin{tabularx}{\linewidth - \leftpadding - 0.5cm}{Xr} 
-    \savecellbox{\fontsize{24}{24}\setmainfont{Larken Bold} #1%\hyperref[content]{#1}
+    \savecellbox{\fontsize{24}{24}\setmainfont{Larken Bold} \hyperref[content]{#1} %#1
     } & \savecellbox{\ifthenelse{\boolean{showchords}}{$\text{\footnotesize \shortstack[r]{#3} }$}{}} \\ [-\rowheight]
     %} & \savecellbox{\ifthenelse{\boolean{showchords}}{\footnotesize #3}{}} \\ [-\rowheight]
     \printcellmiddle & \multirow[t]{2}{*}{\printcelltop} \\
