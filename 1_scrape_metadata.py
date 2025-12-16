@@ -73,7 +73,13 @@ def main():
     for song in song_list:
         print(f"\nSearching for: {song}")
         results = search_song(song)
+
         if not results:
+            final_results.append({
+                "title": song,
+                "artist": input(f"Artist for {song}: "),
+                "release_year": -1
+            })
             print("No results found.")
             continue
 
