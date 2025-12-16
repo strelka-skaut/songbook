@@ -444,6 +444,9 @@ def process_song_list():
             prev_song = curr_song
             index += 1
             if task == skip:
+                if 'formatted_lines' in curr_song:
+                    with open(f"songs/{slugify(curr_song['title'])}.tex", "wt", encoding="utf-8") as output_file:
+                        output_file.write(curr_song['formatted_lines'])
                 processed_song_list.append(curr_song)
                 continue
             processed_song = process_song(curr_song, task == edit_line_types, task == edit_formatted_lines)
