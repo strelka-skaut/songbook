@@ -1,207 +1,52 @@
 [
     {
-        "title": "1982",
-        "artist": "Vypsaná fixa",
-        "release_year": "1998"
-    },
-    {
-        "title": "Bedna od whisky",
-        "artist": "Miki Ryvola",
-        "release_year": "1991"
-    },
-    {
-        "title": "Divocí koně",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1984"
-    },
-    {
-        "title": "Dům u vycházejícího slunce",
-        "artist": "Jaromír Mayer",
-        "release_year": "1965"
-    },
-    {
-        "title": "Eldorádo",
-        "artist": "Waldemar Matuška",
-        "release_year": "1982"
-    },
-    {
-        "title": "Hercegovina",
-        "artist": "Tabor",
-        "release_year": "-1"
-    },
-    {
-        "title": "Hlupáku, najdu tě",
-        "artist": "Jaroslav Uhlíř",
-        "release_year": "1999"
-    },
-    {
-        "title": "Hudsonské šífy",
-        "artist": "Wabi Daněk",
-        "release_year": "1984"
-    },
-    {
-        "title": "Jacek",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1989"
-    },
-    {
-        "title": "Když mě brali za vojáka",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1982"
-    },
-    {
-        "title": "Kutil",
-        "artist": "Chinaski",
-        "release_year": "1999"
-    },
-    {
-        "title": "Let It Be",
-        "artist": "John Lennon",
-        "release_year": "1970"
-    },
-    {
-        "title": "Lilie",
+        "title": "Rada se miluje",
         "artist": "Karel Kryl",
-        "release_year": "1983"
+        "release_year": -1
     },
     {
-        "title": "Lokomotiva",
-        "artist": "Poletíme?",
-        "release_year": "2012"
+        "title": "Tou cestou",
+        "artist": "Klus",
+        "release_year": -1
     },
     {
-        "title": "Lásko!",
-        "artist": "Karel Kryl",
-        "release_year": "1970"
+        "title": "Valcik",
+        "artist": "Landa",
+        "release_year": -1
     },
     {
-        "title": "Medvědi nevědí",
-        "artist": "Ivan Mládek",
-        "release_year": "1976"
+        "title": "Protestsong",
+        "artist": "Landa",
+        "release_year": -1
     },
     {
-        "title": "Montgomery",
-        "artist": "Wabi Daněk",
-        "release_year": "2002"
+        "title": "Boulevard Of Broken Dreams",
+        "artist": "Diana Krall",
+        "release_year": "1996"
     },
     {
-        "title": "Mám jizvu na rtu",
-        "artist": "Jaromír Nohavica",
-        "release_year": "2007"
+        "title": "Dva",
+        "artist": "Zrni",
+        "release_year": -1
     },
     {
-        "title": "Na Kolena",
-        "artist": "Ivan Hlas",
-        "release_year": "1993"
+        "title": "Odpocinout",
+        "artist": "Kvety",
+        "release_year": -1
     },
     {
-        "title": "Na širém moři",
-        "artist": "Traband",
-        "release_year": "2000"
+        "title": "Osud",
+        "artist": "Jaromir Nohavica",
+        "release_year": -1
     },
     {
-        "title": "Petěrburg",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1994"
+        "title": "Panoptikum",
+        "artist": "Jaromir Nohavica",
+        "release_year": -1
     },
     {
-        "title": "Po schodoch",
-        "artist": "Vašo Patejdl",
-        "release_year": "1986"
-    },
-    {
-        "title": "Pocity",
-        "artist": "Tomáš Klus",
-        "release_year": "2017"
-    },
-    {
-        "title": "Podvod",
-        "artist": "Jan Nedvěd",
-        "release_year": "1991"
-    },
-    {
-        "title": "Povídej",
-        "artist": "Petr Novák",
-        "release_year": "1967"
-    },
-    {
-        "title": "Pověste ho vejš",
-        "artist": "Michal Tučný",
-        "release_year": "1983"
-    },
-    {
-        "title": "Proklinam",
-        "artist": "Janek Ledecký",
-        "release_year": "1994"
-    },
-    {
-        "title": "Růže z Texasu",
-        "artist": "Waldemar Matuška",
-        "release_year": "1965"
-    },
-    {
-        "title": "Stýskání",
-        "artist": "Bratři Ebenové",
-        "release_year": "1982"
-    },
-    {
-        "title": "Tři kříže",
-        "artist": "Hop Trop",
-        "release_year": "1993"
-    },
-    {
-        "title": "Variace na renesanční téma",
-        "artist": "Vladimír Mišík",
-        "release_year": "1980"
-    },
-    {
-        "title": "Velrybářská výprava",
-        "artist": "Pacifik",
-        "release_year": "1982"
-    },
-    {
-        "title": "Vodácká holka",
-        "artist": "Hop Trop",
-        "release_year": "2000"
-    },
-    {
-        "title": "Válečná",
-        "artist": "Tomáš Klus",
-        "release_year": "2008"
-    },
-    {
-        "title": "Válka růží",
-        "artist": "Spirituál kvintet",
-        "release_year": "1985"
-    },
-    {
-        "title": "Vítr",
-        "artist": "Wabi Daněk",
-        "release_year": "1986"
-    },
-    {
-        "title": "Zatímco se koupeš",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1983"
-    },
-    {
-        "title": "Zkouška dospělosti",
-        "artist": "Karel Kryl",
-        "release_year": "1988"
-    },
-    {
-        "title": "Známka punku",
-        "artist": "Visací Zámek",
-        "release_year": "2005"
-    },
-    {
-        "title": "Zuzana",
-        "artist": "Tabor",
-        "release_year": "-1"
-    },
-    {
-        "title": "Zítra ráno v pět",
-        "artist": "Jaromír Nohavica",
-        "release_year": "1988"
+        "title": "To ta Helpa",
+        "artist": "taborova",
+        "release_year": -1
     }
 ]

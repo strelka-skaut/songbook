@@ -351,7 +351,7 @@ def process_song(song, use_existing_annotations, use_existing_formatted):
             else:
                 formatted_lines = format_annotated_lines([(parse_line_type(type_char), line) for type_char, line in song['annotated_lines']])
                 formatted_lines.insert(0, "\\begin{song}{}")
-                formatted_lines.insert(0, f"\\mysong{{{song['title']}}}{{{song['artist'] + ' ' + song['release_year']}}}{{}}")
+                formatted_lines.insert(0, f"\\mysong{{{song['title']}}}{{{song['artist'] + ' ' + str(song['release_year'])}}}{{}}")
                 formatted_lines.append("\\end{song}")
                 formatted_lines.append("\\pagebreak")
 

@@ -37,7 +37,6 @@ SUGGESTION_ITEM_SELECTORS = [
 TYPING_DELAY = 0.05  # seconds per keystroke
 PAGE_LOAD_TIMEOUT = 7  # max seconds to wait for homepage
 
-
 # --- Functions ---
 
 def create_driver(headless: bool = True):

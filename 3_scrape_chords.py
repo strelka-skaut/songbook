@@ -47,11 +47,12 @@ def load_metadata(path: str) -> List[Dict]:
 
 
 def save_output(path: str, data: List[Dict]):
+    breakpoint()
     with open(path, "r", encoding="utf-8") as input_file:
         existing_data = json.loads(input_file.read())
     existing_data.extend(data)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(existing_data, f, ensure_ascii=False, indent=2)
 
 
 # ---------- Browser setup ----------
