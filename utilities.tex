@@ -20,20 +20,22 @@
 \setlength\tabcolsep{0pt}
 \renewcommand{\arraystretch}{0.75}
 
-\NewDocumentCommand{\mysong}{mm+m}{%
+
+\makeatletter
+\NewDocumentCommand{\mysong}{mmm+m}{%
   \phantomsection
   \addcontentsline{toc}{subsection}{#1}
   \hspace{\leftpadding}
   \begin{tabularx}{\linewidth - \leftpadding - 0.5cm}{Xr} 
     \savecellbox{\fontsize{24}{24}\setmainfont{Larken Bold} \hyperref[content]{#1} %#1
-    } & \savecellbox{\ifthenelse{\boolean{showchords}}{$\text{\footnotesize \shortstack[r]{#3} }$}{}} \\ [-\rowheight]
-    %} & \savecellbox{\ifthenelse{\boolean{showchords}}{\footnotesize #3}{}} \\ [-\rowheight]
+    } & \savecellbox{\ifthenelse{\boolean{showchords}}{$\text{\footnotesize \shortstack[r]{#4} }$}{}} \\ [-\rowheight]
+    %} & \savecellbox{\ifthenelse{\boolean{showchords}}{\footnotesize #4}{}} \\ [-\rowheight]
     \printcellmiddle & \multirow[t]{2}{*}{\printcelltop} \\
-    %\fontsize{24}{24}\setmainfont{Larken Bold} #1 & \multirow[t]{2}{*}{\footnotesize #3} \\
-    \ifblank{#2}{}{\small #2 & \\ }
+    %\fontsize{24}{24}\setmainfont{Larken Bold} #1 & \multirow[t]{2}{*}{\footnotesize #4} \\
+    \ifblank{#2}{}{\small \trim@spaces{#2}\ifblank{#3}{}{, \trim@spaces{#3}} & \\ }
   \end{tabularx}
 }
-
+\makeatother
 
 \newcommand{\enablechords}{\setleadsheets{print-chords=true}}
 \newcommand{\disablechords}{\setleadsheets{print-chords=false}}
@@ -80,4 +82,4 @@
 
 \NewDocumentCommand{\solospace}{}{~~~}
 
-
+\NewDocumentEnvironment{hidden}{+b}{}{}

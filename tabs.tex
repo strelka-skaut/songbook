@@ -57,15 +57,15 @@
 
 \NewDocumentCommand{\setglobal}{mm}{\pgfmathparse{#2}\global\edef#1{\pgfmathresult}}
 
-\NewDocumentCommand{\tabdots}{}{
+\NewDocumentCommand{\tabdots}{O{1}O{\ldots}}{
   \setglobal{\barstart}{\totalbarcount * \barwidth}
   \setglobal{\beatstart}{\barstart}
 
-  \setglobal{\barcenter}{\barend + \barwidth * 0.5}
-  \draw  (\barcenter, 3.5 * \stringheight) node {\ldots};
-  \setglobal{\totalbarcount}{\totalbarcount + 1}
+  \setglobal{\barcenter}{\barend + \barwidth * 0.5 * #1}
+  \draw  (\barcenter, 3.5 * \stringheight) node {#2};
+  \setglobal{\totalbarcount}{\totalbarcount + #1}
   
-  \setglobal{\barstart}{\barend + \barwidth}
+  \setglobal{\barstart}{\barend + \barwidth * #1}
   \setglobal{\barend}{\barstart}
   \setglobal{\beatstart}{\barstart}
   \barline

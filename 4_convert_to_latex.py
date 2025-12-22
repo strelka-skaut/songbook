@@ -7,6 +7,9 @@ from pick import pick
 import json
 from slugify import slugify
 
+from watchdog.events import FileSystemEvent, FileSystemEventHandler
+from watchdog.observers import Observer
+
 ## User Input Handling ############################################################
 
 def format_all_songs():
@@ -21,7 +24,7 @@ class Command(Flag):
     RETRY_PREDICTION_IGNORING_CHANGES = auto()
     ABORT = auto()
 
-def present_to_user(content: str, filename: str = None) -> str:
+def present_to_user(content: str, filename: str = None, on_change = None) -> str:
     """
     Opens the given content in Vim for editing and returns the modified content.
     
@@ -45,6 +48,14 @@ def present_to_user(content: str, filename: str = None) -> str:
         tmp_file.write(content.encode('utf-8'))
         tmp_file.close()
 
+    class EventHandler(FileSystemEventHandler):
+        def on_any_event(self, event: FileSystemEvent) -> None:
+            on_change(file_path)
+
+    observer = Observer()
+    observer.schedule(EventHandler(), file_path, recursive=False)
+    observer.start()
+
     try:
         # Open Vim as a subprocess
         subprocess.run(['nvim', file_path])
@@ -53,6 +64,8 @@ def present_to_user(content: str, filename: str = None) -> str:
         with open(file_path, 'r', encoding='utf-8') as f:
             modified_content = f.read()
     finally:
+        observer.stop()
+        observer.join()
         # Clean up temporary file if used
         if not filename and os.path.exists(file_path):
             os.remove(file_path)
@@ -334,6 +347,15 @@ def format_line_annotations(line_annotations):
     return '\n'.join(output)
 
 
+def annotated_lines_to_song(annotated_lines):
+    formatted_lines = format_annotated_lines([(parse_line_type(type_char), line) for type_char, line in annotated_lines])
+    formatted_lines.insert(0, "\\begin{song}{}")
+    formatted_lines.insert(0, f"\\mysong{{{song['title']}}}{{{song['artist']}}}{{{str(song['release_year'])}}}{{}}")
+    formatted_lines.append("\\end{song}")
+    formatted_lines.append("\\pagebreak")
+    return "\n".join(formatted_lines)
+
+
 def process_song(song, use_existing_annotations, use_existing_formatted):
     while True:
         if use_existing_annotations and 'annotated_lines' in song:
@@ -342,7 +364,12 @@ def process_song(song, use_existing_annotations, use_existing_formatted):
             annotated_lines = predict_line_types(song['chords'].splitlines())
 
         if not use_existing_formatted: # don't need user input since we'll use the already stored formatting anyway
-            modified = present_to_user(format_line_annotations(annotated_lines))
+
+            def write_to_preview(annotated_file_name):
+                with open(annotated_file_name, "rt") as input_file:
+                    with open("songs/preview.tex", "wt") as output_file:
+                        output_file.write(annotated_lines_to_song([(parse_line_type(type_char), line) for type_char, line in [(line[0], line[4:]) for line in input_file.readlines()]]))
+            modified = present_to_user(format_line_annotations(annotated_lines), on_change=write_to_preview)
             song['annotated_lines'] = [(line[0], line[4:]) for line in modified.splitlines()]
 
         while True:
@@ -351,7 +378,7 @@ def process_song(song, use_existing_annotations, use_existing_formatted):
             else:
                 formatted_lines = format_annotated_lines([(parse_line_type(type_char), line) for type_char, line in song['annotated_lines']])
                 formatted_lines.insert(0, "\\begin{song}{}")
-                formatted_lines.insert(0, f"\\mysong{{{song['title']}}}{{{song['artist'] + ' ' + str(song['release_year'])}}}{{}}")
+                formatted_lines.insert(0, f"\\mysong{{{song['title']}}}{{{song['artist']}}}{{{str(song['release_year'])}}}{{}}")
                 formatted_lines.append("\\end{song}")
                 formatted_lines.append("\\pagebreak")
 
@@ -393,6 +420,7 @@ def process_song(song, use_existing_annotations, use_existing_formatted):
 def process_song_list():
     with open("song_with_chords.json") as input_file:
         songs = json.load(input_file)
+        songs.sort(key=lambda song: song['title'])
    
     prev_song = None
     index = 0
