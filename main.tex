@@ -127,10 +127,9 @@
 \input{tabs.tex}
 
 \input{toc.tex}
-
 \begin{document}
 
-\frontcover
+%\frontcover
 \newversetype{refren}
 \newversetype{deco}
 \setleadsheets{
@@ -157,33 +156,9 @@
   output-notation = {german}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Uncomment for song book %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{full.tex}
+\input{preview.tex}
+%\input{fullpreview.tex}
 
-\setboolean{showchords}{true}
-\setboolean{showoptionalchords}{false}
-\setboolean{iscompact}{false}
-\setgeometry
-
-
-\setboolean{showchords}{true}
-\setboolean{showoptionalchords}{false}
-\setboolean{iscompact}{false}
-\setgeometry
-\importsong{preview.tex}
-
-\setboolean{showchords}{true}
-\setboolean{showoptionalchords}{true}
-\setboolean{iscompact}{true}
-\setgeometry
-\importsong{preview.tex}
-
-
-\setboolean{showchords}{false}
-\setboolean{showoptionalchords}{false}
-\setboolean{iscompact}{false}
-\setgeometry
-\importsong{preview.tex}
-
-\subsectiontoc
 \end{document}
 

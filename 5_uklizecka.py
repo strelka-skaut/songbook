@@ -153,6 +153,14 @@ def order_songs():
     with open("song_order.json") as input_file:
         data = json.loads(input_file.read())
 
+    for existing_song in existing_songs:
+        with open(f"output/{existing_song}.pdf", "rb") as song_file:
+            page_count = len(list(PDFDocument(song_file).pages()))
+        if existing_song not in data:
+            data[existing_song] = {'page_count': page_count, 'order': len(data)}
+        else:
+            data[existing_song]['page_count'] = page_count
+
     present_to_user()
 
 def get_existing_song_list():
