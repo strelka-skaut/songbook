@@ -4,19 +4,38 @@
 \NewDocumentCommand{\up}{}{$\uparrow$~}
 \NewDocumentCommand{\down}{}{$\downarrow$~}
 
+\NewDocumentCommand{\rhythm}{omm}{#2$/$#3\IfNoValueTF{#1}{}{:~\parserhythm{#1}}}
 
-\NewDocumentCommand{\twofour}{}{2$/$4:~\down\noarrow\down\up}
-\NewDocumentCommand{\threefour}{}{3$/$4:~\down\noarrow\down\up\down\up}
-\NewDocumentCommand{\threefourstar}{}{3$/$4*:~\down\noarrow\noarrow\up\down\up}
-\NewDocumentCommand{\fourfour}{}{4$/$4:~\down\noarrow\down\up\noarrow\up\down\up}
-\NewDocumentCommand{\fourfourend}{}{4$/$4:~\down\noarrow\down\noarrow\down\noarrow\down\up}
-\NewDocumentCommand{\fourfourskip}{}{4$/$4:~\down\noarrow\noarrow\noarrow\down\noarrow\down\up}
+\NewDocumentCommand{\createrhythm}{m m m m}{%
+   \expandafter\NewDocumentCommand\csname #4\endcsname%
+   {s}%
+   {\IfBooleanTF{##1}{\rhythm{#1}{#2}}{\rhythm[#3]{#1}{#2}}}}
 
-\NewDocumentCommand{\fourfourstar}{}{4$/$4*}%:\down\noarrow\down\noarrow\down\up\down}
+\NewDocumentCommand{\parserhythm}{m}{%
+  \setsepchar{ }%
+  \readlist\rawitems{#1}%
+  \foreachitem\beat\in\rawitems{\IfStrEq{\beat}{u}{\noarrow\up}{%
+    \IfStrEq{\beat}{d}{\down\noarrow}{%
+      \IfStrEq{\beat}{V}{\down\up}{%
+        \IfStrEq{\beat}{x}{\noarrow\noarrow}{}}}}}}
+
+
+\createrhythm{1}{1}{d}      {oneone}  
+\createrhythm{2}{4}{d V}    {twofour}  
+\createrhythm{3}{4}{d V V}  {threefour}
+\createrhythm{3}{4}{d u V}  {threefourstar}
+\createrhythm{4}{4}{d V u V}{fourfour}
+\createrhythm{4}{4}{d x d V}{fourfourskip}
+\createrhythm{4}{4}{d d d V}{fourfourend}
+\createrhythm{4}{4}{d d d V}{fourfourstar}
+
+\createrhythm{6}{8}{d V V d d d} {sixeight}
+
+\createrhythm{8}{8}{d V V d d d d x}{eighteightvcelin}
+\createrhythm{8}{8}{d d d d d d d V}{eighteightlast}
+
 \NewDocumentCommand{\fourfourstarstar}{}{4$/$4:~\down\noarrow\noarrow\noarrow\down\noarrow\down\up}
 \newcommand{\fourfourstarstarstar}{4$/$4:~\down\noarrow\down\up\down\noarrow\down\noarrow}
-
-\NewDocumentCommand{\sixeight}{}{6$/$8:~\down\noarrow\down\up\down\up\down\noarrow\down\noarrow\down}
 
 \NewDocumentCommand{\eighteightpocity}{}{8$/$8:~\down\noarrow\noarrow\noarrow\down\noarrow\down\up ~(změna akordu) ~\down\up\down\noarrow\down\noarrow\down\up }
 
