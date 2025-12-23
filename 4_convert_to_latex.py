@@ -404,85 +404,76 @@ def process_song(song, use_existing_annotations, use_existing_formatted):
                 song.pop("formatted_lines", None)
                 return song
 
-def process_song_list():
-    with open("song_with_chords.json") as input_file:
-        songs = json.load(input_file)
-        songs.sort(key=lambda song: song['title'])
-   
-    prev_song = None
-    index = 0
-    song_count = len(songs)
- 
-    prev_title = ""
+
+def edit_song(song_list, index):
+    if index >= len(song_list):
+        return
+
     edit = "Format"
     edit_line_types = "Edit line annotations"
     edit_formatted_lines = "Edit formatted lines"
     skip = "Skip"
-    retry_previous = "Redo previous"
+    retry_previous = None
     stop = "Exit"
 
-    processed_song_list = []
-   
-    while len(songs) != 0:
-        curr_song = songs.pop(0)
-        prompt = f"[{index + 1}/{song_count}] {curr_song['title']} ({curr_song['artist']} {curr_song['release_year']}):"
 
-        retry_previous = f"Redo {prev_title}"
+    curr_song = song_list[index]
+    prev_song = None if index == 0 else song_list[index-1]
 
-        options = [edit, skip]
-        if prev_song is not None and False:
-            options.append(retry_previous)
-        if 'annotated_lines' in curr_song:
-            options.append(edit_line_types)
+    prompt = f"[{index + 1}/{len(song_list)}] {curr_song['title']} ({curr_song['artist']} {curr_song['release_year']}):"
+
+    if prev_song is not None:
+        retry_previous = f"Redo {prev_song['title']}"
+
+    options = [edit, skip]
+    if retry_previous is not None:
+        options.append(retry_previous)
+    if 'annotated_lines' in curr_song:
+        options.append(edit_line_types)
+    if 'formatted_lines' in curr_song:
+        options.append(edit_formatted_lines)
+    options.append(stop)
+    default_index = 0
+    if os.path.exists(f"songs/{slugify(curr_song['title'])}.tex"):
+        default_index = 1
+
+    # show formatted lines in preview if exists
+    if 'formatted_lines' in curr_song:
+        with open("songs/preview.tex", "w", encoding="utf-8") as preview_file:
+            preview_file.write(curr_song['formatted_lines'])
+
+    task, _ = pick(options, prompt, default_index = default_index, indicator=">")
+
+    if task == stop:
+        return None
+    if task == skip:
         if 'formatted_lines' in curr_song:
-            options.append(edit_formatted_lines)
-        options.append(stop)
-        default_index = 0
-        if os.path.exists(f"songs/{slugify(curr_song['title'])}.tex"):
-            default_index = 1
+            with open(f"songs/{slugify(curr_song['title'])}.tex", "wt", encoding="utf-8") as output_file:
+                output_file.write(curr_song['formatted_lines'])
+        return song_list, index + 1
+    if task in [edit, edit_line_types, edit_line_types, edit_formatted_lines]:
+        processed_song = process_song(curr_song, task == edit_line_types, task == edit_formatted_lines)
+        if 'formatted_lines' in processed_song:
+            with open(f"songs/{slugify(curr_song['title'])}.tex", "wt", encoding="utf-8") as output_file:
+                output_file.write(processed_song['formatted_lines'])
+        song_list[index] = processed_song 
+        output_song_list(song_list)
+        return song_list, index + 1
+    elif task == retry_previous:
+        return song_list, index - 1
 
-
-        # show formatted lines in preview if exists
-        if 'formatted_lines' in curr_song:
-            with open("songs/preview.tex", "w", encoding="utf-8") as preview_file:
-                preview_file.write(curr_song['formatted_lines'])
-
-        task, _ = pick(options, prompt, default_index = default_index, indicator=">")
-
-        if task == stop:
-            processed_song_list.append(curr_song)
-            processed_song_list.extend(songs)
-            break
-
-        if task in [edit, edit_line_types, edit_line_types, edit_formatted_lines, skip]:
-            prev_title = curr_song['title']
-            prev_song = curr_song
-            index += 1
-            if task == skip:
-                if 'formatted_lines' in curr_song:
-                    with open(f"songs/{slugify(curr_song['title'])}.tex", "wt", encoding="utf-8") as output_file:
-                        output_file.write(curr_song['formatted_lines'])
-                processed_song_list.append(curr_song)
-                continue
-            processed_song = process_song(curr_song, task == edit_line_types, task == edit_formatted_lines)
-            if 'formatted_lines' in processed_song:
-                with open(f"songs/{slugify(curr_song['title'])}.tex", "wt", encoding="utf-8") as output_file:
-                    output_file.write(processed_song['formatted_lines'])
-            processed_song_list.append(processed_song)
-            prev_song = curr_song
-
-        elif task == retry_previous:
-            index -= 1
-            tmp_list = []
-            while (tmp := processed_song_list.pop()) != prev_song and len(processed_song_list) != 0:
-                tmp_list.append(tmp)
-            processed_song_list.extend(tmp_list)
-            songs.insert(0, prev_song)
-            prev_title = ""
-            prev_song = None
-
+def output_song_list(data):
     with open("song_with_chords.json", "wt", encoding="utf-8") as output_file:
-        output_file.write(json.dumps(processed_song_list, indent=3, ensure_ascii=False))
+        output_file.write(json.dumps(data, indent=3, ensure_ascii=False))
+
+def process_song_list():
+    with open("song_with_chords.json") as input_file:
+        songs = json.load(input_file)
+        songs.sort(key=lambda song: song['title'])
+ 
+    song_index = 0
+    while (edit_result := edit_song(songs, song_index)) is not None:
+        songs, song_index = edit_result
 
 if __name__ == "__main__":
     process_song_list()
