@@ -7,9 +7,6 @@ from pick import pick
 import json
 from slugify import slugify
 
-from watchdog.events import FileSystemEvent, FileSystemEventHandler
-from watchdog.observers import Observer
-
 ## User Input Handling ############################################################
 
 def format_all_songs():
@@ -48,14 +45,6 @@ def present_to_user(content: str, filename: str = None, on_change = None) -> str
         tmp_file.write(content.encode('utf-8'))
         tmp_file.close()
 
-    class EventHandler(FileSystemEventHandler):
-        def on_any_event(self, event: FileSystemEvent) -> None:
-            on_change(file_path)
-
-    observer = Observer()
-    observer.schedule(EventHandler(), file_path, recursive=False)
-    observer.start()
-
     try:
         # Open Vim as a subprocess
         subprocess.run(['nvim', file_path])
@@ -64,8 +53,6 @@ def present_to_user(content: str, filename: str = None, on_change = None) -> str
         with open(file_path, 'r', encoding='utf-8') as f:
             modified_content = f.read()
     finally:
-        observer.stop()
-        observer.join()
         # Clean up temporary file if used
         if not filename and os.path.exists(file_path):
             os.remove(file_path)
@@ -205,7 +192,7 @@ def format_annotated_lines(lines):
     return output_lines
 
 def format_chord(chord, is_optional, is_special):
-    return "\\" + ('o' if is_optional else 'm') + f"chord{ '*' if is_special else ''}{{{chord}}}"
+    return "\\" + ('h' if is_optional else 'm') + f"chord{ '*' if is_special else ''}{{{chord}}}"
 
 def format_solo_line(line):
     chords = re.split("\\s", line)
