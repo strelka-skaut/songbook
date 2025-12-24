@@ -33,6 +33,11 @@
 
 
 
+  \NewDocumentCommand{\tabchord}{omm}{%
+    \IfNoValueTF{#1}{\barcomment{#2}}{\barcomment[#1]{#2}}%
+    \setchord{#3}
+  }
+
 % bar, barred frets, lines, command name, display name
 \NewDocumentCommand{\createchordcommand}{oommm}{%
   \expandafter\newcommand\csname chord#4\endcsname{%
@@ -75,6 +80,7 @@
 \createchordcommand{x,0,2,2,1,2}{AmSix}{Am6}	% \newcommand{\chordAmSix}{\chordbox{Am6}{x,0,2,2,1,2}}
 \createchordcommand{x,0,2,0,0,0}{AmNine}{Am9}	% \newcommand{\chordAmNine}{\chordbox{Am9}{x,0,2,0,0,0}}
 
+\createchordcommand[12]{12,15,14,12,13,12}{ahasverC}{C}	% \newcommand{\chordAmNine}{\chordbox{Am9}{x,0,2,0,0,0}}
 % A♯ / Bb
 
 \createchordcommand[1]{x,1,3,1,3,1}{Bflatseven}{B\flat7}	% \newcommand{\chordBflatseven}{\bchordbox[1]{B\flat7}{x,1,3,1,3,1}{1}}
@@ -174,6 +180,7 @@
 
 \createchordcommand[3]{3,3,5,5,5,3}{powerC}{C}	% \newcommand{\powerchordC}{\bchordbox[3]{C}{3,3,5,5,5,3}{3}}
 
+\createchordcommand[4]{4,4,6,6,5,4}{powerCsharpm}{Cm\sharp}	% \newcommand{\powerchordC}{\bchordbox[3]{C}{3,3,5,5,5,3}{3}}
 \createchordcommand[4]{4,4,6,6,6,4}{powerCsharp}{C\sharp}	% \newcommand{\powerchordC}{\bchordbox[3]{C}{3,3,5,5,5,3}{3}}
 \createchordcommand[7]{7,9,9,8,7,7}{powerB}{B}	% \newcommand{\powerchordC}{\bchordbox[3]{C}{3,3,5,5,5,3}{3}}
 \createchordcommand[5]{5,7,7,6,5,5}{powerA}{A}	% \newcommand{\powerchordC}{\bchordbox[3]{C}{3,3,5,5,5,3}{3}}

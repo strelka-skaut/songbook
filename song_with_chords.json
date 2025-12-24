@@ -316,6 +316,152 @@
       "formatted_lines": "\\mysong{1982}{Vypsaná fixa }{1998}{\\fourfourstraight}\n\\begin{song}{}\n  \\begin{optional}{hidden}\n     \\inlinechord{E} \\inlinechord{C} \\inlinechord{E} \\inlinechord{C#} \\solospace \\inlinechord{E} \\inlinechord{A} \\inlinechord{F#} \\inlinechord{H}\n  \\end{optional}\n\\begin{verse}\n   \\mchord{E}~Chlapeček \\mchord*{C}brečí, \\mchord{E}~nesmíš ho \\mchord{C#}hladit \\\\\n   \\mchord{E}Když ho budeš \\mchord{A}hladit, \\mchord{F#}tak ho můžeš \\mchord{H}zabít \\\\\n   \\hchord{E}~Seš víla \\hchord*{C}lipís, \\hchord{E}~máš bílý \\hchord{C#}auto \\\\\n   \\hchord{E}~Všechny nás \\hchord{A}vozíš a \\hchord{F#}to~máme \\hchord{H}za to \\\\\n   \\mchord{E}že~známe \\mchord*{C}hes lo\\mchord{E}, \\mchord{C#}   \\\\\n   \\mchord{E}že~známe \\mchord*{A}hes lo\\mchord{H}, \\mchord{F#}   \\\\\n   \\mchord{E}  \\mchord{F}~Lipís mi kája!\\mchord{E}  \\mchord{F} \n\\end{verse}\n\\begin{refren}\n   \\mchord*{E}~19 \\mchord*{D}82 \\mchord{G}~-- jsem malej emo a \\mchord{A}ty~jsi princezna \\\\\n   \\hchord*{E}~19 \\hchord*{D}82 \\hchord{G}~-- nejlepší pop art, led\\hchord{A}ňáček, kofola \\\\\n   \\hchord*{E}~19 \\hchord*{D}82 \\hchord{G}~-- brutální všechno, nej\\hchord{A}lepší vzpomínky \\\\\n   \\hchord*{E}~19 \\hchord*{D}82 \\hchord{G}~-- nejlepší nohy ma\\hchord{A}minky, maminky\n\\end{refren}\n  \\begin{optional}{solo}\n\\inlinechord{E} \\inlinechord{C} \\inlinechord{E} \\inlinechord{C#} \\solospace \\inlinechord{E} \\inlinechord{A} \\inlinechord{F#} \\inlinechord{H}\n\\end{optional}\n\\begin{verse}\n    \\goto{1.}\n\\end{verse}\n\\begin{refren}\n  1982\\ldots \\instruction{3x pak do ztracená}\n\\end{refren}\n\\end{song}\n\\begin{chords}\n  \\chordpowerE \\chordpowerC \\chordpowerCsharp \\chordpowerA \\chordpowerH\n\\end{chords}\n\\pagebreak\n"
    },
    {
+      "title": "Ahasvér",
+      "artist": "Cermaque",
+      "release_year": "2022",
+      "url": null,
+      "chords": "",
+      "annotated_lines": [
+         [
+            "c",
+            "   C"
+         ],
+         [
+            "v",
+            "1.  Dech, co vítr bere mi"
+         ],
+         [
+            "c",
+            "   Em                           F Am"
+         ],
+         [
+            " ",
+            "    strhnul v dálce pásy střech "
+         ],
+         [
+            "e",
+            "   "
+         ],
+         [
+            "v",
+            "1. Chvěju se jak theremin"
+         ],
+         [
+            " ",
+            "   Hluboko se páře šev"
+         ],
+         [
+            "e",
+            "   "
+         ],
+         [
+            "v",
+            "1. Tady všude už jsem byl"
+         ],
+         [
+            " ",
+            "   Tady už jsem ztrácel krev"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "c",
+            "     C           E"
+         ],
+         [
+            "R",
+            "R. |: Jsem unavený"
+         ],
+         [
+            "c",
+            "             G"
+         ],
+         [
+            " ",
+            "   Ale ještě nesmím"
+         ],
+         [
+            "c",
+            "               Cmi"
+         ],
+         [
+            " ",
+            "   nebo nechci domů :|"
+         ],
+         [
+            " ",
+            "   "
+         ],
+         [
+            "v",
+            "1. Mění se mi podnebí"
+         ],
+         [
+            " ",
+            "   Nemění se jen ten řev "
+         ],
+         [
+            " ",
+            "   "
+         ],
+         [
+            "v",
+            "1. Který mi zní v podlebí"
+         ],
+         [
+            " ",
+            "   i když za vše cítím vděk "
+         ],
+         [
+            " ",
+            "   "
+         ],
+         [
+            "v",
+            "1. Ahasvér se zašklebil"
+         ],
+         [
+            " ",
+            "   a dřív, než se skácel, řek: "
+         ],
+         [
+            " ",
+            "   "
+         ],
+         [
+            "v",
+            "1. Tady všude už jsem byl"
+         ],
+         [
+            " ",
+            "   Tady už jsem ztrácel krev "
+         ],
+         [
+            " ",
+            "   "
+         ],
+         [
+            "r",
+            "R. Jsem unavený"
+         ],
+         [
+            " ",
+            "   Ale ještě nechci"
+         ],
+         [
+            " ",
+            "   ještě nechci"
+         ],
+         [
+            " ",
+            "   domů"
+         ]
+      ],
+      "formatted_lines": "\\mysong{Ahasvér}{Cermaque}{2022}{\\eighteightlast}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{C}~Dech, co vítr bere mi\\mchord{Em}~strhnul v dálce pásy střech \\mchord{F}  \\mchord{Am}  \n\\end{verse}\n\\begin{verse}\n   Chvěju se jak theremin \n   Hluboko se páře šev\n\\end{verse}\n\\begin{verse}\n   Tady všude už jsem byl \n   Tady už jsem ztrácel krev\n\\end{verse}\n\\begin{refren}\n   |:\\mchord{F}~Jsem unaven\\mchord{E}ý~ale ještě \\mchord{G}nesmím \n   nebo nechci \\mchord{Cmi}domů :| \n   \n\\end{refren}\n\\begin{verse}\n   Mění se mi podnebí \n   Nemění se jen ten řev  \n\\end{verse}\n\\begin{verse}\n   Který mi zní v podlebí \n   i když za vše cítím vděk  \n\\end{verse}\n\\begin{verse}\n   Ahasvér se zašklebil \n   a dřív, než se skácel, řek:  \n\\end{verse}\n\\begin{verse}\n   Tady všude už jsem byl \n   Tady už jsem ztrácel krev  \n\\end{verse}\n\\begin{refren}\n   Jsem unavený \n   Ale ještě nechci \n   ještě nechci \n   domů\n\\end{refren}\n\\end{song}\n  \\pgfkeys{/chordbox/numfrets=8}\n\\begin{chords}\n  \\bchordbox[1]{F}{5,8,7,5,6,5}{5}\n  \\chordE\n  \\chordbox{G*}{0,5,5,4,0,0}\n  \\bchordbox[1]{Cm}{x,3,5,5,4,3}{3}\n\\end{chords}\n  \\pgfkeys{/chordbox/numfrets=4}\n\\begin{tab}\n\n  \\begin{tabbar}{2}{4}\n    \\tabchord{C}{x,x,10,x,13,12}\n    \\tabbeat*{ , ,0, , ,0}\n    \\tabbeat*{ , ,0, , , }\n    \\tabbeat*{ , ,0, ,0, }\n    \\tabbeat*{ , ,0, , , }\n  \\end{tabbar}\n  \\tabdots[1][\\small\\textit{4x}]\n  \\begin{tabbar}{2}{4}\n    \\tabchord{E}{x,x,9,x,12,12}\n    \\tabbeat*{ , ,0, , ,0}\n    \\tabbeat*{ , ,0, , , }\n    \\tabbeat*{ , ,0, ,0, }\n    \\tabbeat*{ , ,0, , , }\n  \\end{tabbar}\n  \\tabdots[1][\\small\\textit{4x}]\n  \\begin{tabbar}{2}{4}\n    \\tabchord{F}{5,8,7,5,6,5}\n    \\tabbeat*{ ,0, , , ,0}\n    \\tabbeat*{ ,0, , , , }\n    \\tabbeat*{ ,0, , ,0, }\n    \\tabbeat*{ ,0, , , , }\n  \\end{tabbar}\n  \\tabdots[1][\\small\\textit{4x}]\n  \\begin{tabbar}{2}{4}\n    \\tabchord{Am}{5,7,7,5,5,5}\n    \\tabbeat*{ ,0, , , ,0}\n    \\tabbeat*{ ,0, , , , }\n    \\tabbeat*{ ,0, , ,0, }\n    \\tabbeat*{ ,0, , , , }\n  \\end{tabbar}\n  \\tabdots*[1][\\small\\textit{4x}]\n\n\n\n\n\n\n\\end{tab}\n\n\\pagebreak\n"
+   },
+   {
       "title": "Amazonka",
       "artist": "Hop Trop",
       "release_year": "2000",
@@ -2923,7 +3069,7 @@
             "   "
          ]
       ],
-      "formatted_lines": "\\mysong{Dům u vycházejícího slunce}{Jaromír Mayer }{1965}{4$/$4}\n\\begin{song}{}\n\\begin{verse}\n   Snad \\mchord{Ami}znáš~ten \\mchord{C}dům za \\mchord{D}New Or\\mchord{F}leans, \\\\\n   ve \\mchord{Ami}štítu \\mchord{C}znak slunce \\mchord{E7}má, \\\\\n   je to \\mchord{Ami}dům,~kde \\mchord{C}lká sto \\mchord{D}chlapců ubo\\mchord{F}hých \\\\\n   a v \\mchord{Ami}něm~jsem \\mchord{E7}zkejs' i \\mchord{Ami}já. \\mchord{C}   \\mchord{D}   \\mchord{F}   \\mchord{Ami}     \\mchord{E7}   \\mchord{Ami}     \\mchord{E} \n\\end{verse}\n\\begin{verse}\n   Matce mé dal Bůh věnem  //\n   jenom šít a prát blue jeans, \\\\\n   táta můj se flákal jen  //\n   sám po New Orleans.\n\\end{verse}\n\\begin{verse}\n   Bankrotář se zhroutil před hernou, \\\\\n   jenom bídu svou měl a chlast, \\\\\n   k putykám pak táh' svou pouť mizernou \\\\\n   a znal jenom pít a krást.\n\\end{verse}\n\\begin{verse}\n   Být mámou, dám svejm synům \\\\\n   lepší dům, než má kdo z vás, \\\\\n   ten dům, kde spím, má emblém sluneční, \\\\\n   a je v něm klid a mráz.\n\\end{verse}\n\\begin{verse}\n   Mít tak sílu obrů, //\n   pěstí vytrhnout tu mříž, \\\\\n   já sám bych šel do New Orleans //\n   a měl tak k slunci blíž.\n\\end{verse}\n\\end{song}\n\\begin{tab}\n  \\begin{tabbar}{2}{6}\n    \\tabchordAm\n    \\tabbeat*     { ,0, , , , }\n    \\tabbeat*[0.5]{ , ,0, , , }\n    \\tabbeat*[0.5]{ , , ,0, , }\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , , , ,0}\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , ,0, , }\n  \\end{tabbar}\n  \\begin{tabbar}{2}{6}\n    \\tabchordC\n    \\tabbeat*     { ,0, , , , }\n    \\tabbeat*[0.5]{ , ,0, , , }\n    \\tabbeat*[0.5]{ , , ,0, , }\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , , , ,0}\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , ,0, , }\n  \\end{tabbar}\n\\begin{tabbar}{2}{6}\n    \\tabchordD\n    \\tabbeat*     { , ,0, , , }\n    \\tabbeat*[0.5]{ , , ,0, , }\n    \\tabbeat*[1.5]{ , , , ,0, }\n    \\tabbeat*     { , , , , ,0}\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , ,0, , }\n  \\end{tabbar}\n\\begin{tabbar}{2}{6}\n    \\tabchordF\n    \\tabbeat*     {0, , , , , }\n    \\tabbeat*[0.5]{ , ,0, , , }\n    \\tabbeat*[0.5]{ , , ,0, , }\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , , , ,0}\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , ,0, , }\n  \\end{tabbar}\n\n\\end{tab}\n\\pagebreak\n"
+      "formatted_lines": "\\mysong{Dům u vycházejícího slunce}{Jaromír Mayer }{1965}{\\fourfour*}\n\\begin{song}{}\n\\begin{verse}\n   Snad \\mchord{Ami}znáš~ten \\mchord{C}dům za \\mchord{D}New Or\\mchord{F}leans, \\\\\n   ve \\mchord{Ami}štítu \\mchord{C}znak slunce \\mchord{E7}má, \\\\\n   je to \\mchord{Ami}dům,~kde \\mchord{C}lká sto \\mchord{D}chlapců ubo\\mchord{F}hých \\\\\n   a v \\mchord{Ami}něm~jsem \\mchord{E7}zkejs' i \\mchord{Ami}já. \\mchord{C}   \\mchord{D}   \\mchord{F}   \\mchord{Ami}     \\mchord{E7}   \\mchord{Ami}     \\mchord{E} \n\\end{verse}\n\\begin{verse}\n   Matce mé dal Bůh věnem  //\n   jenom šít a prát blue jeans, \\\\\n   táta můj se flákal jen  //\n   sám po New Orleans.\n\\end{verse}\n\\begin{verse}\n   Bankrotář se zhroutil před hernou, \\\\\n   jenom bídu svou měl a chlast, \\\\\n   k putykám pak táh' svou pouť mizernou \\\\\n   a znal jenom pít a krást.\n\\end{verse}\n\\begin{verse}\n   Být mámou, dám svejm synům \\\\\n   lepší dům, než má kdo z vás, \\\\\n   ten dům, kde spím, má emblém sluneční, \\\\\n   a je v něm klid a mráz.\n\\end{verse}\n\\begin{verse}\n   Mít tak sílu obrů, //\n   pěstí vytrhnout tu mříž, \\\\\n   já sám bych šel do New Orleans //\n   a měl tak k slunci blíž.\n\\end{verse}\n\\end{song}\n\\begin{tab}\n  \\begin{tabbar}{2}{6}\n    \\tabchordAm\n    \\tabbeat*     { ,0, , , , }\n    \\tabbeat*[0.5]{ , ,0, , , }\n    \\tabbeat*[0.5]{ , , ,0, , }\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , , , ,0}\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , ,0, , }\n  \\end{tabbar}\n  \\begin{tabbar}{2}{6}\n    \\tabchordC\n    \\tabbeat*     { ,0, , , , }\n    \\tabbeat*[0.5]{ , ,0, , , }\n    \\tabbeat*[0.5]{ , , ,0, , }\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , , , ,0}\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , ,0, , }\n  \\end{tabbar}\n\\begin{tabbar}{2}{6}\n    \\tabchordD\n    \\tabbeat*     { , ,0, , , }\n    \\tabbeat*[0.5]{ , , ,0, , }\n    \\tabbeat*[1.5]{ , , , ,0, }\n    \\tabbeat*     { , , , , ,0}\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , ,0, , }\n  \\end{tabbar}\n\\begin{tabbar}{2}{6}\n    \\tabchordF\n    \\tabbeat*     {0, , , , , }\n    \\tabbeat*[0.5]{ , ,0, , , }\n    \\tabbeat*[0.5]{ , , ,0, , }\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , , , ,0}\n    \\tabbeat*     { , , , ,0, }\n    \\tabbeat*     { , , ,0, , }\n  \\end{tabbar}\n\n\\end{tab}\n\\pagebreak\n"
    },
    {
       "title": "Eldorádo",
@@ -4162,6 +4308,60 @@
          ]
       ],
       "formatted_lines": "\\mysong{Hudsonské šífy}{Wabi Daněk }{1984}{\\fourfour}\n\\begin{song}{}\n\\begin{verse}\n   Ten kdo \\mchord{Ami}nezná hukot vody lopat\\mchord{C}kama vířený, \\\\\n   jako \\mchord{G}já, jó jako \\mchord{Ami}já, \\\\\n   kdo Hud\\mchord{Ami}sonský slapy nezná sírou \\mchord{G}pekla sířený, \\\\\n   ať se \\mchord{Ami}na~Hudsonský \\mchord{G}šífy najmout \\mchord{Ami}dá, \\mchord*{G}jo- ho-\\mchord{Ami}ho.\n\\end{verse}\n\\begin{verse}\n   \\ochord{Ami}Ten,~kdo nepřekládal uhlí, šíf když \\ochord{C}na~mělčinu vjel, \\\\\n   málo \\ochord{G}zná, málo \\ochord{Ami}zná, \\\\\n   ten, kdo \\ochord{Ami}neměl~tělo ztuhlý, až se nočním \\ochord{G}chladem chvěl, \\\\\n   ať se \\ochord{Ami}na~Hudsonský \\ochord{G}šífy najmout \\ochord{Ami}dá, \\ochord*{G}jo- ho-\\ochord{Ami}ho.\n\\end{verse}\n\\begin{refren}\n   \\mchord{F}Ahoj, páru tam \\mchord{Ami}hoď,~ať \\mchord{G}do~pekla se dříve dohra\\mchord{Ami}bem, \\\\\n   \\mchord*{G}jo- ho-\\mchord{Ami}ho, \\mchord*{G}jo- ho-\\mchord{Ami}ho.\n\\end{refren}\n\\begin{verse}\n   \\ochord{Ami}Ten,~kdo nezná noční zpěvy \\ochord{C}zarostenejch lodníků,  \\\\\n   jako \\ochord{G}já, jó jako \\ochord{Ami}já, \\\\\n   ten, \\ochord{Ami}kdo~cejtí se bejt chlapem, umí \\ochord{G}dělat rotyku, \\\\\n   ať se \\ochord{Ami}na~Hudsonský \\ochord{G}šífy najmout \\ochord{Ami}dá, \\ochord*{G}jo- ho-\\ochord{Ami}ho.\n\\end{verse}\n\\begin{verse}\n   \\ochord{Ami}Ten,~kdo má na bradě mlíko, \\ochord{C}kdo se rumem neopil, \\\\\n   málo \\ochord{G}zná, jó málo \\ochord{Ami}zná, \\\\\n   kdo \\ochord{Ami}necejtil hrůzu z vody, kde se \\ochord{G}málem utopil, \\\\\n   ať se \\ochord{Ami}na~Hudsonský \\ochord{G}šífy najmout \\ochord{Ami}dá, \\ochord*{G}jo- ho-\\ochord{Ami}ho.\n\\end{verse}\n\\begin{refren}\n   \\mchord{F}Ahoj, páru tam \\mchord{Ami}hoď,~ať \\mchord{G}do~pekla se dříve dohra\\mchord{Ami}bem, \\\\\n   \\mchord*{G}jo- ho-\\mchord{Ami}ho, \\mchord*{G}jo- ho-\\mchord{Ami}ho.\n\\end{refren}\n\\begin{verse}\n   Kdo~má \\mchord{Ami}roztrhaný boty, kdo má \\mchord{C}pořád jenom hlad, \\\\\n   jako \\mchord{G}já, jó jako \\mchord{Ami}já, \\\\\n   kdo chce~\\mchord{Ami}celý~noci čuchat pekel\\mchord{G}nýho vohně smrad, \\\\\n   ať se \\mchord{Ami}na~Hudsonský \\mchord{G}šífy najmout \\mchord{Ami}dá, \\mchord*{G}jo- ho-\\mchord{Ami}ho.\n\\end{verse}\n\\begin{verse}\n   \\ochord{Ami}Kdo~chce zhebnout třeba zejtra, \\ochord{C}komu je to všechno fuk, \\\\\n   kdo je \\ochord{G}sám, jó jako \\ochord{Ami}já, \\\\\n   kdo \\ochord{Ami}má~srdce v správným místě, kdo je \\ochord{G}prostě príma kluk, \\\\\n   ať se \\ochord{Ami}na~Hudsonský \\ochord{G}šífy najmout \\ochord{Ami}dá, \\ochord*{G}jo- ho-\\ochord{Ami}ho.\n\\end{verse}\n\\begin{refren}\n   \\mchord{F}Ahoj, páru tam \\mchord{Ami}hoď,~ať \\mchord{G}do~pekla se dříve dohra\\mchord{Ami}bem, \\\\\n   \\mchord*{G}jo- ho-\\mchord{Ami}ho, \\mchord*{G}jo- ho-\\mchord{Ami}ho. \\\\\n   \\mchord*{G}jo- ho-\\mchord{Ami}ho, \\mchord*{G}jo- ho-\\mchord{Ami}ho.\n\\end{refren}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
+      "title": "Hvězdičky dobrou noc",
+      "artist": "Parma Band",
+      "release_year": "",
+      "url": "https://pisnicky-akordy.cz/lidove-pisne/hvezdicky-dobrou-noc",
+      "chords": "   G                      D7        G\n1. Hvězdičky, dobrou noc, já už jdu spát,\n                          D7        G\n   hvězdičky, dobrou noc, já už jdu spát.\n   D                          D7\n   Vy za mě hlídejte, ublížit nedejte,\n   G                D7         G\n   panence mé milé, kterou mám rád.\n\n2. Stříbrný měsíčku na nebíčku,\n   stříbrný měsíčku na nebíčku,\n   dej za mě mé milé, panence rozmilé,\n   slaďounkou hubičku na dobrou noc.\n\n \n\n",
+      "annotated_lines": [
+         [
+            "v",
+            "1. Hvězdičky, dobrou noc, já už jdu spát,"
+         ],
+         [
+            " ",
+            "   hvězdičky, dobrou noc, já už jdu spát."
+         ],
+         [
+            " ",
+            "   Vy za mě hlídejte, hlídejte, "
+         ],
+         [
+            " ",
+            "   ublížit nedejte, nedejte,"
+         ],
+         [
+            " ",
+            "   panence mé milé, kterou mám rád."
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "v",
+            "2. Měsíčku stříbrný na nebíčku,"
+         ],
+         [
+            " ",
+            "   měsíčku stříbrný na nebíčku,"
+         ],
+         [
+            " ",
+            "   dej za mě mé milé, panence rozmilé, (WTF, nenasel jsem)"
+         ],
+         [
+            " ",
+            "   slaďounkou hubičku na dobrou noc."
+         ],
+         [
+            "e",
+            ""
+         ]
+      ],
+      "formatted_lines": "\\mysong{Hvězdičky dobrou noc}{}{}{}\n\\begin{song}{}\n\\begin{verse}\n   Hvězdičky, dobrou noc, já už jdu spát, \\\\\n   hvězdičky, dobrou noc, já už jdu spát. \\\\\n   Vy za mě hlídejte, hlídejte,  \\\\\n   ublížit nedejte, nedejte, \\\\\n   panence mé milé, kterou mám rád.\n\\end{verse}\n\\begin{verse}\n   Měsíčku stříbrný na nebíčku, \\\\\n   měsíčku stříbrný na nebíčku, \\\\\n   dej za mě mé milé, panence rozmilé, (WTF, nenasel jsem) \\\\\n   slaďounkou hubičku na dobrou noc.\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
    },
    {
       "title": "Hvězdář",
@@ -5614,6 +5814,140 @@
       "formatted_lines": "\\mysong{Jožin z bažin}{Ivan Mládek }{1977}{\\twofour}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{Emi}Jedu takhle tábořit \\mchord{H7}Škodou 100 \\mchord{Emi}na~Oravu, \\\\\n   spěchám proto, riskuji, \\mchord{H7}projíždím přes \\mchord{Emi}Moravu. \\\\\n   \\mchord{D7}Řádí tam to \\mchord{G}strašidlo, \\mchord{D7}vystupuje z \\mchord*{G}ba \\mchord{H7}žin, \\\\\n   \\mchord{Emi}žere hlavně Pražáky, \\mchord{H7}jmenuje se\\mchord*{Emi}~Jo-- \\mchord{D7}žin.\n\\end{verse}\n\\begin{refren}\n   \\mchord{G}Jožin z bažin močálem se \\mchord{D7}plíží, \\\\\n   Jožin z bažin k vesnici se \\mchord*{G}bl íží, \\\\ Jožin z bažin už si zuby \\mchord{D7}brousí, \\\\\n   Jožin z bažin kouše, saje, \\mchord{G}rdousí. \\\\\n   \\mchord{C}Na Jožina z \\mchord{G}bažin, \\mchord{D}koho by to napad\\mchord{G}lo, \\\\\n   \\mchord{C}platí jen a \\mchord{G}pouze \\mchord{D}práškovací letad\\mchord*{G}lo. \\mchord{H7}~\n\\end{refren}\n\\begin{verse}\n   \\ochord{Emi}Projížděl jsem dědinou \\ochord{H7}cestou na Vi\\ochord{Emi}zovice, \\\\\n   přivítal mě předseda, \\ochord{H7}řek' mi u sli\\ochord*{Emi}vov ice: \\\\\n    \\enquote{\\ochord{D7}Živého či \\ochord{G}mrtvého \\ochord{D7}Jožina kdo \\ochord*{G}př ive\\ochord*{H7}de , \\\\\n    \\ochord{Emi}tomu já dám za ženu \\ochord{H7}dceru a půl \\ochord*{Emi}Jé- Zé-\\ochord*{D7}Dé !}\n\\end{verse}\n\\begin{refren}\n  Jožin z bažin\\ldots\n\\end{refren}\n\\begin{verse}\n   \\mchord*{Emi}Říká m: \\enquote{Dej mi, předsedo, \\mchord{H7}letadlo a \\mchord*{Emi}prá šek, \\\\\n   Jožina ti přivedu, \\mchord{H7}nevidím v tom \\mchord*{Emi}háč ek.} \\\\\n   \\mchord{D7}předseda mi \\mchord{G}vyhověl, \\mchord{D7}ráno jsem se \\mchord*{G}vz ne\\mchord{H7}sl, \\\\\n   \\mchord{Emi}na~Jožina z letadla \\mchord{H7}prášek pěkně \\mchord*{Emi}kle-- \\mchord{D7}sl.\n\\end{verse}\n\\begin{refren}\n   \\mchord{G}Jožin z bažin už je celý \\mchord{D7}bílý, \\\\\n   Jožin z bažin z močálu ven \\mchord{G}pílí, \\\\\n   Jožin z bažin dostal se na \\mchord{D7}kámen, \\\\\n   Jožin z bažin---tady je s ním \\mchord{G}amen! \\\\\n   \\mchord{C}Jožina jsem \\mchord{G}dohnal, \\mchord{D}už ho držím, \\mchord*{G}johoho , \\\\\n   \\mchord{C}dobré každé \\mchord{G}lóve, \\mchord{D}prodám já ho do \\mchord{G}ZOO.\n\\end{refren}\n\n  \\begin{tab}\n    \\begin{tabbar}{3}{8}\n      \\tabchordEm\n      \\tabbeat*{ , ,0, , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabbeat*{ ,0, , , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabbeat*{ , ,0, , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabbeat*{ ,0, , , , }\n      \\tabbeat*{ , , ,0,0,0}\n    \\end{tabbar}\n    \\begin{tabbar}{3}{8}\n      \\tabchordHseven[2,1]\n      \\tabbeat*{ , ,0, , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabbeat*{ ,0, , , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabchordEm[2,2]\n      \\tabbeat*{ , ,0, , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabbeat*{ ,0, , , , }\n      \\tabbeat*{ , , ,0,0,0}\n    \\end{tabbar}\n    \\tabdots\n    \\begin{tabbar}{3}{8}\n      \\tabchordDseven[2,1][0,0,0,2,1,2]\n      \\tabbeat*{ , ,0, , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabbeat*{ ,0, , , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabchordG[2,2]\n      \\tabbeat*{ , ,0, , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabbeat*{ ,0, , , , }\n      \\tabbeat*{ , , ,0,0,0}\n    \\end{tabbar}\n    \\begin{tabbar}{3}{8}\n      \\tabchordDseven[2,1][0,0,0,2,1,2]\n      \\tabbeat*{ , ,0, , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabbeat*{ ,0, , , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabchordG[4,3]\n      \\tabbeat*{ , ,0, , , }\n      \\tabbeat*{ , , ,0,0,0}\n      \\tabchordHseven[4,4]\n      \\tabbeat*{ ,0, , , , }\n      \\tabbeat*{ , , ,0,0,0}\n    \\end{tabbar}\n  \\end{tab}\n\\end{song}\n\\pagebreak\n"
    },
    {
+      "title": "Junácká hymna",
+      "artist": "František Seraf Procházka a Karel Kovařovic",
+      "release_year": "1968",
+      "url": null,
+      "chords": "",
+      "annotated_lines": [
+         [
+            "v",
+            "1. Junáci, vzhůru volá den!"
+         ],
+         [
+            " ",
+            "   Luh květem kývá orosen,"
+         ],
+         [
+            " ",
+            "   sluníčko blankytem pílí,"
+         ],
+         [
+            " ",
+            "   před námi pouť vede k cíli."
+         ],
+         [
+            " ",
+            "   Junáci, vzhůru, volá den!"
+         ],
+         [
+            " ",
+            "   Junáci, vzhůru, volá den!"
+         ],
+         [
+            "v",
+            "5. Junáci, vzhůru, volá den!"
+         ],
+         [
+            " ",
+            "   Buď připraven, buď připraven!"
+         ],
+         [
+            " ",
+            "   V obraně dobra a krásy,"
+         ],
+         [
+            " ",
+            "   dožiješ vlasti své spásy."
+         ],
+         [
+            " ",
+            "   Junáci, vzhůru, volá den!"
+         ],
+         [
+            " ",
+            "   Buď připraven, buď připraven!"
+         ],
+         [
+            "v",
+            "2. Nás neomýlí nástraha,"
+         ],
+         [
+            " ",
+            "   je na stráži nám odvaha,"
+         ],
+         [
+            " ",
+            "   jsme silni svalem i duší,"
+         ],
+         [
+            " ",
+            "   jak růže krásný čin sluší."
+         ],
+         [
+            " ",
+            "   Nás neomýlí nástraha,"
+         ],
+         [
+            " ",
+            "   nás neomýlí nástraha."
+         ],
+         [
+            "v",
+            "3. A každý z nás vždy přímo stát,"
+         ],
+         [
+            " ",
+            "   a před nikým šíj neshýbat."
+         ],
+         [
+            " ",
+            "   Do očí pravdu a v pýše"
+         ],
+         [
+            " ",
+            "   jen vlast svou výše a výše."
+         ],
+         [
+            " ",
+            "   Tu každý z nás vždy duší stát!"
+         ],
+         [
+            " ",
+            "   Tu každý z nás vždy duší stát!"
+         ],
+         [
+            " ",
+            "   Hymna Lesní školy"
+         ],
+         [
+            "v",
+            "4. Chcem věrni zůstat také dál,"
+         ],
+         [
+            " ",
+            "   čím k lepšímu duch mladých vzplál,"
+         ],
+         [
+            " ",
+            "   poslušni vnitřního kynu,"
+         ],
+         [
+            " ",
+            "   muž budem krásného činu."
+         ],
+         [
+            " ",
+            "   Chcem věrni zůstat také dál!"
+         ],
+         [
+            " ",
+            "   Chcem věrni zůstat také dál!"
+         ]
+      ],
+      "formatted_lines": "\\mysong{Junácká hymna}{František Seraf Procházka a Karel Kovařovic}{1968}{}\n\\begin{song}{}\n\\begin{verse}\n   Junáci, vzhůru volá den! \\\\\n   Luh květem kývá orosen, \\\\\n   sluníčko blankytem pílí, \\\\\n   před námi pouť vede k cíli. \\\\\n   Junáci, vzhůru, volá den! \\\\\n   Junáci, vzhůru, volá den!\n\\end{verse}\n\\begin{verse}\n   Junáci, vzhůru, volá den! \\\\\n   Buď připraven, buď připraven! \\\\\n   V obraně dobra a krásy, \\\\\n   dožiješ vlasti své spásy. \\\\\n   Junáci, vzhůru, volá den! \\\\\n   Buď připraven, buď připraven!\n\\end{verse}\n\\end{song}\n"
+   },
+   {
       "title": "Když mě brali za vojáka",
       "artist": "Jaromír Nohavica",
       "release_year": "1982",
@@ -5955,7 +6289,7 @@
             "   "
          ]
       ],
-      "formatted_lines": "\\mysong{Knockin' On Heaven's Door}{Guns N' Roses }{1991}{\\fourfourstar}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{G}~Mama \\mchord{D}take this badge from \\mchord{Ami7}me \\\\\n   \\mchord{G}~I can't \\mchord{D}use it any\\mchord*{C}mo re \\\\\n   \\ochord{G}~It's getting \\ochord{D}dark, too dark to \\ochord{Ami7}see  \\\\\n   \\ochord{G}~Feels like I'm \\ochord{D}knockin' on heaven's d\\ochord*{C}oo r\n\\end{verse}\n\\begin{refren}\n   \\mchord{G}~Knock, knock, \\mchord{D}knockin' on heaven's \\mchord{Ami7}door, \\textit{Hey, hey, hey} \\\\\n   \\mchord{G}~Knock, knock, \\mchord{D}knockin' on heaven's \\mchord*{C}do or, \\\\\n   \\ochord{G}~Knock, knock, \\ochord{D}knockin' on heaven's \\ochord{Ami7}door, \\textit{ohhh yeah} \\\\\n   \\ochord{G}~Knock, knock, \\ochord{D}knockin' on heaven's \\ochord{C}door, \\textit{hey hey yeahh}\n\\end{refren}\n\\begin{deco}\n   Ohhhhh yeah yeah, Ohh yeah yeah \n\\end{deco}\n\\begin{verse}\n  \\mchord{G}~Mama \\mchord{D}put my guns in the \\mchord{Am7}ground \\\\\n   \\mchord{G}I can´t \\mchord{D}shoot them any \\mchord{C}more \\\\\n   That cold black cloud is comin down \\\\\n   Feels like I'm knockin' on heaven's door\n\\end{verse}\n\\begin{refren}\n  Knock, knock, knockin'\\ldots\\instruction{3x}\n\\end{refren}\n\\end{song}\n\\pagebreak\n"
+      "formatted_lines": "\\mysong{Knockin' On Heaven's Door}{Guns N' Roses }{1991}{\\fourfourstar*}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{G}~Mama \\mchord{D}take this badge from \\mchord{Ami7}me \\\\\n   \\mchord{G}~I can't \\mchord{D}use it any\\mchord*{C}mo re \\\\\n   \\ochord{G}~It's getting \\ochord{D}dark, too dark to \\ochord{Ami7}see  \\\\\n   \\ochord{G}~Feels like I'm \\ochord{D}knockin' on heaven's d\\ochord*{C}oo r\n\\end{verse}\n\\begin{refren}\n   \\mchord{G}~Knock, knock, \\mchord{D}knockin' on heaven's \\mchord{Ami7}door, \\textit{Hey, hey, hey} \\\\\n   \\mchord{G}~Knock, knock, \\mchord{D}knockin' on heaven's \\mchord*{C}do or, \\\\\n   \\ochord{G}~Knock, knock, \\ochord{D}knockin' on heaven's \\ochord{Ami7}door, \\textit{ohhh yeah} \\\\\n   \\ochord{G}~Knock, knock, \\ochord{D}knockin' on heaven's \\ochord{C}door, \\textit{hey hey yeahh}\n\\end{refren}\n\\begin{deco}\n   Ohhhhh yeah yeah, Ohh yeah yeah \n\\end{deco}\n\\begin{verse}\n  \\mchord{G}~Mama \\mchord{D}put my guns in the \\mchord{Am7}ground \\\\\n   \\mchord{G}I can´t \\mchord{D}shoot them any \\mchord{C}more \\\\\n   That cold black cloud is comin down \\\\\n   Feels like I'm knockin' on heaven's door\n\\end{verse}\n\\begin{refren}\n  Knock, knock, knockin'\\ldots\\instruction{3x}\n\\end{refren}\n\\end{song}\n\\pagebreak\n"
    },
    {
       "title": "Kometa",
@@ -9244,6 +9578,156 @@
       "formatted_lines": "\\mysong{Morituri te salutant}{Karel Kryl }{1969}{\\fourfourstarstarstar}\n\\begin{song}{}\n\\begin{optional}{hidden}\n   \\inlinechord{Ami} \\inlinechord{G} \\inlinechord{Ami}\n\\end{optional}\n\\begin{verse}\n   Cesta je \\mchord{Am}prach a \\mchord{G}šterk a \\mchord{Dmi}udusaná \\mchord{Ami}hlína \\\\\n   \\mchord{C}~a~šedé \\mchord{F}šmouhy \\mchord{G7}kreslí do vla\\mchord*{C}sů  \\\\\n   |: a z hvězdných \\mchord{Dmi}drah má \\mchord{G}šperk co \\mchord{C}kamením se \\mchord*{E}sp íná \\\\\n      \\mchord{Ami}~a~pírka \\mchord{G}touhy z \\mchord{Emi}křídel pega\\mchord{Ami}sů. :|\n\\end{verse}\n  \\begin{optional}{hidden}\n   \\inlinechord{Ami} \\inlinechord{G} \\inlinechord{Ami}\n\\end{optional}\n\\begin{verse}\n   Cesta je \\hchord{Ami}bič, je \\hchord{G}zlá jak \\hchord{Dmi}pouliční \\hchord{Ami}dáma,  \\\\\n   \\hchord{C}má v ruce \\hchord{F}štítky a \\hchord{G7}pase stanio\\hchord*{C}l,  \\\\\n   |: a z očí \\hchord{Dmi}chtíč jí \\hchord{G}plá, když \\hchord{C}háže do ne\\hchord*{E}zn áma, \\\\\n      \\hchord{Ami}dvě křehké \\hchord{G}snítky \\hchord{Emi}rudých gladi\\hchord{Ami}ol. :|\n\\end{verse}\n\\begin{refren}\n   \\mchord{G}~Seržante písek je bílý jak paže Daniely \\\\\n   \\mchord{Ami}~počkejte chvíli, mé oči uviděly, \\\\\n   \\mchord{G}~tu strašně dávnou vteřinu zapomnění, \\\\\n   \\mchord{Ami}~kolego mávnou\\mchord{G7}~a~budem zasvěceni. \\\\\n   \\mchord{Ami}~Morituri te salutant!\\mchord{E}~Morituri te salutant!\n\\end{refren}\n  \\begin{optional}{hidden}\n   \\inlinechord{Ami,} \\inlinechord{G,} \\inlinechord{Ami}\n\\end{optional}\n\\begin{verse}\n   Tou cestou \\hchord{Ami}dál~jsem \\hchord{G}šel, kde \\hchord{Dmi}na~zemi se \\hchord*{Ami}zmí tá \\\\\n   \\hchord{C}~a~písek \\hchord{F}víří \\hchord{G7}křídlo holu\\hchord*{C}bí . \\\\\n   |: A marš mi \\hchord{Dmi}hrál zvuk \\hchord{G}děl, co \\hchord{C}uklidnění \\hchord*{E}sk ýtá \\\\\n      \\hchord{Ami}~a~zvedá \\hchord{G}chmýří, \\hchord{Emi}které zahu\\hchord{Ami}bí. :|\n\\end{verse}\n\\begin{optional}{hidden}\n   \\inlinechord{Ami} \\inlinechord{G} \\inlinechord{Ami}\n\\end{optional}\n\\begin{verse}\n   Cesta je \\mchord{Ami}tér~a \\mchord{G}prach a \\mchord{Dmi}udusaná \\mchord{Ami}hlína, \\\\\n   \\mchord{C}mosazná \\mchord{F}včelka \\mchord{G7}od vlkodla\\mchord{C}ka. \\\\\n   |: Rezavý \\mchord{Dmi}kvér, můj \\mchord{G}prach a sto \\mchord{C}let stará \\mchord{E}špína \\\\\n      \\mchord{Ami}a~děsně \\mchord{G}velká \\mchord{Emi}bílá obla\\mchord{Ami}ka. :|\n\\end{verse}\n\\begin{refren}\n   \\mchord{G}~Seržante písek je bílý jak paže Daniely \\\\\n   \\mchord{Ami}~počkejte chvíli, mé oči uviděly, \\\\\n   \\mchord{G}~tu strašně dávnou vteřinu zapomnění, \\\\\n   \\mchord{Ami}~kolego mávnou\\mchord{G7}~a~budem zasvěceni. \\\\\n   \\mchord{Ami}~Morituri te salutant!\\mchord{E}~Morituri te salutant!\n\\end{refren}\n\\end{song}\n\\pagebreak\n"
    },
    {
+      "title": "Mravenci ukolebavka",
+      "artist": "Uhlíř a Svěrák",
+      "release_year": "2014",
+      "url": "https://pisnicky-akordy.cz/sverak-uhlir/mravenci-ukolebavka",
+      "chords": " F         C\nSlunce šlo spát\nDmi           C\nza hromádku klád\nF       B         C  C7\nna nebi hvězdy klíčí.\nF       C    Dmi        C\nUž nepracuj, mravenečku můj,\nF          B     C F\nschovej se do jehličí.\n\n   F   Gmi     Ami   B  (F)\nR: Máš nožičky uběhané,\n   F   Gmi      Ami  C\n   den byl tak těžký.\n   F     Gmi       Ami     B  (F)\n   Pojď, lůžko máš odestlané\n   F        B/C      F\n   v plátku od macešky.\n\nF         C\nSpinká a sní\nDmi          C\nmravenec lesní\nF          B      C   C7\nv hromádce u kapradí.\nF         C   Dmi            C\nNespinká sám, s maminkou je tam,\nF      B     C  F\ntykadlama ho hladí.\n \n   F        C   Dmi        C    F         Bmaj7  C   F\nR: Lá lá lá lá  Lálálá lá  lá   Lá lá lá   Lá lá lá  lá\n\n\n",
+      "annotated_lines": [
+         [
+            "c",
+            "    F         C"
+         ],
+         [
+            "V",
+            "1. Slunce šlo spát"
+         ],
+         [
+            "c",
+            "   Dmi           C"
+         ],
+         [
+            " ",
+            "   za hromádku klád"
+         ],
+         [
+            "c",
+            "   F       B         C  C7"
+         ],
+         [
+            " ",
+            "   na nebi hvězdy klíčí."
+         ],
+         [
+            "c",
+            "   F       C    Dmi        C"
+         ],
+         [
+            " ",
+            "   Už nepracuj, mravenečku můj,"
+         ],
+         [
+            "c",
+            "   F          B     C F"
+         ],
+         [
+            " ",
+            "   schovej se do jehličí."
+         ],
+         [
+            "e",
+            "   "
+         ],
+         [
+            "c",
+            "      F   Gmi     Ami   B  F"
+         ],
+         [
+            "R",
+            "   R: Máš nožičky uběhané,"
+         ],
+         [
+            "c",
+            "      F   Gmi      Ami  C"
+         ],
+         [
+            " ",
+            "      den byl tak těžký."
+         ],
+         [
+            "c",
+            "      F     Gmi       Ami     B  F"
+         ],
+         [
+            " ",
+            "      Pojď, lůžko máš odestlané"
+         ],
+         [
+            "c",
+            "      F        B/C      F"
+         ],
+         [
+            " ",
+            "      v plátku od macešky."
+         ],
+         [
+            "e",
+            "   "
+         ],
+         [
+            "c",
+            "   F         C"
+         ],
+         [
+            "v",
+            "1. Spinká a sní"
+         ],
+         [
+            "c",
+            "   Dmi          C"
+         ],
+         [
+            " ",
+            "   mravenec lesní"
+         ],
+         [
+            "c",
+            "   F          B      C   C7"
+         ],
+         [
+            " ",
+            "   v hromádce u kapradí."
+         ],
+         [
+            "c",
+            "   F         C   Dmi            C"
+         ],
+         [
+            " ",
+            "   Nespinká sám, s maminkou je tam,"
+         ],
+         [
+            "c",
+            "   F      B     C  F"
+         ],
+         [
+            " ",
+            "   tykadlama ho hladí."
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "c",
+            "      F        C   Dmi        C    F         Bmaj7  C   F"
+         ],
+         [
+            "R",
+            "   R: Lá lá lá lá  Lálálá lá  lá   Lá lá lá   Lá lá lá  lá"
+         ],
+         [
+            "e",
+            "   "
+         ],
+         [
+            "e",
+            "   "
+         ]
+      ],
+      "formatted_lines": "\\mysong{Mravenčí Ukolébavka}{Zdeněk Svěrák a Jaroslav Uhlíř}{2014}{\\threefour}\n\\begin{song}{}\n\\begin{verse}\n   S\\mchord{F}lunce šlo \\mchord{C}spát \\\\\n   \\mchord{Dmi}za~hromádku kl\\mchord{C}ád \\\\\n   \\mchord{F}na~nebi \\mchord{B}hvězdy klí\\mchord*{C}čí. \\mchord{C7}   \\\\\n   \\mchord{F}Už nepra\\mchord{C}cuj, \\mchord{Dmi}mravenečku \\mchord{C}můj, \\\\\n   \\mchord{F}schovej se \\mchord{B}do jeh\\mchord*{C}li \\mchord{F}čí.\n\\end{verse}\n\\begin{refren}\n   \\mchord{F}Máš \\mchord{Gmi}nožičky \\mchord*{Ami}uběhan \\mchord{B}é, \\mchord{F}  \\\\\n   \\mchord{F}den \\mchord{Gmi}byl~tak t\\mchord*{Ami}ěžký. \\mchord{C}  \\\\\n   \\mchord{F}Pojď, \\mchord{Gmi}lůžko~máš \\mchord*{Ami}odestl an\\mchord{B}é  \\mchord{F}  \\\\\n   \\mchord{F}v~plátku \\mchord*{B/C}od~mace šk\\mchord{F}y.\n\\end{refren}\n\\begin{verse}\n   \\hchord{F}Spinká a s\\hchord{C}ní \\\\\n   \\hchord{Dmi}mravenec lesn\\hchord{C}í \\\\\n   \\hchord{F}v~hromádce \\hchord{B}u kapra\\hchord{C}dí. \\hchord{C7}   \\\\\n   \\hchord{F}Nespinká s\\hchord{C}ám, \\hchord{Dmi}s~maminkou je t\\hchord{C}am, \\\\\n   \\hchord*{F}tyk adla\\hchord{B}ma~ho \\hchord*{C}hla \\hchord{F}dí.\n\\end{verse}\n\\begin{refren}\n   \\mchord{F}Lá~lá lá \\mchord{C}lá~ \\mchord{Dmi}Lálálá lá  \\mchord{C}lá~  \\mchord{F}Lá~lá lá  \\mchord{Bmaj7} Lá lá \\mchord{C}lá~ \\mchord{F}lá\n\\end{refren}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
       "title": "Mám jizvu na rtu",
       "artist": "Jaromír Nohavica",
       "release_year": "2007",
@@ -9620,6 +10104,116 @@
          ]
       ],
       "formatted_lines": "\\mysong{Mám jizvu na rtu}{Jaromír Nohavica }{2007}{\\fourfour}\n\\begin{song}{}\n%\\begin{solo}\n%\\inlinechord{C} \\inlinechord{G} \\inlinechord{Ami} \\inlinechord{F} \\inlinechord{C} \\inlinechord{G} \\inlinechord{Ami} \\inlinechord{F} \\inlinechord{C}\n%\\end{solo}\n\\begin{verse}\n   \\mchord{C}Jsem příliš starý na to abych věřil v revoluci, \\\\\n   \\mchord{G}a~svoji velkou hlavu těžko skryju pod kapucí. \\\\\n   \\mchord{Ami}A~nechutná mi když se \\mchord{F}vaří předvařená rýže,  \\\\\n   \\mchord{C}v~náprsní kapse nosím \\mchord{G}Ventinol na potíže.  \\\\\n   \\mchord{Ami}Jak~to tak vidím asi těžko projdu uchem jehly,  \\\\\n   \\mchord{F}a~lesem, běhám tak, a\\mchord{C}by~mě vlci nedoběhli. \\\\\n   \\mchord{Dmi}A~kdyby se někdo z vás \\mchord{F}na~anděla ptal,  \\\\\n   tak \\mchord{C}mám jizvu na rtu,\\mchord{G}~když při mně s\\mchord*{C}tál .\\mchord{G}   \\mchord{F}   \\mchord{G} \n\\end{verse}\n\\begin{verse}\n   \\hchord{C}Sako mám od popílku, na kravatě saze, \\\\\n   \\hchord{G}mé~hrubé prsty neumí uzly na provaze. \\\\\n   \\hchord{Ami}A~když mi občas tečou \\hchord{F}slzy, hned je polykám,  \\\\\n   \\hchord{C}a~tančím jen tak rychle, \\hchord{G}jak hraje muzika.  \\\\\n   \\hchord{Ami}Mé~oči mnohé viděly a ruce mnohé měly,  \\\\\n   \\hchord{F}a~srdce stydělo se, \\hchord{C}když salvy slávy zněly. \\\\\n   \\hchord{Dmi}A~kdyby se někdo z vás \\hchord{F}na~anděla ptal, \\\\\n   tak \\hchord{C}mám jizvu na rtu,\\hchord{G}~když při mně s\\hchord*{C}tál .\\hchord{G}   \\hchord{F}   \\hchord{G} \n\\end{verse}\n\n\\chordbreak\n\\nochordbreak\n\\compactbreak\n\n\\begin{verse}\n   \\hchord{C}Mluvil jsem s prezidenty, potkal jsem vrahy, \\\\\n   \\hchord{G}nahý jsem na svět přišel a odejdu nahý.  \\\\\n   \\hchord{Ami}V~patnácti viděl jsem jak \\hchord{F}kolem jely ruské tanky,    \\\\\n   \\hchord{C}a~v padesáti necháv\\hchord{G}al~si věštit od cikánky.  \\\\\n   \\hchord{Ami}A~dříve, než mě příjme svatý Petr u komise,  \\\\\n   \\hchord{F}básníkům české země \\hchord{C}chtěl bych uklonit se. \\\\\n   \\hchord{Dmi}A~kdyby se někdo z vás \\hchord{F}na~anděla ptal,  \\\\\n   tak \\hchord{C}mám jizvu na rtu,\\hchord{G}~když při mně s\\hchord*{C}tál .\\hchord{G}   \\hchord{F}   \\hchord{G} \n\\end{verse}\n\\begin{verse}\n   \\hchord{C}V~Paříži četl jsem si ruskou verzi l'Humanité,    \\\\\n   \\hchord{G}a~z bible zatím pochopil jen věty nerozvité. \\\\\n   \\hchord{Ami}V~New~Yorku chyt jsem koutek \\hchord{F}od~plastových lžiček, ale  \\\\\n   \\hchord{C}nejlepší káva je v \\hchord{G}Hypernově U Rybiček. \\\\\n   \\hchord{Ami}Trumfové eso v mariáši hážu do talónu,  \\\\\n   \\hchord{F}a~chtěl bych vidět Baník, \\hchord{C}jak poráží Barcelonu. \\\\\n   \\hchord{Dmi}A~kdyby se někdo z vás \\hchord{F}na~anděla ptal,  \\\\\n   tak \\hchord{C}mám jizvu na rtu,\\hchord{G}~když při mně s\\hchord*{C}tál .\\hchord{G}   \\hchord{F}   \\hchord{G} \n\\end{verse}\n\\begin{verse}\n   \\hchord{C}Někteří lidi mají fakt divné chutě, ale  \\\\\n   \\hchord{G}já~lásko má stále stejně miluju Tě.  \\\\\n   \\hchord{Ami}Když~hážeš bílé křeme\\hchord{F}náče na cibulku, \\\\\n   \\hchord{C}když zvedáš prst jako \\hchord{G}dirigentskou hůlku. \\\\\n   \\hchord{Ami}A~i~když mě to táhne tam a tebe občas jinam,  \\\\\n   \\hchord{F}na~špatné věci pro ty \\hchord{C}dobré zapomínám. \\\\\n   \\hchord{Dmi}A~kdyby se někdo z vás \\hchord{F}na~anděla ptal,  \\\\\n   %tak \\mchord{C}mám jizvu na rtu,\\mchord{G}~když při mně s\\mchord*{C}tál , on při mně stál \\mchord*{G}~ \\mchord*{F}~ \\mchord{G}  \\\\\n   %\\mchord{G}když při mě s\\mchord*{C}tál , on při mně stál\\mchord*{G}~ \\mchord*{F}~ \\mchord{G}~on při mě s\\mchord{C}tál.\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
+      "title": "Měla jsem já pejska",
+      "artist": "Traband",
+      "release_year": "2002",
+      "url": "https://pisnicky-akordy.cz/traband/mela-jsem-ja-pejska",
+      "chords": "             Ami                Gmi\nMěla jsem já pejska velkýho jak tele\n                 F                      E7\nKdyž se mnou šel po ulici, každej se ho bál\n            Ami             Gmi\nOn mi každý ráno vylez do postele\n            F                      E7\nPřitulil se ke mně a hřál mi nohy, hřál\nAmi\nJenomže můj starej, vožrala vožralej\nG\nvylízaná palice\nF\nzase neměl prachy a byl plonkovej\nE7\npropil pejska v putyce\nAmi\nNadělali řízky z mýho pejska\nGmi\naj aj aj aj aj\nF\nPaničce se stejská, strašně stejská\nE7\naj aj aj aj aj\n\n",
+      "annotated_lines": [
+         [
+            "c",
+            "                Ami                Gmi"
+         ],
+         [
+            "V",
+            "1. Měla jsem já pejska velkýho jak tele"
+         ],
+         [
+            "c",
+            "                    F                      E7"
+         ],
+         [
+            " ",
+            "   Když se mnou šel po ulici, každej se ho bál"
+         ],
+         [
+            "c",
+            "               Ami             Gmi"
+         ],
+         [
+            "v",
+            "1. On mi každý ráno vylez do postele"
+         ],
+         [
+            "c",
+            "               F                      E7"
+         ],
+         [
+            " ",
+            "   Přitulil se ke mně a hřál mi nohy, hřál"
+         ],
+         [
+            "c",
+            "   Ami"
+         ],
+         [
+            "R",
+            "R. Jenomže můj starej, vožrala vožralej"
+         ],
+         [
+            "c",
+            "   G"
+         ],
+         [
+            " ",
+            "   vylízaná palice"
+         ],
+         [
+            "c",
+            "   F"
+         ],
+         [
+            " ",
+            "   zase neměl prachy a byl plonkovej"
+         ],
+         [
+            "c",
+            "   E7"
+         ],
+         [
+            " ",
+            "   propil pejska v putyce"
+         ],
+         [
+            "c",
+            "   Ami"
+         ],
+         [
+            "V",
+            "1. Nadělali řízky z mýho pejska"
+         ],
+         [
+            "c",
+            "   Gmi"
+         ],
+         [
+            " ",
+            "   aj aj aj aj aj"
+         ],
+         [
+            "c",
+            "   F"
+         ],
+         [
+            " ",
+            "   Paničce se stejská, strašně stejská"
+         ],
+         [
+            "c",
+            "   E7"
+         ],
+         [
+            " ",
+            "   aj aj aj aj aj"
+         ],
+         [
+            "e",
+            "   "
+         ]
+      ],
+      "formatted_lines": "\\mysong{Měla jsem já pejska}{Traband}{2002}{1., 2.: \\parserhythm{V} rychle \\\\ \\textbf{R.}: \\parserhythm{d d d d}\\\\ 3.: \\parserhythm{d d d d d d d d}}\n\\begin{song}{}\n\\begin{verse}\n   Měla jsem já \\mchord{Ami}pejska velkýho jak \\mchord{Gmi}tele \\\\\n   Když se mnou šel \\mchord{F}po~ulici, \\\\ každej se ho \\mchord{E7}bál\n\\end{verse}\n\\begin{verse}\n   On mi každý \\hchord{Ami}ráno~vylez do po\\hchord{Gmi}stele \\\\\n   Přitulil se \\hchord{F}ke~mně \\\\ a hřál mi nohy, \\hchord{E7}hřál\n\\end{verse}\n\\begin{refren}\n   |: \\mchord{Ami}Jenomže můj starej, vožrala vožralej \n   \\mchord{G}vylízaná palice \\\\\n   \\mchord{F}zase neměl prachy a byl plonkovej  \\\\\n   \\mchord{E7}propil pejska v putyce :|\n\\end{refren}\n\\begin{verse}\n   \\mchord{Ami}Nadělali řízky z mýho pejska \n   \\mchord{Gmi}aj~aj~aj aj aj \\\\\n   \\mchord{F}Paničce se stejská, strašně stejská  \\\\\n   \\mchord{E7}aj~aj aj aj aj\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
    },
    {
       "title": "Na Kolena",
@@ -12000,6 +12594,96 @@
       "formatted_lines": "\\mysong{Pověste ho vejš}{Michal Tučný }{1983}{\\fourfour}\n\\begin{song}{}\n\\begin{deco}\n   Na dnešek jsem měl divnej sen: slunce pálilo a před saloonem \\\\\n   stál v prachu dav, v tvářích cejch očekávání. Uprostřed \\\\\n   popraviště z hrubých klád šerifův pomocník sejmul z hlavy \\\\\n   kápi a dav zašuměl překvapením. I já jsem zašuměl \\\\\n   překvapením: ten odsouzenec jsem byl já a šerif četl \\\\\n   neúprosným hlasem rozsudek:\n\\end{deco}\n\\begin{verse}\n   Pověste ho \\mchord{Emi}vejš,~ať se houpá, pověste ho \\mchord{G}vejš, ať má \\mchord{D}dost, \\\\\n   pověste ho \\mchord{Ami}vejš,~ať se \\mchord{Emi}houpá, že tu \\mchord{D}byl nezvanej \\mchord{Emi}host.\n\\end{verse}\n\\begin{verse}\n   Pov\\hchord{Emi}ěste~ho že byl jinej že tu s \\hchord{G}náma dejchal stejnej \\hchord{D}vzduch \\\\\n   po\\hchord{Ami}věste~ho, že byl \\hchord{Emi}línej~a tak \\hchord{D}trochu dobro\\hchord{Emi}druh.\n\\end{verse}\n\\begin{verse}\n   Po\\hchord{Emi}věste~ho za El Paso, za Snídani v \\hchord{G}trávě a Lodní \\hchord{D}zvon, \\\\\n   za to, že \\hchord{Ami}neoplýval \\hchord{Emi}krásou, \\\\\n   že měl \\hchord{C}country rád a že se \\hchord{H7}uměl smát i \\hchord{Emi}vám.\n\\end{verse}\n\\begin{refren}\n    Nad hla\\mchord{G}vou mi slunce \\mchord{D}pálí, konec \\mchord{Ami}můj~nic neod\\mchord*{G}dá \\mchord{D}lí, \\\\\n    do mých \\mchord{G}snů se dívám \\mchord{D}zdáli \\\\\n    a do \\mchord{Ami}uší~mi stále zní \\mchord{H7}tahle píseň poslední.\n\\end{refren}\n\\begin{verse}\n   Po\\mchord{Emi}věste~ho za tu banku, v který \\mchord{G}zruinoval svůj \\mchord{D}vklad, \\\\\n   za to,\\mchord{Ami}~že~nikdy nevydr\\mchord{Emi}žel~na \\mchord{D}jednom místě \\mchord{Emi}stát.\n\\end{verse}\n\\begin{solo}\n\\inlinechord{} \\inlinechord{} \\inlinechord{} \\inlinechord{} \\inlinechord{} \\inlinechord{Emi} \\inlinechord{} \\inlinechord{G} \\inlinechord{} \\inlinechord{D} \\inlinechord{} \\inlinechord{Ami} \\inlinechord{} \\inlinechord{Emi} \\inlinechord{} \\inlinechord{D} \\inlinechord{} \\inlinechord{Emi} \\inlinechord{}\n\\end{solo}\n\\begin{verse}\n   Pověste ho \\hchord{Emi}vejš,~ať se houpá, pověste ho \\hchord{G}vejš, ať má \\hchord{D}dost, \\\\\n   pověste ho \\hchord{Ami}vejš,~ať se \\hchord{Emi}houpá, že tu \\hchord{D}byl nezvanej \\hchord{Emi}host.\n\\end{verse}\n  \\begin{refren}\n    Nad hla\\mchord{G}vou mi slunce \\mchord{D}pálí, konec \\mchord{Ami}můj~nic neod\\mchord*{G}dá \\mchord{D}lí, \\\\\n    do mých \\mchord{G}snů se dívám \\mchord{D}zdáli \\\\\n    a do \\mchord{Ami}uší~mi stále zní \\mchord{H7}tahle píseň poslední.\n  \\end{refren}\n\\begin{verse}\n   Po\\hchord{Emi}věste~ho za tu jistou, který ne\\hchord{G}splnil svůj \\hchord{D}slib, \\\\\n   že byl \\hchord{Ami}zarputilým opti\\hchord{Emi}mistou, a tak \\hchord{D}dělal spoustu \\hchord{Emi}chyb\n\\end{verse}\n\\begin{verse}\n   Po\\hchord{Emi}věste~ho, že se koukal a že \\hchord{G}hodně jed a hodně \\hchord{D}pil, \\\\\n   že dal \\hchord{Ami}přednost jarním \\hchord{Emi}loukám \\\\\n    a pak se o\\hchord{C}ženil a pak se \\hchord{H7}usadil a \\hchord{Emi}žil\n\\end{verse}\n\\begin{verse}\n   $\\rightarrow$~~ 4  $\\rightarrow$~~ 5\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
    },
    {
+      "title": "Pražskej démon",
+      "artist": "Vítkovo kvarteto",
+      "release_year": "1995",
+      "url": "https://pisnicky-akordy.cz/vitkovo-kvarteto/prazskej-demon",
+      "chords": "       C#mi\nINTRO: \n\n\n   C#mi               A\n1. Kam jde ten blázen s tím černým futrálem?\n\nH               C#mi\nChodí tu kolem, je lehce uhlazen.\n\nC#mi             A\nVždy každý úterý před plotem postojí,\n\nH                   C#mi\npak na zahrádce keř ubohý\n\n2. Není to Verdi, ne Stradivari,\nne Paganini, jen nějakej bigbít.\nPřichází z Malešic, z tý čtvrti pochybný,\nna moji zahrádku nedbá nic.\n\n\n   C#mi        A         H               C#mi\nR: A je to on, je to on, pražskej démon, ten démon..\n\nC#mi      A         As\nJe to on, je to on, ten démon..\nA je to on, je to on, pražskej démon, ten démon..\nJe to on, je to on, ten démon..\nA je to on, je to on, pražskej démon, ten démon..\nJe to on, je to on, ten démon..\nA je to on, je to on, pražskej démon, ten démon..\nJe to on, je to on, ten démon..\n\n1. sloka repete\n\n2. sloka repete\n\nRef.: 5x\n\n",
+      "annotated_lines": [
+         [
+            "v",
+            "0. Cela pisnicka se hraje dvakrat"
+         ],
+         [
+            "c",
+            "   C#mi               A"
+         ],
+         [
+            "V",
+            "1. Kam jde ten blázen s tím černým futrálem?"
+         ],
+         [
+            "c",
+            "   H               C#mi"
+         ],
+         [
+            " ",
+            "   Chodí tu kolem, je lehce uhlazen."
+         ],
+         [
+            "c",
+            "   C#mi             A"
+         ],
+         [
+            " ",
+            "   Vždy každý úterý před plotem postojí,"
+         ],
+         [
+            "c",
+            "   H                   C#mi"
+         ],
+         [
+            " ",
+            "   pak na zahrádce keř ubohý"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "v",
+            "2. Není to Verdi, ne Stradivari,"
+         ],
+         [
+            " ",
+            "   ne Paganini, jen nějakej bigbít."
+         ],
+         [
+            " ",
+            "   Přichází z Malešic, z tý čtvrti pochybný,"
+         ],
+         [
+            " ",
+            "   na moji zahrádku nedbá nic."
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "c",
+            "      C#mi        A         H               C#mi"
+         ],
+         [
+            "R",
+            "R: |: A je to on, je to on, pražskej démon, ten démon"
+         ],
+         [
+            "c",
+            "   C#mi      A         As"
+         ],
+         [
+            " ",
+            "   Je to on, je to on, ten démon :| \\instruction{4x}"
+         ],
+         [
+            "e",
+            ""
+         ]
+      ],
+      "formatted_lines": "\\mysong{Pražskej démon}{Vítkovo kvarteto}{1995}{\\fourfour \\\\ \\textbf{R.}: \\fourfourstar }\n\\begin{song}{}\n  \\begin{solo}\n    \\textit{Celá písnička se hraje dvakrát}\n  \\end{solo}\n\\begin{verse}\n   \\mchord{C#mi}~Kam~jde ten blázen \\mchord{A}s~tím černým futrálem? \\\\\n   \\mchord{H}~Chodí tu kolem, je~lehce \\mchord{C#mi}uhlazen. \\\\\n   \\mchord{C#mi}~Vždy~každý úterý\\mchord{A}~před plotem postojí, \\\\\n   \\mchord{H}~pak na zahrádce keř \\mchord{C#mi}ubohý\n\\end{verse}\n\\begin{verse}\n   Není to Verdi, ne Stradivari, \\\\\n   ne Paganini, jen nějakej bigbít. \\\\\n   Přichází z Malešic, z tý čtvrti pochybný, \\\\\n   na moji zahrádku nedbá nic.\n\\end{verse}\n\\begin{refren}\n   |: \\mchord{C#mi}A~je~to on, je~to \\mchord{A}on, \\\\ \\mchord{H}pražskej démon, \\mchord{C#mi}ten~démon \\\\\n   \\mchord{C#mi}Je~to~on, je~to \\mchord{A}on, \\mchord{B#}ten démon :| \\instruction{4x}\n\\end{refren}\n\\end{song}\n\\begin{chords}\n  \\chordpowerCsharpm\n  \\chordpowerA\n  \\chordH\n\\end{chords}\n\\pagebreak\n"
+   },
+   {
       "title": "Proklinam",
       "artist": "Janek Ledecký",
       "release_year": "1994",
@@ -13918,6 +14602,132 @@
       "formatted_lines": "\\mysong{Severní vítr}{Jaroslav Uhlíř }{1981}{\\threefour}\n\\begin{song}{}\n\\begin{verse}\n   Jdu s \\mchord{C}děravou patou, mám \\mchord{Ami}horečku zlatou, \\\\\n   jsem \\mchord{F}chudý, jsem sláb, nemo\\mchord*{C}ce n. \\\\\n   Hlava mě pálí a v \\mchord{Ami}modravé dáli se \\mchord*{F}le skne \\\\\n   a \\mchord{G}třpytí můj \\mchord{C}sen.\n\\end{verse}\n\\begin{verse}\n   Kraj \\hchord{C}pod sněhem mlčí, tam \\hchord{Ami}stopy jsou vlčí,  \\\\\n   tam \\hchord{F}zbytečně budeš mi \\hchord*{C}ps át, \\\\\n   sám v dřevěné boudě sen \\hchord{Ami}o~zlaté hroudě \\\\\n   já \\hchord{F}nechám si \\hchord{G}tisíckrát \\hchord*{C}zd át.\n\\end{verse}\n\\begin{refren}\n   \\mchord{C}Severní \\mchord{C7}vítr je \\mchord{F}krutý, \\mchord{C}počítej lásko má s \\mchord{G}tím,  \\\\\n   k \\mchord{C}nohám Ti \\mchord{C7}dám zlaté \\mchord{F}pruty, nebo se \\mchord{C}vůbec \\mchord*{G}ne vrát\\mchord*{C}ím \\mchord{G} \n\\end{refren}\n\\begin{verse}\n   Tak \\hchord{C}zarůstám vousem a \\hchord{Ami}vlci už jdou sem, \\\\\n   už \\hchord{F}slyším je výt blíž a \\hchord*{C}bl íž. \\\\\n   Už mají mou stopu, už \\hchord{Ami}větří, že kopu \\\\\n   svůj \\hchord{F}hrob a že \\hchord{G}stloukám si \\hchord*{C}kř íž.\n\\end{verse}\n\\begin{verse}\n   Zde \\hchord{C}leží ten blázen, chtěl \\hchord{Ami}dům a chtěl bazén \\\\\n   a \\hchord{F}opustil tvou krásnou \\hchord*{C}tv ář. \\\\\n   Má plechovej hrnek a \\hchord{Ami}pár~zlatejch zrnek \\\\\n   a \\hchord{F}nad hrobem \\hchord{G}polární \\hchord*{C}zá ř. \\goto{\\textbf{R.}}\n\\end{verse}\n%\\begin{refren}\n%   \\hchord{C}Severní \\hchord{C7}vítr je \\hchord{F}krutý, \\hchord{C}počítej lásko má s \\hchord{G}tím,  \\\\\n%   k \\hchord{C}nohám Ti \\hchord{C7}dám zlaté \\hchord{F}pruty, nebo se \\hchord{C}vůbec \\hchord*{G}ne vrá\\hchord*{C}tí \\hchord*{G}m  \\\\\n%   k \\hchord{C}nohám Ti \\hchord{C7}dám zlaté \\hchord{F}pruty, nebo se \\hchord{C}vůbec \\hchord*{G}ne vrá\\hchord*{C}tí m\n%\\end{refren}\n\\end{song}\n\\pagebreak\n"
    },
    {
+      "title": "Skautská večerka",
+      "artist": "Antonín Benjamín Svojsík",
+      "release_year": "1968",
+      "url": null,
+      "chords": "",
+      "annotated_lines": [
+         [
+            "e",
+            "   "
+         ],
+         [
+            "v",
+            "1. Zapad den, slunce svit"
+         ],
+         [
+            " ",
+            "   vymizel z údolí, z temen hor,"
+         ],
+         [
+            " ",
+            "   odpočiň každý, kdos Boží tvor."
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "v",
+            "2. V lesa klín padl stín, hasne již vatry zář,"
+         ],
+         [
+            " ",
+            "   svatý mír kráčí z hor,"
+         ],
+         [
+            " ",
+            "   usíná Boží tvor."
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            " ",
+            "3. Hm\\ldots\\instruction{Brumendo}"
+         ],
+         [
+            "b",
+            "1. C'est la nui, tout se tail. "
+         ],
+         [
+            " ",
+            "   Sur la plaine, les collines. Et les bois."
+         ],
+         [
+            " ",
+            "   C'est la paix, tout es bien. Et Dieu vient."
+         ],
+         [
+            " ",
+            "    "
+         ],
+         [
+            "b",
+            "1. Day in one, gone thu sun. "
+         ],
+         [
+            " ",
+            "   From the sea, from the hills, from the sky."
+         ],
+         [
+            " ",
+            "   All is well, safely rest. God is nigh."
+         ],
+         [
+            " ",
+            "   "
+         ],
+         [
+            "b",
+            "1. Thanks and praise, for our day "
+         ],
+         [
+            " ",
+            "   'neath the sun, 'neath stars, 'neath sky."
+         ],
+         [
+            " ",
+            "   As we go, this we know: God is nigh."
+         ],
+         [
+            " ",
+            "   "
+         ],
+         [
+            "b",
+            "1. Durch die Nacht, tönet sacht. "
+         ],
+         [
+            " ",
+            "   Unser Lied, Friede zieht. Durch das Land."
+         ],
+         [
+            " ",
+            "   Alles ruht, Gotte Hand. Schütz uns gut."
+         ],
+         [
+            " ",
+            "   "
+         ],
+         [
+            "b",
+            "1. E'la sera tuto face"
+         ],
+         [
+            " ",
+            "   Lá nei boschi, sui monti. Nel piano,"
+         ],
+         [
+            " ",
+            "   Tutt'é pace, tutt'é bene. E Dio vieve."
+         ]
+      ],
+      "formatted_lines": "\\mysong{Skautská večerka}{Antonín Benjamín Svojsík}{1968}{}\n\\begin{song}{}\n\\begin{verse}\n   Zapad den, slunce svit \\\\\n   vymizel z údolí, z temen hor, \\\\\n   odpočiň každý, kdos Boží tvor.\n\\end{verse}\n\\begin{verse}\n   V lesa klín padl stín, hasne již vatry zář, \\\\\n   svatý mír kráčí z hor, \\\\\n   usíná Boží tvor.\n\\end{verse}\n\\begin{verse}\n   Hm\\ldots\\instruction{Brumendo}\n\\end{verse}\n\\begin{deco}\n   Durch die Nacht, tönet sacht.  \\\\\n   Unser Lied, Friede zieht. Durch das Land. \\\\\n   Alles ruht, Gotte Hand. Schütz uns gut. \n\\end{deco}\n\\begin{deco}\n   C'est la nui, tout se tail.  \\\\\n   Sur la plaine, les collines. Et les bois. \\\\\n   C'est la paix, tout es bien. Et Dieu vient. \n\\end{deco}\n  \\begin{deco}\n    Muere el sol, todo es paz. \\\\\n    De las aves, las canciones, cesan ya.  \\\\\n    Hasta a Dios se eleva la oración.\n  \\end{deco}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
       "title": "Slavíci z Madridu (Rossignol Anglais)",
       "artist": "Waldemar Matuška",
       "release_year": "1968",
@@ -14114,6 +14924,168 @@
          ]
       ],
       "formatted_lines": "\\mysong{Slavíci z Madridu}{Waldemar Matuška }{1968}{\\sixeight}\n\\begin{song}{}\n\\begin{solo}\n   |: \\mchord{Dmi}la~la la la la la la la\\ldots\\mchord{Ami}~~~ \\mchord{E}  \\mchord{Ami}   :|\n\\end{solo}\n\\begin{verse}\n   \\mchord{Ami}Nebe je modrý a \\mchord{E7}zlatý, bílá sluneční \\mchord{Ami}záře, \\\\\n   horko a sváteční \\mchord{E7}šaty, vřava a zpocený \\mchord{Ami}tváře, \\\\\n   vím, co se bude \\mchord{E7}dít, býk už se v ohradě \\mchord{Ami}vzpíná, \\\\\n   kdo chce, ten může \\mchord{E7}jít, já si dám sklenici \\mchord{Ami}vína. \\mchord{A} \n\\end{verse}\n\\begin{refren}\n   \\mchord{Dmi}Žízeň je veliká, \\mchord{Ami}život mi utíká, \\\\\n   \\mchord{E7}nechte mě příjemně \\mchord{Ami}snít, \\textit{ole!} \\\\\n   \\hchord{Dmi}ve~stínu pod fíky, \\hchord{Ami}poslouchat slavíky, \\\\\n   \\hchord{E7}zpívat si s nima a \\hchord{Ami}pít. \\textit{ole!}\n\\end{refren}\n\\begin{verse}\n   \\hchord{Ami}Ženy jsou krásný a \\hchord{E7}cudný, mnohá se ve mně \\hchord{Ami}zhlídla, \\\\\n   \\hchord{Ami}oči jako dvě studny, \\hchord{E7}vlasy jak havraní \\hchord{Ami}křídla, \\\\\n   \\hchord{Ami}dobře vím, co znamená, \\hchord{E7}pád do nástrah dívčího \\hchord{Ami}klína, \\\\\n   \\hchord{Ami}někdo má pletky \\hchord{E7}rád, já si dám sklenici \\hchord{Ami}vína. \\goto{\\textbf{R.}}\n\\end{verse}\n\\begin{verse}\n   \\hchord{Ami}Nebe je modrý a \\hchord{E7}zlatý, ženy krásný a \\hchord{Ami}cudný, \\\\\n   \\hchord{Ami}mantily, sváteční \\hchord{E7}šaty, oči jako dvě \\hchord{Ami}studny, \\\\\n   \\hchord{Ami}zmoudřel jsem stranou od \\hchord{E7}lidí, jsem jak ta zahrada \\hchord{Ami}stinná, \\\\\n   \\hchord{Ami}kdo chce, ať mi zá\\hchord{E7}vidí, já si dám sklenici \\hchord{Ami}vína. \\goto{\\textbf{R.}\\instruction{2x}}\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
+      "title": "Slunce za hory",
+      "artist": "",
+      "release_year": "",
+      "url": null,
+      "chords": "",
+      "annotated_lines": [
+         [
+            "c",
+            "   D                      A "
+         ],
+         [
+            "R",
+            "R: Slunce za hory zmizelo v dáli "
+         ],
+         [
+            "c",
+            "                       D "
+         ],
+         [
+            " ",
+            "   utichli ptáci usíná háj "
+         ],
+         [
+            "c",
+            "                         A "
+         ],
+         [
+            " ",
+            "   sedíme spolu šero nás halí "
+         ],
+         [
+            "c",
+            "                          D "
+         ],
+         [
+            " ",
+            "   písničko zazni a hudbo hraj "
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "c",
+            "                              A "
+         ],
+         [
+            "v",
+            "1. |: Vlevo a vpravo se kolíbáme "
+         ],
+         [
+            "c",
+            "                         D "
+         ],
+         [
+            " ",
+            "   vlevo a vpravo se kolíbem :|"
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "r",
+            "   R: Slunce za hory\\ldots"
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "c",
+            "      D                  A "
+         ],
+         [
+            "v",
+            "1. |: Nahoru dolů se kolíbáme "
+         ],
+         [
+            "c",
+            "                      D "
+         ],
+         [
+            " ",
+            "   nahoru dolů se kolíbem :|"
+         ],
+         [
+            " ",
+            "    "
+         ],
+         [
+            "r",
+            "   R: Slunce za hory\\ldots"
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "c",
+            "      D                    A "
+         ],
+         [
+            "v",
+            "1. |: Dopředu nazad se kolíbáme "
+         ],
+         [
+            "c",
+            "                        D "
+         ],
+         [
+            " ",
+            "   dopředu nazad se kolíbem :|"
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "r",
+            "   R: Slunce za hory\\ldots"
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "c",
+            "    D                    A "
+         ],
+         [
+            "v",
+            "1. Vlevo a vpravo se kolíbáme "
+         ],
+         [
+            "c",
+            "                      D "
+         ],
+         [
+            " ",
+            "   nahoru dolu se kolíbem "
+         ],
+         [
+            "c",
+            "                        A "
+         ],
+         [
+            " ",
+            "   dopředu nazad se kolíbáme "
+         ],
+         [
+            "c",
+            "                         D "
+         ],
+         [
+            " ",
+            "   vlevo a vpravo se kolíbem "
+         ]
+      ],
+      "formatted_lines": "\\mysong{Slunce za hory}{}{}{\\threefour}\n\\begin{song}{}\n\\begin{refren}\n   \\mchord{D}Slunce za hory zmizelo \\mchord{A}v~dáli  \\\\\n   utichli ptáci usíná \\mchord{D}háj  \\\\\n   sedíme spolu šero nás \\mchord{A}halí  \\\\\n   písničko zazni a hudbo \\mchord{D}hraj \n\\end{refren}\n\\begin{verse}\n   |: Vlevo a vpravo se kolíbá\\hchord{A}me  \\\\\n   vlevo a vpravo se kolí\\hchord{D}bem :|\n\\end{verse}\n\\begin{refren}\n   Slunce za hory\\ldots\n\\end{refren}\n\\begin{verse}\n   |: \\hchord{D}Nahoru dolů se kolí\\hchord{A}báme  \\\\\n   nahoru dolů se kolí\\hchord{D}bem :| \n\\end{verse}\n\\begin{refren}\n   Slunce za hory\\ldots\n\\end{refren}\n\\begin{verse}\n   |: \\hchord{D}Dopředu nazad se kolí\\hchord{A}báme  \\\\\n   dopředu nazad se kolí\\hchord{D}bem :|\n\\end{verse}\n\\begin{refren}\n   Slunce za hory\\ldots\n\\end{refren}\n\\begin{verse}\n   V\\hchord{D}levo a vpravo se kolí\\hchord{A}báme  \\\\\n   nahoru dolu se kolí\\hchord{D}bem  \\\\\n   dopředu nazad se kolí\\hchord{A}báme  \\\\\n   vlevo a vpravo se kolí\\hchord{D}bem \n\\end{verse}\n\\end{song}\n\\pagebreak\n"
    },
    {
       "title": "Stýskání",
@@ -14950,6 +15922,140 @@
       "formatted_lines": "\\mysong{Těšínská}{Jaromír Nohavica }{1994}{\\fourfourplucked \\\\ Nebo \\fourfour}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{Ami}Kdybych se narodil \\\\ \\mchord{Dmi}před sto lety\\mchord{F}  \\mchord{E}~v tomhle \\mchord*{Ami}měs tě,\\mchord{Dmi}~~~ \\mchord{F}  \\mchord{E}  \\mchord{Ami}    \\\\\n\t\\mchord{Ami}u~Larischů na zahradě \\\\ \\mchord{Dmi}trhal bych květy\\mchord{F}~~ \\mchord{E}své ne\\mchord*{Ami}věstě, \\mchord{Dmi}~~~ \\mchord{F}  \\mchord{E}  \\mchord{Ami}    \\\\\n   \\mchord{C}moje nevěsta by byla \\mchord{Dmi}dcera ševcova \\\\\n   z \\mchord{F}domu Kamiňskich \\mchord{C}odněkud ze Lvova, \\\\\n   kochal bym ja i \\mchord{Dmi}pieščil, c\\mchord*{F}hy \\mchord{E}ba lat d\\mchord*{Ami}wie ščie.\\mchord{Dmi}~~~ \\mchord{F}  \\mchord{E}  \\mchord{Ami}   \n\\end{verse}\n\\begin{verse}\n   Bydleli bychom na Sachsenbergu v domě u žida Kohna, \\\\\n   nejhezčí ze všech těšínských šperků byla by ona, \\\\\n   mluvila by polsky a trochu česky, \\\\\n   pár slov německy, a smála by se hezky, \\\\\n   jednou za sto let zázrak se koná, zázrak se koná.\n\\end{verse}\n\\begin{verse}\n   Kdybych se narodil před sto lety, byl bych vazačem knih \\\\\n   u Prohazků dělal bych od 5 do 5 a 7 zlatek za to bral bych, \\\\\n   měl bych krásnou ženu a tři děti, \\\\\n   zdraví bych měl a bylo by mi kolem třiceti, \\\\\n   celý dlouhý život před sebou, celé krásné dvacáté století.\n\\end{verse}\n\\chordbreak\n\\compactbreak\n\\begin{verse}\n  \\mchord{Am}Kdybych se narodil \\\\ \\mchord{Dm}před sto lety\\mchord{F} \\mchord{E}~v ji\\mchord{Am}načí době,\\mchord{Dm} \\mchord{F} \\mchord{E} \\mchord{Am} \\\\\n\t\\mchord{Ami}u~Larischů na zahradě \\\\ \\mchord{Dmi}trhal bych květy\\mchord{F}~~ \\mchord{E}má lásko \\mchord*{Ami}tobě, \\mchord{Dmi}~~~ \\mchord{F}  \\mchord{E}  \\mchord{Ami}    \\\\\n   \\mchord{C}tramvaj by jezdila \\mchord{Dm}přes řeku nahoru, \\\\\n   s\\mchord{F}lunce by zvedalo \\mchord{C}hraniční závoru \\\\\n   a z oken voněl by \\mchord{Dm}sváteční oběd\\mchord*{F}svá \\mchord{E}teční \\mchord{Am}oběd.\n\\end{verse}\n\\begin{verse}\n   Večer by zněla od Mojzese melodie dávnověká, \\\\\n   bylo by léto tisíc devět set deset, za domem by tekla řeka, \\\\\n   vidím to jako dnes: šťastného sebe, \\\\\n   ženu a děti a těšínské nebe, \\\\\n   ještě že člověk nikdy neví, co ho čeká, \\\\\n   \\mchord{Ami}na~na na\\ldots \\mchord{Dmi}~~~ \\mchord{F}  \\mchord{E}  \\mchord{Ami}~~~ \\mchord{Dmi}~~~ \\mchord{F}  \\mchord{E}  \\mchord{Ami}   \n\\end{verse}\n\\end{song}\n\\pagebreak\n"
    },
    {
+      "title": "Tři citrónky",
+      "artist": "Maxim Turbulenc",
+      "release_year": "2002",
+      "url": "https://pisnicky-akordy.cz/maxim-turbulenc/tri-citronky",
+      "chords": "    G       Emi    Ami  D7 G          Emi    Ami    D7\n1. V jedné mořské pustině ztroskotal parník v hlubině,\n   G         Emi  Ami   D7                 G\n   jenom tři malé citrónky zůstaly na hladině.\n\n\n     G         Emi       Ami      D7                      G\nRef: Rybaroba, Rybaroba, Rybaroba čuču... zůstaly na hladině.\n\n\n   G            Emi    Ami  D7  G        Emi    Ami  D7\n2. Jeden z nich povídá Přátelé, netvařte se tak kysele,\n   G           Emi   Ami  D7                   G\n   vždyť je to přece veselé, že nám patří moře celé. \n\n\n     G         Emi       Ami      D7                           G\nRef: Rybaroba, Rybaroba, Rybaroba čuču... že nám patří moře celé.\n    \n \n   G        Emi      Ami     D7   G          Emi      Ami    D7\n3. A tak se citrónky plavili dál, jeden jim k tomu na kytaru hrál,\n   G         Emi    Ami  D7               G\n   a tak se plavili do dáli, až na ostrov korálový.\n\n     G         Emi       Ami      D7                         G\nRef: Rybaroba, Rybaroba, Rybaroba čuču... až na ostrov korálový.\n\n   G           Emi    Ami    D7   G       Emi    Ami   D7\n4. Tam je však stihla nehoda zlá, byla to mořská příšera,\n   G       Emi      Ami D7                          G\n   sežrala citrónky i s kůrou, zakončila tak baladu mou.\n\n\n     G         Emi       Ami      D7                           G\nRef: Rybaroba, Rybaroba, Rybaroba čuču... zakončila tak baladu mou.\n     \n",
+      "annotated_lines": [
+         [
+            "c",
+            "     G     Emi    Ami  D7  G         Emi      Ami  D7"
+         ],
+         [
+            "V",
+            "1. V jedné mořské pustině ztroskotal parník v hlubině,"
+         ],
+         [
+            "c",
+            "   G         Emi  Ami   D7                 G"
+         ],
+         [
+            " ",
+            "   jenom tři malé citrónky zůstaly na hladině."
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "c",
+            "        G         Emi       Ami      D7"
+         ],
+         [
+            "R",
+            "Ref: |: Rybaroba, Rybaroba, Rybaroba čuču :| \\instruction{3x}"
+         ],
+         [
+            "c",
+            "                     G "
+         ],
+         [
+            " ",
+            "     zůstaly na hladině."
+         ],
+         [
+            "c",
+            "   G            Emi    Ami  D7  G        Emi    Ami  D7"
+         ],
+         [
+            "v",
+            "2. Jeden z nich povídá Přátelé, netvařte se tak kysele,"
+         ],
+         [
+            "c",
+            "   G           Emi   Ami  D7                   G"
+         ],
+         [
+            " ",
+            "   vždyť je to přece veselé, že nám patří moře celé. "
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "r",
+            "Ref: Rybaroba, Rybaroba, Rybaroba čuču\\ldots"
+         ],
+         [
+            "e",
+            " "
+         ],
+         [
+            "c",
+            "   G        Emi      Ami     D7   G          Emi      Ami    D7"
+         ],
+         [
+            "v",
+            "3. A tak se citrónky plavili dál, jeden jim k tomu na kytaru hrál,"
+         ],
+         [
+            "c",
+            "   G         Emi    Ami  D7               G"
+         ],
+         [
+            " ",
+            "   a tak se plavili do dáli, až na ostrov korálový."
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "r",
+            "Ref: Rybaroba, Rybaroba, Rybaroba čuču\\ldots"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "c",
+            "   G           Emi    Ami    D7   G       Emi    Ami   D7"
+         ],
+         [
+            "v",
+            "4. Tam je však stihla nehoda zlá, byla to mořská příšera,"
+         ],
+         [
+            "c",
+            "   G       Emi      Ami D7                          G"
+         ],
+         [
+            " ",
+            "   sežrala citrónky i s kůrou, zakončila tak baladu mou."
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "r",
+            "Ref: Rybaroba, Rybaroba, Rybaroba čuču\\ldots"
+         ],
+         [
+            " ",
+            "     \\ldots~ zakončila tak baladu mou."
+         ]
+      ],
+      "formatted_lines": "\\mysong{Tři citrónky}{Maxim Turbulenc}{2002}{\\twofourplucked}\n\\begin{song}{}\n\\begin{verse}\n   V \\mchord{G}jedné \\mchord{Emi}mořské \\mchord*{Ami}pusti \\mchord{D7}ně z\\mchord{G}troskotal \\mchord{Emi}parník v \\mchord*{Ami}hlubi \\mchord{D7}ně, \\\\\n   \\mchord{G}jenom tři \\mchord{Emi}malé \\mchord*{Ami}citrón \\mchord{D7}ky~zůstaly na hladi\\mchord{G}ně.\n\\end{verse}\n\\begin{refren}\n   |: \\mchord{G}Rybaroba, \\mchord{Emi}Rybaroba, \\mchord{Ami}Rybaroba \\mchord{D7}čuču :| \\instruction{3x} \\\\\n   zůstaly na hladi\\mchord{G}ně.\n\\end{refren}\n\\begin{verse}\n   \\hchord{G}Jeden z nich \\hchord{Emi}povídá \\hchord*{Ami}Přáte \\hchord{D7}lé, \\hchord{G}netvařte \\hchord{Emi}se~tak \\hchord*{Ami}kysel \\hchord{D7}e, \\\\\n   \\hchord{G}vždyť je to \\hchord{Emi}přece \\hchord*{Ami}vesel \\hchord{D7}é,~že nám patří moře \\hchord{G}celé. \n\\end{verse}\n\\begin{refren}\n   Rybaroba, Rybaroba, Rybaroba čuču\\ldots\n\\end{refren}\n\\begin{verse}\n   \\hchord{G}A~tak se \\hchord{Emi}citrónky \\hchord{Ami}plavili \\hchord{D7}dál, \\hchord{G}jeden jim k\\hchord{Emi}~tomu~na \\hchord{Ami}kytaru \\hchord{D7}hrál, \\\\\n   \\hchord{G}a~tak se p\\hchord{Emi}lavili \\hchord{Ami}do dá\\hchord{D7}li, až na ostrov \\hchord{G}korálový.\n\\end{verse}\n\\begin{refren}\n   Rybaroba, Rybaroba, Rybaroba čuču\\ldots\n\\end{refren}\n\\begin{verse}\n   \\hchord{G}Tam je však \\hchord{Emi}stihla \\hchord{Ami}nehoda \\hchord{D7}zlá, \\hchord{G}byla to \\hchord{Emi}mořská \\hchord*{Ami}příšer \\hchord{D7}a, \\\\\n   \\hchord{G}sežrala \\hchord{Emi}citrónky \\hchord{Ami}i s \\hchord{D7}kůrou, zakončila tak baladu \\hchord{G}mou.\n\\end{verse}\n\\begin{refren}\n   Rybaroba, Rybaroba, Rybaroba čuču\\ldots \\\\\n   \\ldots~ zakončila tak baladu mou.\n\\end{refren}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
       "title": "Tři kříže",
       "artist": "Hop Trop",
       "release_year": "1993",
@@ -15150,6 +16256,181 @@
          ]
       ],
       "formatted_lines": "\\mysong{Tři kříže}{Hop Trop }{1993}{\\fourfour}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{Dm}Dávám sbohem \\mchord{C}břehům prokla\\mchord{Ami}tejm, \\\\\n   který v \\mchord{Dm}spárech má \\mchord{C}ďábel \\mchord{Dm}sám. \\\\\n   \\mchord{Dm}Bílou přídí \\mchord{C}šalupa \\enquote{My \\mchord*{Ami}grav e} míří \\\\\n   \\mchord{Dm}k~útesům \\mchord{C}který \\mchord{Dm}znám.\n\\end{verse}\n\\begin{refren}\n   Jen tři \\mchord{F}kříže z \\mchord{C}bílýho kame\\mchord{Am}ní~někdo \\mchord{Dm}do~písku \\mchord*{C}pos klá\\mchord{Dm}dal. \\\\\n   Slzy \\mchord{F}v~očích měl a v \\mchord{C}ruce znave\\mchord{Am}ný, \\\\\n   lodní \\mchord{Dm}deník co \\mchord{C}sám do něj \\mchord{Dm}psal.\n\\end{refren}\n\\begin{verse}\n   První kříž má pod sebou jen hřích, \\\\\n   samý pití a rvačky jen. \\\\\n   Chřestot nožů, při kterých přejde smích, \\\\\n   srdce kámen a jméno \\enquote{Sten.}\n\\end{verse}\n\\begin{verse}\n   \\ochord{:}Já, Bob Green, mám tváře zjizvený, \\\\\n   štěkot psa zněl, když jsem se smál. \\\\\n   Druhej kříž mám a spím pod zemí, \\\\\n   že jsem falešný karty hrál.\n\\end{verse}\n\\begin{verse}\n   \\ochord{:}Třetí kříž snad vyvolá jen vztek, \\\\\n   Katy Rodgers těm dvoum život vzal. \\\\\n   Svědomí měl, vedle nich si klek\\ldots\n\\end{verse}\n\\begin{deco}\n   \\mchord{F}Snad se chtěl modlit: \\mchord{C}vím, trestat je \\mchord{Dm}lidský, \\\\\n   \\mchord{C}ale odpouštět je božský, ať \\mchord{Dm}mi~tedy Bůh odpustí.\\mchord{Ami}     \\mchord{Dm}  \n\\end{deco}\n\\begin{refren}\n   Jen tři \\mchord{F}kříže z \\mchord{C}bílýho kame\\mchord{Am}ní~jsem jim \\mchord{Dm}do~písku \\mchord*{C}pos klá\\mchord{Dm}dal. \\\\\n   Slzy \\mchord{F}v~očích měl a v \\mchord{C}ruce znave\\mchord{Am}ný, \\\\\n   lodní \\mchord{Dm}deník\\ldots ~a v \\mchord{C}něm co jsem \\mchord{Dm}psal. \\mchord{D} \n\\end{refren}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
+      "title": "Tři Čuníci",
+      "artist": "Jaromír Nohavica",
+      "release_year": "1991",
+      "url": "https://pisnicky-akordy.cz/jarek-nohavica/tri-cunici",
+      "chords": "   C\n1. V řadě za sebou tři čuníci jdou,\n                                  Ami\n   ťápají si v blátě cestou - necestou,\n   Dmi                      G\n   kufry nemají, cestu neznají,\n   Dmi                     G\n   vyšli prostě do světa a vesele si zpívají: uí uí uí ...\n\n\n2. Auta jezdí tam, náklaďáky sem,\n   tři čuníci jdou, jdou rovnou za nosem,\n   žito chřoupají, ušima bimbají, \n   vyšli prostě do světa a vesele si zpívají: uí uí uí ...\n\n\n3. Levá, pravá - teď!, přední, zadní - už!,\n   tři čuníci jdou, jdou jako jeden muž,\n   lidé zírají, důvod neznají,\n   proč ti malí čuníci tak vesele si zpívají: uí uí uí ...\n\n\n4. Když kopýtka pálí, když jim dojde dech,\n   sednou ke studánce na vysoký břeh,\n   kopýtka máchají, ušima bimbají, \n   chvilinku si odpočinou, a pak dál se vydají: uí uí uí ...\n\n\n5. Když se spustí déšť, roztrhne se mrak,\n   k sobě přitisknou se čumák na čumák,\n   blesky blýskají, kapky pleskají,\n   oni v dešti, v nepohodě vesele si zpívají: uí uí uí ...\n\n\n6. Za tu spoustu let, co je světem svět,\n   přešli zeměkouli třikrát tam a zpět\n   v řadě za sebou, hele, támhle jdou,\n   pojďme s nima zazpívat si jejich píseň veselou: uí uí uí ..\n\n",
+      "annotated_lines": [
+         [
+            "c",
+            "   C"
+         ],
+         [
+            "V",
+            "1. V řadě za sebou tři čuníci jdou,"
+         ],
+         [
+            "c",
+            "                                 Ami"
+         ],
+         [
+            " ",
+            "   ťápají si v blátě cestou necestou,"
+         ],
+         [
+            "c",
+            "   Dmi                      G"
+         ],
+         [
+            " ",
+            "   kufry nemají, cestu neznají,"
+         ],
+         [
+            "c",
+            "   Dmi                     G"
+         ],
+         [
+            " ",
+            "   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "v",
+            "2. Auta jezdí tam, náklaďáky sem,"
+         ],
+         [
+            " ",
+            "   tři čuníci jdou, jdou rovnou za nosem,"
+         ],
+         [
+            " ",
+            "   žito chřoupají, ušima bimbají, "
+         ],
+         [
+            " ",
+            "   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "v",
+            "3. Levá, pravá - teď!, přední, zadní - už!,"
+         ],
+         [
+            " ",
+            "   tři čuníci jdou, jdou jako jeden muž,"
+         ],
+         [
+            " ",
+            "   lidé zírají, důvod neznají,"
+         ],
+         [
+            " ",
+            "   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "v",
+            "4. Když kopýtka pálí, když jim dojde dech,"
+         ],
+         [
+            " ",
+            "   sednou ke studánce na vysoký břeh,"
+         ],
+         [
+            " ",
+            "   kopýtka máchají, ušima bimbají, "
+         ],
+         [
+            " ",
+            "   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots"
+         ],
+         [
+            " ",
+            "   chvilinku si odpočinou, a pak dál se vydají: uí uí uí\\ldots"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "c",
+            "   C"
+         ],
+         [
+            "v",
+            "5. Když se spustí déšť, roztrhne se mrak,"
+         ],
+         [
+            "c",
+            "                                   Ami"
+         ],
+         [
+            " ",
+            "   k sobě přitisknou se čumák na čumák,"
+         ],
+         [
+            "c",
+            "   Dmi                          G"
+         ],
+         [
+            " ",
+            "   blesky blýskají, kapky pleskají,"
+         ],
+         [
+            "c",
+            "   Dmi                     G"
+         ],
+         [
+            " ",
+            "   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "v",
+            "6. Za tu spoustu let, co je světem svět,"
+         ],
+         [
+            " ",
+            "   přešli zeměkouli třikrát tam a zpět"
+         ],
+         [
+            " ",
+            "   v řadě za sebou, hele, támhle jdou,"
+         ],
+         [
+            " ",
+            "   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots"
+         ],
+         [
+            "e",
+            ""
+         ]
+      ],
+      "formatted_lines": "\\mysong{Tři Čuníci}{Jaromír Nohavica}{1991}{\\fourfourplucked}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{C}V~řadě za sebou tři čuníci jdou, \\\\\n   ťápají si v blátě cestou neces\\mchord{Ami}tou, \\\\\n   \\mchord{Dmi}kufry~nemají, cestu nezna\\mchord{G}jí, \\\\\n   \\mchord{Dmi}vyšli~prostě do světa a \\mchord{G}vesele si zpívají: uí uí uí\\ldots\n\\end{verse}\n\\begin{verse}\n   Auta jezdí tam, náklaďáky sem, \\\\\n   tři čuníci jdou, jdou rovnou za nosem, \\\\\n   žito chřoupají, ušima bimbají,  \\\\\n   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots\n\\end{verse}\n\\begin{verse}\n   Levá, pravá -- teď!, přední, zadní -- už!, \\\\\n   tři čuníci jdou, jdou jako jeden muž, \\\\\n   lidé zírají, důvod neznají, \\\\\n   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots\n\\end{verse}\n\\begin{verse}\n   Když kopýtka pálí, když jim dojde dech, \\\\\n   sednou ke studánce na vysoký břeh, \\\\\n   kopýtka máchají, ušima bimbají,  \\\\\n   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots \\\\\n   chvilinku si odpočinou, a pak dál se vydají: uí uí uí\\ldots\n\\end{verse}\n\\chordbreak\n\\compactbreak\n\\begin{verse}\n   \\mchord{C}Když se spustí déšť, roztrhne se mrak, \\\\\n   k sobě přitisknou se čumák na ču\\mchord{Ami}mák, \\\\\n   \\mchord{Dmi}blesky blýskají, kapky pleska\\mchord{G}jí, \\\\\n   \\mchord{Dmi}vyšli~prostě do světa a \\mchord{G}vesele si zpívají: uí uí uí\\ldots\n\\end{verse}\n\\begin{verse}\n   Za tu spoustu let, co je světem svět, \\\\\n   přešli zeměkouli třikrát tam a zpět \\\\\n   v řadě za sebou, hele, támhle jdou, \\\\\n   vyšli prostě do světa a vesele si zpívají: uí uí uí\\ldots\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
+      "title": "Ukolébavka",
+      "artist": "Karel Kryl",
+      "release_year": "1990",
+      "url": "https://pisnicky-akordy.cz/karel-kryl/ukolebavka",
+      "chords": "",
+      "annotated_lines": [],
+      "formatted_lines": "\\mysong{Ukolébavka}{Karel Kryl}{1990}{}\n\\begin{song}{}\n\\end{song}\n\\pagebreak\n"
    },
    {
       "title": "Už to nenapravím",
@@ -16644,6 +17925,120 @@
          ]
       ],
       "formatted_lines": "\\mysong{Vodácká holka}{Hop Trop }{2000}{\\threefour \\\\ \\capo{II}}\n\\begin{song}{}\n\\begin{verse}\n   Když \\mchord{D}vlny se \\mchord{Emi}valí~a \\mchord{G}peřeje \\mchord{A}řvou  \\\\\n   a \\mchord{D}šutry z nich \\mchord{Emi}civí~jak \\mchord*{G}sů \\mchord{A}vy,  \\\\\n   loď \\mchord{D}praská a \\mchord{Emi}umrlčí \\mchord{G}zvon bije \\mchord{A}tmou,  \\\\\n   tak \\mchord{D}řekni, kdo \\mchord{Emi}pomoct ti \\mchord*{A}um \\mchord{D}í. \n\\end{verse}\n\\begin{deco}\n   Kdo p\\mchord{Hmi}ádlem~jen \\mchord{F#mi}kmitne~a \\mchord{G}převrátí \\mchord{D}loď,  \\\\\n   kdo \\mchord{Hmi}ječí~jak \\mchord{F#mi}staženej z \\mchord*{A}ků \\mchord{D}že,  \\\\\n   že \\mchord{Hmi}ty~jseš ta \\mchord{F#mi}atrapa, \\mchord{G}ty~jseš ten \\mchord{D}cvok,  \\\\\n   co \\mchord{E}za~každý cvaknutí \\mchord{A}může. \n\\end{deco}\n\\begin{verse}\n   Je pěkná jak ráno a voní jak les, \\\\\n   když na dřevo u ohně hrává, \\\\\n   je zrádná jak kočka a věrná jak pes, \\\\\n   ta holka, co při tobě spává. \n\\end{verse}\n\n%\\nochordbreak\n%\\chordbreak\n%\\compactbreak\n\\pagebreak\n\n\\begin{refren}\n   Tu \\mchord{G}vodáckou \\mchord{Hmi}holku~si \\mchord{A}navěky \\mchord{D}nech,  \\\\\n   \\mchord{G}netop ji,\\mchord*{Hmi}~neza \\mchord*{A}há \\mchord{D}něj,  \\\\\n   svou \\mchord{Emi}víru,~svou \\mchord{Hmi}sílu,~svý \\mchord{F#mi}štěstí~i \\mchord{Hmi}pech,  \\\\\n   svý \\mchord{Emi}strachy, svý \\mchord{D}prachy, svůj \\mchord{E}poslední \\mchord{A}dech  \\\\\n   jí \\mchord{D}poctivě \\mchord*{Emi}odevzd á\\mchord{A}vej  \n   a \\mchord{D}lásku za \\mchord*{Emi}lásku \\mchord{G} d\\mchord*{A}áv \\mchord{D}ej.\n\\end{refren}\n\\begin{verse}\n   Kdo \\mchord{D}připálí \\mchord{Emi}rejži~a \\mchord{G}přesolí \\mchord{A}čaj, \\\\\n   kdo sůl nechá v posledním kempu, \\\\\n   kdo ráj změní v peklo a peklo zas v ráj, \\\\\n   kdo \\mchord{D}zná všechny \\mchord{Emi}písničky \\mchord*{A}tre m\\mchord{D}pů.\n\\end{verse}\n\\begin{deco}\n   Kdo \\mchord{Hmi}přeje~ti \\mchord{F#mi}štěstí~a \\mchord{G}kope ti \\mchord{D}hrob \\\\\n   do \\mchord{Hmi}sladce hned \\mchord{F#mi}šeptá,~hned \\mchord*{A}vří s\\mchord{D}ká,  \\\\\n    \\mchord{Hmi}koho~bys \\mchord{F#mi}roztrh' a \\mchord{G}praštil a \\mchord{D}kop' \\\\\n    \\mchord{E}po~kom se celej den \\mchord{A}stýská. \n\\end{deco}\n\\begin{verse}\n   Až vlasy nám odbarví nebeskej král \\\\\n   a vrásky nám počmáraj' kůži,  \\\\\n   svý holce dej pusu a řekni \\enquote{jdem dál} \\\\\n   a na pádlo polož jí růži.\n\\end{verse}\n  \\begin{refren}\n  Tu \\hchord{G}vodáckou \\hchord{Hmi}holku~si \\hchord{A}navěky \\hchord{D}nech\\ldots\n  \\end{refren}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
+      "title": "Vysoký jalovec",
+      "artist": "Jan Slabák",
+      "release_year": "1979",
+      "url": "https://pisnicky-akordy.cz/karpina/vysoky-jalovec",
+      "chords": "88\n\nPředehra!!\n\nG                         D\nVysoký jalovec, vysoký ako ja,\n               C               G\npreskoč ho má milá rovnýma nohama.\n                                D\nJa ho nepreskočím, ja sa rada točím,\n              C                G\nna teba šuhajko zapomenúť musím.\n\nG            D           G\nUvázali kozu u tr tr tr, u tr tr tr.\nG           D    G\nUvázali kozu u drna.\nG               D           G\nOna sa im v noci u tr tr tr, u tr tr tr.\nG               D    G\nOna sa im v noci utrhla.\n\nG                         D\nVysoký jalovec, vysoký ako ja,\n               C               G\npreskoč ho má milá rovnýma nohama.\n                                D\nJa ho nepreskočím, ja sa rada točím,\n              C                G\nna teba šuhajko zapomenúť musím.\n\nUvázali kozu u tr tr tr, u tr tr tr.\nUvázali kozu u drna.\nOna sa im v noci u tr tr tr, u tr tr tr.\nOna sa im v noci utrhla.\n\nVysoký jalovec, vysoký ako ja,\npreskoč ho má milá rovnýma nohama.\nJa ho nepreskočím, ja sa rada točím,\nna teba šuhajko zapomenúť musím.\n\n\nMezihra\n\nVysoký jalovec, vysoký ako ja,\npreskoč ho má milá rovnýma nohama.\nJa ho nepreskočím, ja sa rada točím,\nna teba šuhajko zapomenúť musím.\n\n",
+      "annotated_lines": [
+         [
+            "c",
+            "    G                          D"
+         ],
+         [
+            " ",
+            "1.  Vysoký jalovec, vysoký ako ja,"
+         ],
+         [
+            "c",
+            "                  C                G"
+         ],
+         [
+            " ",
+            "    preskoč ho má milá rovnýma nohama."
+         ],
+         [
+            "c",
+            "                                    D"
+         ],
+         [
+            " ",
+            "    Ja ho nepreskočím, ja sa rada točím,"
+         ],
+         [
+            "c",
+            "                 C                G"
+         ],
+         [
+            " ",
+            "    na teba šuhajko zapomenúť musím."
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "c",
+            "    G            D           G"
+         ],
+         [
+            "R",
+            "R:  Uvázali kozu u tr tr tr, u tr tr tr."
+         ],
+         [
+            "c",
+            "    G           D    G"
+         ],
+         [
+            " ",
+            "    Uvázali kozu u drna."
+         ],
+         [
+            "c",
+            "    G               D           G"
+         ],
+         [
+            " ",
+            "    Ona sa im v noci u tr tr tr, u tr tr tr."
+         ],
+         [
+            "c",
+            "    G               D    G"
+         ],
+         [
+            " ",
+            "    Ona sa im v noci utrhla."
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "v",
+            "    \\goto{1.}"
+         ],
+         [
+            "r",
+            "R:  Uvázali kozu\\ldots"
+         ],
+         [
+            "e",
+            "    "
+         ],
+         [
+            "v",
+            "1.  |: Vysoký jalovec, vysoký ako ja,"
+         ],
+         [
+            " ",
+            "    preskoč ho má milá rovnýma nohama."
+         ],
+         [
+            " ",
+            "    Ja ho nepreskočím, ja sa rada točím,"
+         ],
+         [
+            " ",
+            "    na teba šuhajko zapomenúť musím. :|"
+         ],
+         [
+            "e",
+            "    "
+         ]
+      ],
+      "formatted_lines": "\\mysong{Vysoký jalovec}{Jan Slabák}{1979}{\\fourfourplucked}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{G}Vysoký jalovec, vysoký ako \\mchord{D}ja, \\\\\n   preskoč ho má \\mchord{C}milá rovnýma noha\\mchord{G}ma. \\\\\n   Ja ho nepreskočím, ja sa rada to\\mchord{D}čím, \\\\\n   na teba šuhaj\\mchord{C}ko~zapomenúť musí\\mchord{G}m.\n\\end{verse}\n\\begin{refren}\n    \\mchord{G}Uvázali kozu \\mchord{D}u~tr tr tr, \\mchord{G}u~tr tr tr. \\\\\n    \\mchord{G}Uvázali kozu \\mchord*{D}u~dr \\mchord{G}na. \\\\\n    \\mchord{G}Ona sa im v noci\\mchord{D}~u~tr tr tr,\\mchord{G}~u~tr tr tr. \\\\\n    \\mchord{G}Ona sa im v noci \\mchord*{D}utrh \\mchord{G}la.\n\\end{refren}\n\\begin{verse}\n    \\goto{1.} \n\\end{verse}\n\\begin{refren}\n    Uvázali kozu\\ldots\n\\end{refren}\n\\begin{verse}\n    |: Vysoký jalovec, vysoký ako ja, \\\\\n    preskoč ho má milá rovnýma nohama. \\\\\n    Ja ho nepreskočím, ja sa rada točím, \\\\\n    na teba šuhajko zapomenúť musím. :|\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
    },
    {
       "title": "Válečná",
@@ -18680,6 +20075,152 @@
       "formatted_lines": "\\mysong{Černej pasažér}{Traband }{2004}{\\fourfour}\n\\begin{song}{}\n\\begin{optional}{hidden}\n\\inlinechord{Dm}\n\\end{optional}\n\\begin{verse}\n   Mám \\mchord{Dm}kufr plnej přebytečnejch \\mchord*{A}kr ámů \\\\\n   a mapu zabalenou do plát\\mchord*{Dm}na.  \\\\\n   Můj \\mchord{Dm}vlak však jede na opačnou \\mchord*{A}st ranu \\\\\n   a moje jízdenka je dávno neplat\\mchord{Dm}ná.\n\\end{verse}\n\\begin{optional}{hidden}\n\\inlinechord{Dm} \\inlinechord{F}\\inlinechord{B\\flat} \\inlinechord{Dm}\n\\end{optional}\n\\begin{verse}\n   Někde \\hchord{Dm}ve~vzpomínkách stojí \\hchord*{A}dů m, \\\\\n   ještě vidím, jak se kouří z komí\\hchord*{Dm}na.  \\\\\n   V tom \\hchord{Dm}domě pro mě prostřený \\hchord*{A}st ůl, \\\\\n   tam já a moje rodi\\hchord*{Dm}na. \n\\end{verse}\n\\begin{verse}\n   Moje \\hchord{Dm}minulost se na mě \\hchord*{A}šk lebí \\\\\n   a srdce bolí, když si vzpome\\hchord*{Dm}nu,  \\\\\n   že \\hchord{Dm}stromy, který měly dorůst\\hchord{A}~k nebi, \\\\\n   tu leží vyvrácený z koře\\hchord*{Dm}nů. \n\\end{verse}\n\n\\begin{optional}{hidden}\n\\inlinechord{Dm} \\inlinechord{F}\\inlinechord{B\\flat} \\inlinechord{Dm}\n\\end{optional}\n\n%\\begin{chords}\n%  \\chordDFive\n%  \\chordBflat\n%\\end{chords}\n\n\\chordbreak\n\\compactbreak\n\n\\begin{refren}\n   Jsem černej \\mchord{B}pasažér, \\mchord{C}nemám \\mchord{F}cíl ani směr, \\\\\n   vezu se \\mchord{B}načerno \\mchord{C}životem a \\mchord*{F}ne vím. \\\\\n   Jsem černej \\mchord{B}pasažér, \\mchord{C}nemám \\mchord{F}cíl ani směr, \\\\\n   vezu se \\mchord{B}odnikud \\mchord{C}nikam a \\mchord{A}nevím, kde skončím.\n\\end{refren}\n\\begin{verse}\n   \\mchord{Dm}Mám to všechno na barevný \\mchord*{A}fo tce, \\\\\n   někdy z minulýho stole\\mchord*{Dm}tí.  \\\\\n   Tu \\mchord{Dm}jedinou a pocit bezdo\\mchord*{A}mo vce \\\\\n   si sebou nesu stále v pamě\\mchord*{Dm}ti. \n\\end{verse}\n\\begin{optional}{hidden}\n\\inlinechord{Dm} \\inlinechord{F}\\inlinechord{B\\flat} \\inlinechord{Dm}\n\\end{optional}\n\\begin{refren}\n   Jsem černej \\hchord*{B}pa sažér\\ldots\n\\end{refren}\n\\begin{verse}\n  %\\goto{1.}\n   Mám \\hchord{Dm}kufr plnej přebytečnejch \\hchord*{A}kr ámů \\\\\n   a mapu zabalenou do plát\\hchord*{Dm}na.  \\\\\n   Můj \\hchord{Dm}vlak však jede na opačnou \\hchord*{A}st ranu \\\\\n   a moje jízdenka je dávno neplat\\hchord{Dm}ná.\n\\end{verse}\n\\begin{optional}{hidden}\n\\inlinechord{Dm} \\inlinechord{F}\\inlinechord{B} \\inlinechord{Dm}\n\\end{optional}\n\\end{song}\n\\pagebreak\n"
    },
    {
+      "title": "Česká státní hymna",
+      "artist": "František Škroup",
+      "release_year": "1834 (1918 poprvé přijata)",
+      "url": "https://pisnicky-akordy.cz/hymny/kde-domov-muj",
+      "chords": "   A         E7             A\n1. Kde domov můj, kde domov můj?\n   A7   D         A\n   Voda hučí po lučinách,\n        D          A\n   bory šumí po skalinách,\n          E7           A\n   v sadě skví se jara květ,\n          E7          A\n   zemský ráj to na pohled.\n        C#           F#mi D\n   A to je ta krásná země,\n        A E7           A  D\n   země česká, domov můj,\n        A E7         A\n   země česká, domov můj!\n\n   A         E7             A\n2. Kde domov můj, kde domov můj?\n   A7       D       A\n   V kraji znáš-li bohumilém\n       D        A \n   duše útlé v těle čilém,\n          E7           A\n   mysl jasnou, vznik a zdar,\n          E7          A\n   a tu sílu vzdoru zmar!\n          C#          F#mi D\n   To je Čechů slavné plémě,\n   \n   mezi Čechy domov můj,\n          A E7       A  D   A E7       A  D\n   mezi Čechy domov můj.\n\n   A         E7             A\n3. Kde domov můj, kde domov můj?\n   A7        D       A\n   V zemi, kde náš Kníže svatý,\n      D           A \n   vírou v Krista v duši vzňatý,\n          E7           A\n   krev svou v oběť za vlast lil,\n         E7       A\n   český národ vykoupil.\n          C#         F#mi  D\n   V zemi slavné, otcům drahé,\n        A E7       A  D\n   v české zemi domov můj,\n        A E7       A  D\n   v české zemi domov můj!\n\n   A         E7             A\n4. Kde domov můj, kde domov můj?\n   A7    D      A\n   Bože, velký Hospodine,\n      D        A \n   ruka Tvoje světům kyne,\n        E7      A\n   Tebe vzývá národ můj,\n        E7      A\n   věčný Bože, při něm stůj.\n        C#        F#mi D  \n   Světovládný Hospodine,\n      A E7             A  D\n   chraň vždy český domov můj,\n      A E7             A  D\n   chraň vždy český domov můj!\n",
+      "annotated_lines": [
+         [
+            "c",
+            "   A         E7             A"
+         ],
+         [
+            "v",
+            "1. Kde domov můj, kde domov můj?"
+         ],
+         [
+            "c",
+            "   A7   D         A"
+         ],
+         [
+            " ",
+            "   Voda hučí po lučinách,"
+         ],
+         [
+            "c",
+            "        D          A"
+         ],
+         [
+            " ",
+            "   bory šumí po skalinách,"
+         ],
+         [
+            "c",
+            "          E7           A"
+         ],
+         [
+            " ",
+            "   v sadě skví se jara květ,"
+         ],
+         [
+            "c",
+            "          E7          A"
+         ],
+         [
+            " ",
+            "   zemský ráj to na pohled."
+         ],
+         [
+            "c",
+            "        C#           F#mi D"
+         ],
+         [
+            " ",
+            "   A to je ta krásná země,"
+         ],
+         [
+            "c",
+            "        A E7           A  D"
+         ],
+         [
+            " ",
+            "   země česká, domov můj,"
+         ],
+         [
+            "c",
+            "        A E7         A"
+         ],
+         [
+            " ",
+            "   země česká, domov můj!"
+         ],
+         [
+            "e",
+            ""
+         ],
+         [
+            "c",
+            "   A         E7             A"
+         ],
+         [
+            "v",
+            "2. Kde domov můj, kde domov můj?"
+         ],
+         [
+            "c",
+            "   A7       D       A"
+         ],
+         [
+            " ",
+            "   V kraji znáš-li bohumilém"
+         ],
+         [
+            "c",
+            "       D        A "
+         ],
+         [
+            " ",
+            "   duše útlé v těle čilém,"
+         ],
+         [
+            "c",
+            "          E7           A"
+         ],
+         [
+            " ",
+            "   mysl jasnou, vznik a zdar,"
+         ],
+         [
+            "c",
+            "          E7          A"
+         ],
+         [
+            " ",
+            "   a tu sílu vzdoru zmar!"
+         ],
+         [
+            "c",
+            "          C#          F#mi D"
+         ],
+         [
+            " ",
+            "   To je Čechů slavné plémě,"
+         ],
+         [
+            "e",
+            "   "
+         ],
+         [
+            " ",
+            "   mezi Čechy domov můj,"
+         ],
+         [
+            "c",
+            "          A E7       A  D   A E7       A  D"
+         ],
+         [
+            " ",
+            "   mezi Čechy domov můj."
+         ],
+         [
+            "e",
+            ""
+         ]
+      ],
+      "formatted_lines": "\\mysong{Česká státní hymna}{František Škroup}{1834 (1918 poprvé přijata)}{}\n\\begin{song}{}\n\\begin{verse}\n   \\hchord{A}Kde domov \\hchord{E7}můj, kde domov \\hchord{A}můj? \\\\\n   \\hchord{A7}Voda \\hchord{D}hučí po lu\\hchord{A}činách, \\\\\n   bory \\hchord{D}šumí po ska\\hchord{A}linách, \\\\\n   v sadě \\hchord{E7}skví se jara \\hchord{A}květ, \\\\\n   zemský \\hchord{E7}ráj to na po\\hchord{A}hled. \\\\\n   A to \\hchord{C#}je~ta krásná \\hchord*{F#mi}země, \\hchord{D}  \\\\\n   země \\hchord*{A}če \\hchord{E7}ská, domov mů\\hchord{A}j, \\hchord{D}  \\\\\n   země \\hchord*{A}če \\hchord{E7}ská, domov \\hchord{A}můj!\n\\end{verse}\n\\begin{verse}\n   \\hchord{A}Kde domov \\hchord{E7}můj, kde domov \\hchord{A}můj? \\\\\n   \\hchord{A7}V~kraji z\\hchord{D}náš-li b\\hchord{A}ohumilém \\\\\n   duše\\hchord{D}~útlé v t\\hchord{A}ěle čilém, \\\\\n   mysl ja\\hchord{E7}snou, vznik a\\hchord{A} zdar, \\\\\n   a tu sí\\hchord{E7}lu~vzdoru zm\\hchord{A}ar! \\\\\n   To je Č\\hchord{C#}echů slavné \\hchord*{F#mi}plémě \\hchord{D}, \\\\\n   mezi Čechy domov můj, \\\\\n   mezi Če\\hchord*{A}ch \\hchord{E7}y~domov m\\hchord*{A}ůj. \\hchord{D}~~~ \\hchord{A}  \\hchord{E7}~~~      \\hchord{A}   \\hchord{D} \n\\end{verse}\n\\end{song}\n\\pagebreak\n"
+   },
+   {
       "title": "Řekni,kde ty kytky jsou",
       "artist": "Marie Rottrová",
       "release_year": "1975",
@@ -18835,6 +20376,6 @@
             "   kdo to kdy pochopí, kdo to kdy pochopí"
          ]
       ],
-      "formatted_lines": "\\mysong{Řekni,kde ty kytky jsou}{Marie Rottrová}{1975}{}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{C}Řekni, kde ty \\mchord{Am}kytky jsou,\\mchord{F}~co se tady \\mchord{G}mohlo stát \\\\\n   \\mchord{C}řekni, kde ty \\mchord{Am}kytky jsou,\\mchord{Dm}~kde~mohou \\mchord{G7}být \\\\\n   \\mchord{C}Dívky je tu \\mchord{Am}během dne\\mchord{Dm7}~otrhaly \\mchord{G}do jedné \\\\\n   \\mchord{F}kdo to kdy \\mchord*{C}poc hopí,\\mchord{Dm}~kdo~to kdy \\mchord*{G}poc ho\\mchord{C}pí\n\\end{verse}\n\\begin{verse}\n   Řekni, kde ty dívky jsou, co se asi mohlo stát \\\\\n   řekni, kde ty dívky jsou, kde mohou být \\\\\n   Muži si je vyhlédli, sebou domů odvedli \\\\\n   kdo to kdy pochopí, kdo to kdy pochopí\n\\end{verse}\n\\begin{verse}\n   Řekni, kde ti muži jsou, co se k čertu mohlo stát \\\\\n   řekni, kde ti muž jsou, kde mohou být \\\\\n   muži v plné polní jdou do války zas je zvou \\\\\n   kdo to kdy pochopí, kdo to kdy pochopí\n\\end{verse}\n\\begin{verse}\n   A kde jsou ti vojáci, lidi, co se mohlo stát \\\\\n   a kde jsou ti vojáci, kde mohou být \\\\\n   řady hrobů v zákrytu, meluzína kvílí tu \\\\\n   kdo to kdy pochopí, kdo to kdy pochopí\n\\end{verse}\n\\chordbreak\n\\compactbreak\n\\begin{verse}\n   \\mchord{C}Řekni, kde ty \\mchord{Am}hroby jsou,\\mchord{F}~co se s nimi \\mchord{G}mohlo stát \\\\\n   \\mchord{C}řekni, kde ty \\mchord{Am}hroby jsou, \\mchord{Dm}kde~mohou \\mchord{G7}být \\\\\n   \\mchord{C}co~tu kytek \\mchord*{Am}rozkv étá\\mchord{Dm7}~od~jara \\mchord{G}do léta \\\\\n   \\mchord{F}kdo to kdy \\mchord{C}pochopí, \\mchord{Dm}kdo~to kdy \\mchord*{G}poc ho\\mchord{C}pí\n\\end{verse}\n\\begin{verse}\n   Řekni, kde ty kytky jsou, co se tady mohlo stát \\\\\n   řekni, kde ty kytky jsou, kde mohou být \\\\\n   Dívky je tu během dne otrhaly do jedné \\\\\n   kdo to kdy pochopí, kdo to kdy pochopí\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
+      "formatted_lines": "\\mysong{Řekni,kde ty kytky jsou}{Marie Rottrová}{1975}{\\fourfour}\n\\begin{song}{}\n\\begin{verse}\n   \\mchord{C}Řekni, kde ty \\mchord{Am}kytky jsou,\\mchord{F}~co se tady \\mchord{G}mohlo stát \\\\\n   \\mchord{C}řekni, kde ty \\mchord{Am}kytky jsou,\\mchord{Dm}~kde~mohou \\mchord{G7}být \\\\\n   \\mchord{C}Dívky je tu \\mchord{Am}během dne\\mchord{Dm7}~otrhaly \\mchord{G}do jedné \\\\\n   \\mchord{F}kdo to kdy \\mchord*{C}poc hopí,\\mchord{Dm}~kdo~to kdy \\mchord*{G}poc ho\\mchord{C}pí\n\\end{verse}\n\\begin{verse}\n   Řekni, kde ty dívky jsou, co se asi mohlo stát \\\\\n   řekni, kde ty dívky jsou, kde mohou být \\\\\n   Muži si je vyhlédli, sebou domů odvedli \\\\\n   kdo to kdy pochopí, kdo to kdy pochopí\n\\end{verse}\n\\begin{verse}\n   Řekni, kde ti muži jsou, co se k čertu mohlo stát \\\\\n   řekni, kde ti muž jsou, kde mohou být \\\\\n   muži v plné polní jdou do války zas je zvou \\\\\n   kdo to kdy pochopí, kdo to kdy pochopí\n\\end{verse}\n\\begin{verse}\n   A kde jsou ti vojáci, lidi, co se mohlo stát \\\\\n   a kde jsou ti vojáci, kde mohou být \\\\\n   řady hrobů v zákrytu, meluzína kvílí tu \\\\\n   kdo to kdy pochopí, kdo to kdy pochopí\n\\end{verse}\n\\chordbreak\n\\compactbreak\n\\begin{verse}\n   \\mchord{C}Řekni, kde ty \\mchord{Am}hroby jsou,\\mchord{F}~co se s nimi \\mchord{G}mohlo stát \\\\\n   \\mchord{C}řekni, kde ty \\mchord{Am}hroby jsou, \\mchord{Dm}kde~mohou \\mchord{G7}být \\\\\n   \\mchord{C}co~tu kytek \\mchord*{Am}rozkv étá\\mchord{Dm7}~od~jara \\mchord{G}do léta \\\\\n   \\mchord{F}kdo to kdy \\mchord{C}pochopí, \\mchord{Dm}kdo~to kdy \\mchord*{G}poc ho\\mchord{C}pí\n\\end{verse}\n\\begin{verse}\n   Řekni, kde ty kytky jsou, co se tady mohlo stát \\\\\n   řekni, kde ty kytky jsou, kde mohou být \\\\\n   Dívky je tu během dne otrhaly do jedné \\\\\n   kdo to kdy pochopí, kdo to kdy pochopí\n\\end{verse}\n\\end{song}\n\\pagebreak\n"
    }
 ]

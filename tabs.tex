@@ -57,18 +57,18 @@
 
 \NewDocumentCommand{\setglobal}{mm}{\pgfmathparse{#2}\global\edef#1{\pgfmathresult}}
 
-\NewDocumentCommand{\tabdots}{O{1}O{\ldots}}{
+\NewDocumentCommand{\tabdots}{sO{1}O{\ldots}}{
   \setglobal{\barstart}{\totalbarcount * \barwidth}
   \setglobal{\beatstart}{\barstart}
 
-  \setglobal{\barcenter}{\barend + \barwidth * 0.5 * #1}
-  \draw  (\barcenter, 3.5 * \stringheight) node {#2};
-  \setglobal{\totalbarcount}{\totalbarcount + #1}
+  \setglobal{\barcenter}{\barend + \barwidth * 0.5 * #2}
+  \draw  (\barcenter, 3.5 * \stringheight) node {#3};
+  \setglobal{\totalbarcount}{\totalbarcount + #2}
   
-  \setglobal{\barstart}{\barend + \barwidth * #1}
+  \setglobal{\barstart}{\barend + \barwidth * #2}
   \setglobal{\barend}{\barstart}
   \setglobal{\beatstart}{\barstart}
-  \barline
+  \IfBooleanTF{#1}{}{\barline}
 }
 
 % if currentchord should be used, base beat count multiplier (for fractions), frets

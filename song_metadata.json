@@ -1,52 +1,67 @@
 [
     {
-        "title": "Rada se miluje",
+        "title": "Pražskej démon",
+        "artist": "Vítkovo kvarteto",
+        "release_year": "1995"
+    },
+    {
+        "title": "Tři Čuníci",
+        "artist": "Jaromír Nohavica",
+        "release_year": "1991"
+    },
+    {
+        "title": "Slunce za hory",
+        "artist": "",
+        "release_year": ""
+    },
+    {
+        "title": "Tři citrónky",
+        "artist": "Maxim Turbulenc",
+        "release_year": "2002"
+    },
+    {
+        "title": "Hvězdičky dobrou noc",
+        "artist": "Parma Band",
+        "release_year": ""
+    },
+    {
+        "title": "Ahasvér",
+        "artist": "Cermaque",
+        "release_year": "2022"
+    },
+    {
+        "title": "Mravenci ukolebavka",
+        "artist": "Uhlíř a Svěrák",
+        "release_year": "2014"
+    },
+    {
+        "title": "Měla jsem já pejska",
+        "artist": "Traband",
+        "release_year": "2002"
+    },
+    {
+        "title": "Ukolébavka",
         "artist": "Karel Kryl",
-        "release_year": -1
+        "release_year": "1990"
     },
     {
-        "title": "Tou cestou",
-        "artist": "Klus",
-        "release_year": -1
+        "title": "Skautská večerka",
+        "artist": "Text: Antonín Benjamín Svojsík",
+        "release_year": "1968"
     },
     {
-        "title": "Valcik",
-        "artist": "Landa",
-        "release_year": -1
+        "title": "Vysoký jalovec",
+        "artist": "Jan Slabák",
+        "release_year": "1979"
     },
     {
-        "title": "Protestsong",
-        "artist": "Landa",
-        "release_year": -1
+        "title": "Česká státní hymna",
+        "artist": "František Škroup",
+        "release_year": "1834 (1918 poprvé přijata)"
     },
     {
-        "title": "Boulevard Of Broken Dreams",
-        "artist": "Diana Krall",
-        "release_year": "1996"
-    },
-    {
-        "title": "Dva",
-        "artist": "Zrni",
-        "release_year": -1
-    },
-    {
-        "title": "Odpocinout",
-        "artist": "Kvety",
-        "release_year": -1
-    },
-    {
-        "title": "Osud",
-        "artist": "Jaromir Nohavica",
-        "release_year": -1
-    },
-    {
-        "title": "Panoptikum",
-        "artist": "Jaromir Nohavica",
-        "release_year": -1
-    },
-    {
-        "title": "To ta Helpa",
-        "artist": "taborova",
-        "release_year": -1
+        "title": "Junácká hymna",
+        "artist": "František Seraf Procházka a Karel Kovařovic",
+        "release_year": "1968"
     }
 ]
