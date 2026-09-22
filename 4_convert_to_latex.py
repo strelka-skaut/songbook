@@ -469,7 +469,20 @@ def output_song_list(data):
 def process_song_list():
     with open("song_with_chords.json") as input_file:
         songs = json.load(input_file)
-        songs.sort(key=lambda song: song['title'])
+
+        # sort according to order in full.tex
+        with open("full.tex") as input_ref_file:
+            ordered_source = [re.search('importsong{([^}]+).tex}\n', i).group(1) for i in input_ref_file.readlines() if 'importsong' in i]
+
+            def get_index(song):
+                try:
+                    file_name = str(slugify(song['title']))
+                    return ordered_source.index(file_name)
+                except:
+                    return len(ordered_source)
+
+
+            songs.sort(key=get_index)
  
     song_index = 0
     while (edit_result := edit_song(songs, song_index)) is not None:
