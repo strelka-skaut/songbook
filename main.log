@@ -1,0 +1,5144 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.14)  5 JUL 2026 10:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen141
+)
+\c@part=\count192
+\c@section=\count193
+\c@subsection=\count194
+\c@subsubsection=\count195
+\c@paragraph=\count196
+\c@subparagraph=\count197
+\c@figure=\count198
+\c@table=\count199
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen142
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count266
+\U@D=\dimen143
+\l@unhyphenated=\language90
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count267
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-czech/czech.ldf
+Language: czech 2008/07/06 v3.1a Czech support from the babel system
+Package babel Info: Making " an active character on input line 172.
+\cs@wordlen=\count268
+Package babel Info: Making - an active character on input line 226.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/cs/babel-czech.tex
+Package babel Info: Importing font and identification data for czech
+(babel)             from babel-cs.ini. Reported on input line 11.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+6.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count270
+\calc@Bcount=\count271
+\calc@Adimen=\dimen144
+\calc@Bdimen=\dimen145
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count272
+\calc@Cskip=\skip53
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool.sty
+Package: datatool 2025/03/05 v3.0.1 (NLCT)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2025/03/04 v1.6.5 (NLCT) Track Languages
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2025/03/05 v3.0.1 (NLCT)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen146
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen147
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen148
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count278
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks20
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks21
+\eqnshift@=\dimen149
+\alignsep@=\dimen150
+\tagshift@=\dimen151
+\tagwidth@=\dimen152
+\totwidth@=\dimen153
+\lineht@=\dimen154
+\@envbody=\toks22
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-l3fp.def
+File: datatool-l3fp.def 2025/03/05 v3.0.1 (NLCT)
+)
+\@dtl@toks=\toks24
+\@dtl@tmpcount=\count285
+\dtl@tmplength=\skip57
+\l__datatool_measure_box=\box54
+\dtl@sortresult=\count286
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
+File: datatool-utf8.ldf 2025/03/05 v3.0.1 (NLCT)
+)
+\@dtl@datatype=\count287
+\l__datatool_tmpa_int=\count288
+\l__datatool_tmpb_int=\count289
+\l__datatool_tmpc_int=\count290
+\l__datatool_tmpd_int=\count291
+\l__datatool_count_int=\count292
+\l__datatool_tmp_datatype_int=\count293
+\l__datatool_tmpa_dim=\dimen155
+\l__datatool_tmpb_dim=\dimen156
+\c_datatool_unknown_int=\count294
+\l__datatool_year_int=\count295
+\l__datatool_month_int=\count296
+\l__datatool_day_int=\count297
+\l__datatool_hour_int=\count298
+\l__datatool_minute_int=\count299
+\l__datatool_second_int=\count300
+\l__datatool_tzhour_int=\count301
+\l__datatool_tzminute_int=\count302
+\l__datatool_julian_int=\count303
+\l__datatool_local_julian_int=\count304
+\l__datatool_prefix_int=\count305
+\l__datatool_suffix_int=\count306
+\@dtl@foreach@level=\count307
+
+
+Package tracklang Warning: No `datatool' support for dialect `czech'  on input 
+line 9897.
+
+\dtl@codeA=\count308
+\dtl@codeB=\count309
+)
+\l__datatool_max_cols_int=\count310
+\l__datatool_col_idx_int=\count311
+\l__datatool_row_idx_int=\count312
+\l__datatool_item_type_int=\count313
+\l__datatool_action_column_int=\count314
+\l__datatool_action_column_ii_int=\count315
+\l__datatool_action_row_int=\count316
+\l__datatool_action_row_ii_int=\count317
+\l__datatool_action_type_int=\count318
+\l__datatool_action_datum_round_int=\count319
+\dtlcolumnnum=\count320
+\dtlrownum=\count321
+\@dtl@before=\toks25
+\@dtl@after=\toks26
+\@dtl@colhead=\toks27
+\dtlcurrentrow=\toks28
+\dtlbeforerow=\toks29
+\dtlafterrow=\toks30
+\l__datatool_map_data_max_cols_int=\count322
+\l__datatool_map_data_edit_column_int=\count323
+\dtlforeachlevel=\count324
+\c@DTLrow=\count325
+\c@DTLrowi=\count326
+\c@DTLrowii=\count327
+\c@DTLrowiii=\count328
+\dtl@rowi=\count329
+\dtl@rowii=\count330
+\dtl@rowiii=\count331
+\g__filtered_row_i_int=\count332
+\g__filtered_row_ii_int=\count333
+\g__filtered_row_iii_int=\count334
+\@dtl@curi=\toks31
+\@dtl@previ=\toks32
+\@dtl@nexti=\toks33
+\@dtl@curii=\toks34
+\@dtl@previi=\toks35
+\@dtl@nextii=\toks36
+\@dtl@curiii=\toks37
+\@dtl@previii=\toks38
+\@dtl@nextiii=\toks39
+\l_datatool_display_per_row_int=\count335
+\l_datatool_display_tab_rows_int=\count336
+\@dtl@toksA=\toks40
+\@dtl@toksB=\toks41
+\@dtl@elements=\count337
+\__datatool_sort_data_sortcol_int=\count338
+\__datatool_sort_data_grpcol_int=\count339
+\dtl@omitlines=\count340
+\l__datatool_line_int=\count341
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count342
+\float@exts=\toks42
+\float@box=\box55
+\@float@everytoks=\toks43
+\@floatcapt=\box56
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stackengine/stackengine.sty
+Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
+ways
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/listofitems/listofitems.tex
+\loi_cnt_foreach_nest=\count343
+\loi_nestcnt=\count344
+)
+Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count345
+\@boxshift=\skip58
+\stack@tmplength=\skip59
+\temp@stkl=\skip60
+\@stackedboxwidth=\skip61
+\@addedbox=\box57
+\@anchorbox=\box58
+\@insetbox=\box59
+\se@backgroundbox=\box60
+\stackedbox=\box61
+\@centerbox=\box62
+\c@ROWcellindex@=\count346
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chordbox/chordbox.sty
+Package: chordbox 2019/04/14 v1.0 Minor improvement to documentation
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks44
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box63
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks45
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+)
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks46
+\pgfkeys@temptoks=\toks47
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks48
+))
+\pgf@x=\dimen161
+\pgf@y=\dimen162
+\pgf@xa=\dimen163
+\pgf@ya=\dimen164
+\pgf@xb=\dimen165
+\pgf@yb=\dimen166
+\pgf@xc=\dimen167
+\pgf@yc=\dimen168
+\pgf@xd=\dimen169
+\pgf@yd=\dimen170
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count347
+\c@pgf@countb=\count348
+\c@pgf@countc=\count349
+\c@pgf@countd=\count350
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
+\pgf@sys@id@count=\count351
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count352
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count353
+\pgfsyssoftpath@bigbuffer@items=\count354
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count355
+\pgfmath@box=\box64
+\pgfmath@toks=\toks52
+\pgfmath@stack@operand=\toks53
+\pgfmath@stack@operation=\toks54
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count356
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box65
+\pgf@hbox=\box66
+\pgf@layerbox@main=\box67
+\pgf@picture@serial@count=\count357
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen190
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen194
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count358
+\pgf@shadingcount=\count359
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box68
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box69
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen198
+\pgffor@skip=\dimen199
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count360
+\pgfplotmarksize=\dimen256
+)
+\tikz@lastx=\dimen257
+\tikz@lasty=\dimen258
+\tikz@lastxsaved=\dimen259
+\tikz@lastysaved=\dimen260
+\tikz@lastmovetox=\dimen261
+\tikz@lastmovetoy=\dimen262
+\tikzleveldistance=\dimen263
+\tikzsiblingdistance=\dimen264
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count361
+\tikznumberofchildren=\count362
+\tikznumberofcurrentchild=\count363
+\tikz@fig@count=\count364
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count365
+\pgfmatrixcurrentcolumn=\count366
+\pgf@matrix@numberofcolumns=\count367
+)
+\tikz@expandcount=\count368
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count369
+\xs_countb=\count370
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryscopes.code.tex
+File: tikzlibraryscopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box74
+\pgf@layerboxsaved@background=\box75
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count371
+\multirow@dima=\skip63
+\bigstrutjot=\dimen265
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip64
+\f@nch@offset@elh=\skip65
+\f@nch@offset@erh=\skip66
+\f@nch@offset@olh=\skip67
+\f@nch@offset@orh=\skip68
+\f@nch@offset@elf=\skip69
+\f@nch@offset@erf=\skip70
+\f@nch@offset@olf=\skip71
+\f@nch@offset@orf=\skip72
+\f@nch@height=\skip73
+\f@nch@footalignment=\skip74
+\f@nch@widthL=\skip75
+\f@nch@widthC=\skip76
+\f@nch@widthR=\skip77
+\@temptokenb=\toks57
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen266
+\ar@mcellbox=\box76
+\extrarowheight=\dimen267
+\NC@list=\toks58
+\extratabsurround=\skip78
+\backup@length=\skip79
+\ar@cellbox=\box77
+)
+\TX@col@width=\dimen268
+\TX@old@table=\dimen269
+\TX@old@col=\dimen270
+\TX@target=\dimen271
+\TX@delta=\dimen272
+\TX@cols=\count372
+\TX@ftn=\toks59
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count373
+\mult@box=\box78
+\multicol@leftmargin=\dimen273
+\c@unbalance=\count374
+\c@collectmore=\count375
+\doublecol@number=\count376
+\multicoltolerance=\count377
+\multicolpretolerance=\count378
+\full@width=\dimen274
+\page@free=\dimen275
+\premulticols=\dimen276
+\postmulticols=\dimen277
+\multicolsep=\skip80
+\multicolbaselineskip=\skip81
+\partial@page=\box79
+\last@line=\box80
+\mc@boxedresult=\box81
+\maxbalancingoverflow=\dimen278
+\mult@rightbox=\box82
+\mult@grightbox=\box83
+\mult@firstbox=\box84
+\mult@gfirstbox=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\c@minrows=\count379
+\c@columnbadness=\count380
+\c@finalcolumnbadness=\count381
+\last@try=\dimen279
+\multicolovershoot=\dimen280
+\multicolundershoot=\dimen281
+\mult@nat@firstbox=\box122
+\colbreak@box=\box123
+\mc@col@check@num=\count382
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count383
+\l__pdf_internal_box=\box124
+\g__pdf_backend_annotation_int=\count384
+\g__pdf_backend_link_int=\count385
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count386
+\csq@gtype=\count387
+\csq@glevel=\count388
+\csq@qlevel=\count389
+\csq@maxlvl=\count390
+\csq@tshold=\count391
+\csq@ltx@everypar=\toks60
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box125
+\beforetitleunit=\skip82
+\aftertitleunit=\skip83
+\ttl@plus=\dimen282
+\ttl@minus=\dimen283
+\ttl@toksa=\toks61
+\titlewidth=\dimen284
+\titlewidthlast=\dimen285
+\titlewidthfirst=\dimen286
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2025/01/04 v2.17 TOC entries
+\ttl@leftsep=\dimen287
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/censor/censor.sty
+Package: censor 2023/06/05\ 4.3\ Provides capability for redaction of sensitive
+ information
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+\pb@xlen=\skip84
+)
+\censorruledepth=\skip85
+\censorruleheight=\skip86
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/tokcycle/tokcycle.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/tokcycle/tokcycle.tex
+\tc@tok=\toks62
+\tcdepth=\count392
+\cytoks=\toks63
+)
+Package: tokcycle 2021/08/25 V1.42 Cycle through and transform a stream of toke
+ns
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/vcell/vcell.sty
+Package: vcell 2021/04/30 v1.0.2
+\rowheight=\dimen288
+\rowht=\dimen289
+\rowdp=\dimen290
+\@cellcount=\count393
+\@cellusecount=\count394
+\@celltemp=\box126
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/imakeidx/imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks64
+\XKV@tempa@toks=\toks65
+)
+\XKV@depth=\count395
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count396
+\l__fontspec_language_int=\count397
+\l__fontspec_strnum_int=\count398
+\l__fontspec_tmp_int=\count399
+\l__fontspec_tmpa_int=\count400
+\l__fontspec_tmpb_int=\count401
+\l__fontspec_tmpc_int=\count402
+\l__fontspec_em_int=\count403
+\l__fontspec_emdef_int=\count404
+\l__fontspec_strong_int=\count405
+\l__fontspec_strongdef_int=\count406
+\l__fontspec_tmpa_dim=\dimen291
+\l__fontspec_tmpb_dim=\dimen292
+\l__fontspec_tmpc_dim=\dimen293
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xltabular/xltabular.sty
+Package: xltabular 2025/02/28 v0.2i `xltabular' package (hv,RN)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ltablex/ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip87
+\LTright=\skip88
+\LTpre=\skip89
+\LTpost=\skip90
+\LTchunksize=\count407
+\LTcapwidth=\dimen294
+\LT@head=\box127
+\LT@firsthead=\box128
+\LT@foot=\box129
+\LT@lastfoot=\box130
+\LT@gbox=\box131
+\LT@cols=\count408
+\LT@rows=\count409
+\c@LT@tables=\count410
+\c@LT@chunks=\count411
+\LT@p@ftn=\toks66
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/addfont/addfont.sty
+Package: addfont 2021/03/20 v. 1.1 Easier usage of fonts without LaTeX support.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/oberdiek/twoopt.sty
+Package: twoopt 2016/05/16 v1.6 Definitions with two optional arguments (HO)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/yfonts/yfonts.sty
+Package: yfonts 2019/04/04 v1.4 (WaS&NP)
+LaTeX Info: Composite with undeclared \" in encoding LYG on input line 58.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/initials/Zallman.fd
+File: Zallman.fd 2003/04/02 Font definition file for U/Zallman
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count412
+\Gm@cntv=\count413
+\c@Gm@tempcnt=\count414
+\Gm@bindingoffset=\dimen295
+\Gm@wd@mp=\dimen296
+\Gm@odd@mp=\dimen297
+\Gm@even@mp=\dimen298
+\Gm@layoutwidth=\dimen299
+\Gm@layoutheight=\dimen300
+\Gm@layouthoffset=\dimen301
+\Gm@layoutvoffset=\dimen302
+\Gm@dimlist=\toks67
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count415
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen303
+\Hy@linkcounter=\count416
+\Hy@pagecounter=\count417
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count418
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count419
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen304
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count420
+\Field@Width=\dimen305
+\Fld@charsize=\dimen306
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count421
+\c@Item=\count422
+\c@Hfootnote=\count423
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+\pdfm@box=\box132
+\c@Hy@AnnotLevel=\count424
+\HyField@AnnotCount=\count425
+\Fld@listcount=\count426
+\c@bookmark@seq@number=\count427
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip91
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/spectral/spectral.sty
+Package: spectral 2022/09/27 (Bob Tennent and autoinst) Style file for Spectral
+ fonts.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+
+Package fontspec Info: 
+(fontspec)             Spectral-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Spectral(0)' created for font 'Spectral'
+(fontspec)             with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={},Extension =
+(fontspec)             .ttf,Ligatures=TeX,Numbers =
+(fontspec)             {Monospaced,Lining},UprightFont = *-Regular,ItalicFont
+(fontspec)             = *-Italic,BoldFont = *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Regular.ttf]/OT:script=latn;language=
+dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Italic.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 134.
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraLight scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraLight scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraLight scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraLightItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraLightItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Spectral(1)' created for font 'Spectral'
+(fontspec)             with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={},Extension = .ttf,Numbers =
+(fontspec)             {Monospaced,Lining},UprightFont =
+(fontspec)             *-ExtraLight,ItalicFont = *-ExtraLightItalic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-ExtraLight.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-ExtraLight.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-ExtraLightItalic.ttf]/OT:script=latn;
+language=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-ExtraLightItalic.ttf]/OT:script=latn;
+language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Light scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Light scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Light scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-LightItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-LightItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Spectral(2)' created for font 'Spectral'
+(fontspec)             with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={},Extension = .ttf,Numbers =
+(fontspec)             {Monospaced,Lining},UprightFont = *-Light,ItalicFont =
+(fontspec)             *-LightItalic,BoldFont = *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Light.ttf]/OT:script=latn;language=df
+lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Light.ttf]/OT:script=latn;language=df
+lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-LightItalic.ttf]/OT:script=latn;langu
+age=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-LightItalic.ttf]/OT:script=latn;langu
+age=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-MediumItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-MediumItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Spectral(3)' created for font 'Spectral'
+(fontspec)             with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={},Extension = .ttf,Numbers =
+(fontspec)             {Monospaced,Lining},UprightFont = *-Medium,ItalicFont =
+(fontspec)             *-MediumItalic,BoldFont = *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Medium.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Medium.ttf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-Bold.ttf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-MediumItalic.ttf]/OT:script=latn;lang
+uage=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-MediumItalic.ttf]/OT:script=latn;lang
+uage=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-BoldItalic.ttf]/OT:script=latn;langua
+ge=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-SemiBold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-SemiBold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-SemiBold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-SemiBoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-SemiBoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Spectral(4)' created for font 'Spectral'
+(fontspec)             with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={},Extension = .ttf,Numbers =
+(fontspec)             {Monospaced,Lining},UprightFont = *-SemiBold,ItalicFont
+(fontspec)             = *-SemiBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-SemiBold.ttf]/OT:script=latn;language
+=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-SemiBold.ttf]/OT:script=latn;language
+=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-SemiBoldItalic.ttf]/OT:script=latn;la
+nguage=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-SemiBoldItalic.ttf]/OT:script=latn;la
+nguage=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraBold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraBold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraBold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraBoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Spectral-ExtraBoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Spectral(5)' created for font 'Spectral'
+(fontspec)             with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={},Extension = .ttf,Numbers =
+(fontspec)             {Monospaced,Lining},UprightFont =
+(fontspec)             *-ExtraBold,ItalicFont = *-ExtraBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-ExtraBold.ttf]/OT:script=latn;languag
+e=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-ExtraBold.ttf]/OT:script=latn;languag
+e=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-ExtraBoldItalic.ttf]/OT:script=latn;l
+anguage=dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Spectral-ExtraBoldItalic.ttf]/OT:script=latn;l
+anguage=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+LaTeX Info: Redefining \oldstylenums on input line 171.
+LaTeX Info: Redefining \liningnums on input line 172.
+LaTeX Info: Redefining \textsw on input line 202.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+Package: leadsheets 2022/01/05 v0.7 Typesettingleadsheetsandsongbooks (CN)
+\l__leadsheets_tmpa_dim=\dimen307
+\l__leadsheets_tmpa_int=\count428
+\l__leadsheets_tmpb_int=\count429
+\l__leadsheets_tmpc_int=\count430
+\l__leadsheets_tmpa_box=\box133
+(leadsheets)    Loading library `songs'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.son
+gs.code.tex
+File: leadsheets.library.songs.code.tex 2022/01/05 v0.7 leadsheets library `son
+gs' 2019/10/02 typesetting songs
+\l__leadsheets_transpose_steps_int=\count431
+\l__leadsheets_capo_int=\count432
+\g__leadsheets_song_id_int=\count433
+\l__leadsheets_obey_parskip_skip=\skip92
+\l__leadsheets_obey_parindent_skip=\skip93
+(leadsheets)    Loading library `musicsymbols'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.mus
+icsymbols.code.tex
+File: leadsheets.library.musicsymbols.code.tex 2022/01/05 v0.7 leadsheets libra
+ry `musicsymbols' 2016/02/15 musical symbols
+\leadsheets@barheight=\skip94
+)
+(leadsheets)    Loading library `chordnames'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.cho
+rdnames.code.tex
+File: leadsheets.library.chordnames.code.tex 2022/01/05 v0.7 leadsheets library
+ `chordnames' 2016/07/05 typesetting chord names with easy syntax
+)
+(leadsheets)    Loading library `chords'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.cho
+rds.code.tex
+File: leadsheets.library.chords.code.tex 2022/01/05 v0.7 leadsheets library `ch
+ords' 2016/07/02 printing chords
+\l__leadsheets_empty_chord_dim=\dimen308
+)
+(leadsheets)    Loading library `shorthands'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.sho
+rthands.code.tex
+File: leadsheets.library.shorthands.code.tex 2022/01/05 v0.7 leadsheets library
+ `shorthands' 2016/06/29 definition and activation of shorthands
+)
+(leadsheets)    Loading library `properties'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.pro
+perties.code.tex
+File: leadsheets.library.properties.code.tex 2022/01/05 v0.7 leadsheets library
+ `properties' 2016/05/18 song properties
+)
+(leadsheets)    Loading library `transposing'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.tra
+nsposing.code.tex
+File: leadsheets.library.transposing.code.tex 2022/01/05 v0.7 leadsheets librar
+y `transposing' 2014/08/10 transposing of chord symbols
+)
+(leadsheets)    Loading library `templates'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.tem
+plates.code.tex
+File: leadsheets.library.templates.code.tex 2022/01/05 v0.7 leadsheets library 
+`templates' 2014/08/10 template mechanism for song titles and verses
+)
+(leadsheets)    Loading library `translations'...
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/leadsheets/leadsheets.library.tra
+nslations.code.tex
+File: leadsheets.library.translations.code.tex 2022/01/05 v0.7 leadsheets libra
+ry `translations' 2016/06/28 dictionary for leadsheets
+)
+\c@verse=\count434
+\c@verse*=\count435
+\c@chorus=\count436
+\c@chorus*=\count437
+\c@intro=\count438
+\c@intro*=\count439
+\c@outro=\count440
+\c@interlude=\count441
+\c@bridge=\count442
+\c@info=\count443
+\c@solo*=\count444
+\c@solo=\count445
+)) (./utilities.tex) (./chords.tex) (./rhythm.tex)
+(./covers.tex) (./tabs.tex) (./toc.tex
+\main@idxfile=\write5
+\openout5 = `main.idx'.
+
+
+Writing index file main.idx
+\songs@idxfile=\write6
+\openout6 = `songs.idx'.
+
+Writing index file songs.idx
+\lullaby@idxfile=\write7
+\openout7 = `lullaby.idx'.
+
+Writing index file lullaby.idx
+\hymns@idxfile=\write8
+\openout8 = `hymns.idx'.
+
+Writing index file hymns.idx
+\other@idxfile=\write9
+\openout9 = `other.idx'.
+
+Writing index file other.idx
+)
+\main@idxfile=\write10
+\openout10 = `main.idx'.
+
+
+Writing index file main.idx
+
+Package fontspec Info: 
+(fontspec)             Font family 'LarkenBold(0)' created for font 'Larken
+(fontspec)             Bold' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Larken
+(fontspec)             Bold/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Larken
+(fontspec)             Bold/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Larken
+(fontspec)             Bold/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Larken
+(fontspec)             Bold/BI/OT:script=latn;language=dflt;"
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'czech'.
+(./main.aux
+
+LaTeX Warning: Label `content' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 138.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 138.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 138.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 138.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 138.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 138.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 138.
+LaTeX Font Info:    Redeclaring math accent \check on input line 138.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 138.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 138.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 138.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 138.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 138.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Spectral(0)/m/n on input line 138.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 138.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Spectral(0)/m/n on input line 138.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Spectral(0)/m/n --> TU/Spectral(0)/m/n on input line
+ 138.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Spectral(0)/m/it on input line 138.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Spectral(0)/b/n on input line 138.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 138.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 138.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Spectral(0)/m/n --> TU/Spectral(0)/b/n on input line
+ 138.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Spectral(0)/b/it on input line 138
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 138.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 138.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 406.87442pt, 14.22636pt)
+* v-part:(T,H,B)=(14.22636pt, 554.82877pt, 28.45274pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=406.87442pt
+* \textheight=554.82877pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-58.04362pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=14.22636pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 138.
+(./main.out) (./main.out)
+\@outlinefile=\write11
+\openout11 = `main.out'.
+
+Package translations Info: no dictionary file `translations-basic-dictionary-cz
+ech.trsl' found. on input line 138.
+\c@refren=\count446
+\c@deco=\count447
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 421.10078pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 597.50787pt, 0.0pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=421.10078pt
+* \textheight=597.50787pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-72.26999pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=0.0pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 70.0pt on input line 167.
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Larken Black/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'LarkenBlack(0)' created for font 'Larken
+(fontspec)             Black' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Larken
+(fontspec)             Black/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Larken
+(fontspec)             Black/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Larken
+(fontspec)             Black/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 32.0pt on input line 167.
+
+Package fontspec Info: 
+(fontspec)             Font family 'LarkenBold(1)' created for font 'Larken
+(fontspec)             Bold' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Larken
+(fontspec)             Bold/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Larken
+(fontspec)             Bold/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Larken
+(fontspec)             Bold/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Larken
+(fontspec)             Bold/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 18.0pt on input line 167.
+File: Strelka_logo.pdf Graphic file (type pdf)
+<use Strelka_logo.pdf>
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 5.10005pt, for example:
+(fancyhdr)                \setlength{\footskip}{5.10005pt}.
+
+[1
+
+
+]
+
+Package geometry Warning: `a5paper': not available in `\newgeometry'; skipped.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 385.53485pt, 35.56593pt)
+* v-part:(T,H,B)=(32.00934pt, 529.9326pt, 35.56593pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=385.53485pt
+* \textheight=529.9326pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-40.26065pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=14.22636pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./main.toc
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+ [1
+
+])
+\tf@toc=\write12
+\openout12 = `main.toc'.
+
+
+
+[2] (./full.tex
+
+Package geometry Warning: `a5paper': not available in `\newgeometry'; skipped.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 399.76123pt, 21.33955pt)
+* v-part:(T,H,B)=(28.45274pt, 533.4892pt, 35.56593pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=399.76123pt
+* \textheight=533.4892pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-43.81725pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=14.22636pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./songs/saro.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box138
+\@cellbox2=\box139
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+LaTeX Font Info:    Font shape `TU/Spectral(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 55.
+
+
+[1
+
+
+])
+
+[2] (./songs/pocity.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+\@cellbox1=\box144
+\@cellbox2=\box145
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+Overfull \hbox (8.68518pt too wide) in paragraph at lines 33--33
+[][] \TU/Spectral(0)/m/n/14.4 poci[][] ještě jednou [] chvíli 
+ []
+
+
+Overfull \hbox (6.2059pt too wide) in paragraph at lines 33--33
+[] \TU/Spectral(0)/m/n/14.4 unaven, bezmoc[]ný,[] usínám vedle Tebe, []něco ve 
+mně praská. 
+ []
+
+)
+
+[3] (./songs/hrobar.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6802pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6802pt too high) detected at line 1
+ []
+
+\@cellbox1=\box150
+\@cellbox2=\box151
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6802pt too high) detected at line 1
+ []
+
+LaTeX Font Info:    Font shape `TU/Spectral(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 36.
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/it' will be
+(Font)              scaled to size 14.4pt on input line 36.
+)
+
+[4] (./songs/blativa-cesta.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box156
+\@cellbox2=\box157
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+
+[5])
+
+[6] (./songs/lou-z-lille.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box162
+\@cellbox2=\box163
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[7]
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 98.
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[8] (./songs/o-malem-rytiri.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+\@cellbox1=\box168
+\@cellbox2=\box169
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+
+[9])
+
+[10] (./songs/batalion.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box174
+\@cellbox2=\box175
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[11] (./songs/tri-citronky.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+\@cellbox1=\box180
+\@cellbox2=\box181
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+)
+
+[12] (./songs/velrybarska-vyprava.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+\@cellbox1=\box186
+\@cellbox2=\box187
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+
+[13])
+
+[14] (./songs/lasko.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box192
+\@cellbox2=\box193
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+LaTeX Font Info:    Font shape `TU/Spectral(0)/b/n' will be
+(Font)              scaled to size 7.0pt on input line 114.
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[15])
+
+[16] (./songs/rada-se-miluje.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box198
+\@cellbox2=\box199
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[17] (./songs/lilie.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box260
+\@cellbox2=\box261
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[18] (./songs/valecna.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box266
+\@cellbox2=\box267
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+LaTeX Font Info:    Font shape `U/musix/m/n' will be
+(Font)              scaled to size 15.0pt on input line 49.
+LaTeX Font Info:    Font shape `TU/Spectral(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 49.
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 49.
+LaTeX Font Info:    Font shape `TU/Spectral(0)/b/n' will be
+(Font)              scaled to size 20.74pt on input line 49.
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[19])
+
+[20] (./songs/peterburg.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box272
+\@cellbox2=\box273
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 25.
+LaTeX Font Info:    Font shape `TU/Spectral(0)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 25.
+)
+
+[21] (./songs/prazskej-demon.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box278
+\@cellbox2=\box279
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[22] (./songs/tri-cunici.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.28421pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.28421pt too high) detected at line 1
+ []
+
+\@cellbox1=\box284
+\@cellbox2=\box285
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.28421pt too high) detected at line 1
+ []
+
+
+
+[23])
+
+[24] (./songs/cernej-pasazer.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.28421pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.28421pt too high) detected at line 1
+ []
+
+\@cellbox1=\box290
+\@cellbox2=\box291
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.28421pt too high) detected at line 1
+ []
+
+
+
+[25])
+
+[26] (./songs/divoci-kone.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box296
+\@cellbox2=\box297
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \hbox (3.36317pt too wide) in paragraph at lines 31--31
+[][][][] []\TU/Spectral(0)/m/n/14.4 Chtěl bych jak divoký []kůň běžet []běžet, 
+[]nemyslet []na náv[]rat 
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[27] (./songs/kozel.tex
+Overfull \vbox (2.07599pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.07599pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box302
+\@cellbox2=\box303
+
+Overfull \vbox (2.07599pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[28] (./songs/hudsonske-sify.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+\@cellbox1=\box308
+\@cellbox2=\box309
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+
+[29])
+
+[30] (./songs/znamka-punku.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box314
+\@cellbox2=\box315
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+
+[31])
+
+[32] (./songs/hercegovina.tex
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+\@cellbox1=\box320
+\@cellbox2=\box321
+
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+)
+
+[33] (./songs/dokud-se-zpiva.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box326
+\@cellbox2=\box327
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[34] (./songs/tesinska.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box332
+\@cellbox2=\box333
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+
+[35])
+
+[36] (./songs/kdyz-me-brali-za-vojaka.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+\@cellbox1=\box338
+\@cellbox2=\box339
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+
+[37])
+
+[38] (./songs/poveste-ho-vejs.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box344
+\@cellbox2=\box345
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[39])
+
+[40] (./songs/racci.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+\@cellbox1=\box350
+\@cellbox2=\box351
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[41] (./songs/malovani.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box356
+\@cellbox2=\box357
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[42] (./songs/magdalena.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box362
+\@cellbox2=\box363
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[43])
+
+[44] (./songs/dva.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.1042pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.1042pt too high) detected at line 1
+ []
+
+\@cellbox1=\box368
+\@cellbox2=\box369
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.1042pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[45])
+
+[46] (./songs/jeste-jedno-kafe.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box374
+\@cellbox2=\box375
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[47] (./songs/zuzana.tex
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+\@cellbox1=\box380
+\@cellbox2=\box381
+
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+)
+
+[48] (./songs/rekni-kde-ty-kytky-jsou.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.3202pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.3202pt too high) detected at line 1
+ []
+
+\@cellbox1=\box386
+\@cellbox2=\box387
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (16.3202pt too high) detected at line 1
+ []
+
+
+
+[49])
+
+[50] (./songs/lovci-lebek.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box392
+\@cellbox2=\box393
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[51]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[52] (./songs/darmodej.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box398
+\@cellbox2=\box399
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[53])
+
+[54] (./songs/andel.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box404
+\@cellbox2=\box405
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+)
+
+[55] (./songs/po-schodoch.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box410
+\@cellbox2=\box411
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[56] (./songs/na-sirem-mori.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box416
+\@cellbox2=\box417
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[57])
+
+[58] (./songs/omnia-vincit-amor.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box422
+\@cellbox2=\box423
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[59])
+
+[60] (./songs/bedna-od-whisky.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+\@cellbox1=\box428
+\@cellbox2=\box429
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+
+[61])
+
+[62] (./songs/valka-ruzi.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box434
+\@cellbox2=\box435
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \hbox (2.00117pt too wide) in paragraph at lines 27--27
+[]\TU/Spectral(0)/m/n/14.4 Už roz[] se hust[][] down, hej, [] 
+ []
+
+)
+
+[63] (./songs/na-kolena.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box440
+\@cellbox2=\box441
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+)
+
+[64] (./songs/jdou-po-mne-jdou.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box446
+\@cellbox2=\box447
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[65])
+
+[66] (./songs/variace-na-renesancni-tema.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box452
+\@cellbox2=\box453
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[67] (./songs/vcelin.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.78021pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.78021pt too high) detected at line 1
+ []
+
+\@cellbox1=\box458
+\@cellbox2=\box459
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.78021pt too high) detected at line 1
+ []
+
+)
+
+[68] (./songs/zitra-rano-v-pet.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box464
+\@cellbox2=\box465
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+
+[69])
+
+[70] (./songs/vodacka-holka.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6922pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6922pt too high) detected at line 1
+ []
+
+\@cellbox1=\box470
+\@cellbox2=\box471
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6922pt too high) detected at line 1
+ []
+
+
+
+[71])
+
+[72] (./songs/mezi-horami.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9002pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9002pt too high) detected at line 1
+ []
+
+\@cellbox1=\box476
+\@cellbox2=\box477
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9002pt too high) detected at line 1
+ []
+
+)
+
+[73] (./songs/pazitka.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.96822pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.96822pt too high) detected at line 1
+ []
+
+\@cellbox1=\box482
+\@cellbox2=\box483
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.96822pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[74] (./songs/lokomotiva.tex
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box488
+\@cellbox2=\box489
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[75])
+
+[76] (./songs/morituri-te-salutant.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box494
+\@cellbox2=\box495
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[77])
+
+[78] (./songs/povidej.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box500
+\@cellbox2=\box501
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[79] (./songs/proklinam.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box506
+\@cellbox2=\box507
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[80] (./songs/let-it-be.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.62021pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.62021pt too high) detected at line 1
+ []
+
+\@cellbox1=\box512
+\@cellbox2=\box513
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.62021pt too high) detected at line 1
+ []
+
+
+
+[81])
+
+[82] (./songs/vitr-to-vi-blowin-in-the-wind.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+\@cellbox1=\box518
+\@cellbox2=\box519
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+
+
+[83])
+
+[84] (./songs/medvedi-nevedi.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box524
+\@cellbox2=\box525
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[85] (./songs/dum-u-vychazejiciho-slunce.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6882pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6882pt too high) detected at line 1
+ []
+
+\@cellbox1=\box530
+\@cellbox2=\box531
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6882pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[86] (./songs/montgomery.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.17221pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.17221pt too high) detected at line 1
+ []
+
+\@cellbox1=\box536
+\@cellbox2=\box537
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.17221pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[87])
+
+[88] (./songs/dej-mi-vic-sve-lasky.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+\@cellbox1=\box542
+\@cellbox2=\box543
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+
+[89])
+
+[90] (./songs/knockin-on-heaven-s-door.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box548
+\@cellbox2=\box549
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[91] (./songs/kutil.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box554
+\@cellbox2=\box555
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[92] (./songs/hejkal.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box560
+\@cellbox2=\box561
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[93])
+
+[94] (./songs/indiani-ve-meste.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box566
+\@cellbox2=\box567
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+
+[95]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[96] (./songs/to-ta-helpa.tex
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+\@cellbox1=\box572
+\@cellbox2=\box573
+
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+)
+
+[97] (./songs/1982.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.19621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.19621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box578
+\@cellbox2=\box579
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.19621pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[98] (./songs/amazonka.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.3082pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.3082pt too high) detected at line 1
+ []
+
+\@cellbox1=\box584
+\@cellbox2=\box585
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.3082pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[99])
+
+[100] (./songs/styskani.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+\@cellbox1=\box590
+\@cellbox2=\box591
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+
+[101])
+
+[102] (./songs/promeny.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9002pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9002pt too high) detected at line 1
+ []
+
+\@cellbox1=\box596
+\@cellbox2=\box597
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9002pt too high) detected at line 1
+ []
+
+
+
+[103])
+
+[104] (./songs/cesta.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.86021pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.86021pt too high) detected at line 1
+ []
+
+\@cellbox1=\box602
+\@cellbox2=\box603
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.86021pt too high) detected at line 1
+ []
+
+)
+
+[105] (./songs/hvezdar.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6922pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6922pt too high) detected at line 1
+ []
+
+\@cellbox1=\box608
+\@cellbox2=\box609
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.6922pt too high) detected at line 1
+ []
+
+)
+
+[106] (./songs/kometa.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.69221pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.69221pt too high) detected at line 1
+ []
+
+\@cellbox1=\box614
+\@cellbox2=\box615
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.69221pt too high) detected at line 1
+ []
+
+
+
+[107])
+
+[108] (./songs/jacek.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box620
+\@cellbox2=\box621
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+
+[109])
+
+[110] (./songs/traktor.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box626
+\@cellbox2=\box627
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[111])
+
+[112] (./songs/1-signalni.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box632
+\@cellbox2=\box633
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+)
+
+[113] (./songs/slavici-z-madridu-rossignol-anglais.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box638
+\@cellbox2=\box639
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[114] (./songs/hlupaku-najdu-te.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box644
+\@cellbox2=\box645
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[115]
+
+[116] (./songs/zkouska-dospelosti.tex
+Overfull \vbox (2.40797pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.04022pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.40797pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.04022pt too high) detected at line 1
+ []
+
+
+Overfull \hbox (11.30534pt too wide) in paragraph at lines 1--1
+[]|[] 
+ []
+
+\@cellbox1=\box650
+\@cellbox2=\box651
+
+Overfull \vbox (2.40797pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.04022pt too high) detected at line 1
+ []
+
+
+
+[117])
+
+[118] (./songs/ruze-z-texasu.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.31621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.31621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box656
+\@cellbox2=\box657
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.31621pt too high) detected at line 1
+ []
+
+
+Overfull \hbox (2.50397pt too wide) in paragraph at lines 57--57
+\TU/Spectral(0)/m/n/14.4 znám [] hezkejch [] k světu, ale [] hraje [] 
+ []
+
+
+
+[119]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[120] (./songs/rosa-na-kolejich.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box662
+\@cellbox2=\box663
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[121] (./songs/eldorado.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box668
+\@cellbox2=\box669
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[122] (./songs/zatimco-se-koupes.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+\@cellbox1=\box674
+\@cellbox2=\box675
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[123])
+
+[124] (./songs/podvod.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box680
+\@cellbox2=\box681
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+
+[125])
+
+[126] (./songs/zejtra-mam.tex
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box686
+\@cellbox2=\box687
+
+Overfull \vbox (2.89198pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[127] (./songs/jdem-zpatky-do-lesu.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (13.5482pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (13.5482pt too high) detected at line 1
+ []
+
+\@cellbox1=\box692
+\@cellbox2=\box693
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (13.5482pt too high) detected at line 1
+ []
+
+)
+
+[128] (./songs/tri-krize.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+\@cellbox1=\box698
+\@cellbox2=\box699
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+
+
+[129])
+
+[130] (./songs/mam-jizvu-na-rtu.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box704
+\@cellbox2=\box705
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+
+[131]
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+
+ []
+
+)
+
+[132] (./songs/uz-to-nenapravim.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+\@cellbox1=\box710
+\@cellbox2=\box711
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+
+
+[133])
+
+[134] (./songs/severni-vitr.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+\@cellbox1=\box716
+\@cellbox2=\box717
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.43622pt too high) detected at line 1
+ []
+
+)
+
+[135] (./songs/rana-v-trave.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9962pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9962pt too high) detected at line 1
+ []
+
+\@cellbox1=\box722
+\@cellbox2=\box723
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.9962pt too high) detected at line 1
+ []
+
+)
+
+[136] (./songs/ahasver.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+\@cellbox1=\box728
+\@cellbox2=\box729
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (10.5962pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 90.
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[137] (./songs/vysoky-jalovec.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+\@cellbox1=\box734
+\@cellbox2=\box735
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.10822pt too high) detected at line 1
+ []
+
+)
+
+[138] (./songs/jozin-z-bazin.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box740
+\@cellbox2=\box741
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+
+[139]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[140] (./songs/mela-jsem-ja-pejska.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box746
+\@cellbox2=\box747
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[141] (./songs/osud.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+\@cellbox1=\box752
+\@cellbox2=\box753
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.2682pt too high) detected at line 1
+ []
+
+
+
+[142]
+
+[143])
+
+[144] (./songs/vlastovky.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.8202pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.8202pt too high) detected at line 1
+ []
+
+\@cellbox1=\box758
+\@cellbox2=\box759
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.8202pt too high) detected at line 1
+ []
+
+
+
+[145])
+
+[146]
+LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
+(Font)              scaled to size 50.0pt on input line 104.
+
+
+[147] (./songs/ceska-statni-hymna.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (18.1802pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (18.1802pt too high) detected at line 1
+ []
+
+\@cellbox1=\box764
+\@cellbox2=\box765
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (18.1802pt too high) detected at line 1
+ []
+
+)
+
+[148] (./songs/junacka-hymna.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+\@cellbox1=\box770
+\@cellbox2=\box771
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.20421pt too high) detected at line 1
+ []
+
+)
+
+[149] (./songs/hvezdicky-dobrou-noc.tex
+Overfull \vbox (5.35199pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (5.35199pt too high) detected at line 1
+ []
+
+\@cellbox1=\box776
+\@cellbox2=\box777
+
+Overfull \vbox (5.35199pt too high) detected at line 1
+ []
+
+)
+
+[150] (./songs/lilie-skautska.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.06421pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.06421pt too high) detected at line 1
+ []
+
+\@cellbox1=\box782
+\@cellbox2=\box783
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.06421pt too high) detected at line 1
+ []
+
+
+
+[151])
+
+[152] (./songs/skautska-vecerka.tex
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+\@cellbox1=\box788
+\@cellbox2=\box789
+
+Overfull \vbox (2.75998pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.6522pt too high) detected at line 1
+ []
+
+)
+
+[153]
+
+[154] (./songs/ukolebavka.tex) (./songs/slunce-za-hory.tex
+Overfull \vbox (5.35199pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (5.35199pt too high) detected at line 1
+ []
+
+\@cellbox1=\box794
+\@cellbox2=\box795
+
+Overfull \vbox (5.35199pt too high) detected at line 1
+ []
+
+)
+
+[155] (./songs/mravenci-ukolebavka.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+\@cellbox1=\box800
+\@cellbox2=\box801
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (11.55621pt too high) detected at line 1
+ []
+
+)
+
+[156] (./songs/blaznova-ukolebavka.tex
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+\@cellbox1=\box806
+\@cellbox2=\box807
+
+Overfull \vbox (4.79999pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[157] (./songs/ho-ho-watanay.tex
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.5162pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.5162pt too high) detected at line 1
+ []
+
+\@cellbox1=\box812
+\@cellbox2=\box813
+
+Overfull \vbox (2.45999pt too high) detected at line 1
+ []
+
+
+Overfull \vbox (12.5162pt too high) detected at line 1
+ []
+
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+)
+
+[158])
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(35.56593pt, 371.30849pt, 14.22636pt)
+* v-part:(T,H,B)=(21.33955pt, 543.44783pt, 32.72049pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=371.30849pt
+* \textheight=543.44783pt
+* \oddsidemargin=-36.70406pt
+* \evensidemargin=-36.70406pt
+* \topmargin=-50.93044pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=14.22636pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+runsystem(makeindex main.idx)...executed safely (allowed).
+
+ (./main.ind)
+runsystem(makeindex songs.idx)...executed safely (allowed).
+
+ (./songs.ind [1
+
+])
+runsystem(makeindex lullaby.idx)...executed safely (allowed).
+
+ (./lullaby.ind)
+runsystem(makeindex hymns.idx)...executed safely (allowed).
+
+ (./hymns.ind)
+
+[2] (./main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 2B336A25A97189AD7AEF4E6179595C4E;11786.
+ ) 
+Here is how much of TeX's memory you used:
+ 40866 strings out of 473832
+ 930507 string characters out of 5729480
+ 1540187 words of memory out of 5000000
+ 62889 multiletter control sequences out of 15000+600000
+ 568866 words of font info for 144 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 117i,22n,121p,1500b,1300s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.xdv (163 pages, 2227288 bytes).

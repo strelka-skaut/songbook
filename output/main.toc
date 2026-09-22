@@ -99,9 +99,8 @@
 \contentsline {subsection}{Skautská večerka}{150}{section*.98}%
 \contentsline {subsection}{Hvězdičky dobrou noc}{151}{section*.99}%
 \contentsline {subsection}{Junácká hymna}{152}{section*.100}%
-\contentsline {subsection}{Ukolébavka}{152}{section*.101}%
-\contentsline {subsection}{Slunce za hory}{153}{section*.102}%
-\contentsline {subsection}{Mravenčí Ukolébavka}{154}{section*.103}%
-\contentsline {subsection}{Bláznova ukolébavka}{155}{section*.104}%
-\contentsline {subsection}{Ho Ho Watanay}{156}{section*.105}%
+\contentsline {subsection}{Slunce za hory}{152}{section*.101}%
+\contentsline {subsection}{Mravenčí Ukolébavka}{154}{section*.102}%
+\contentsline {subsection}{Bláznova ukolébavka}{155}{section*.103}%
+\contentsline {subsection}{Ho Ho Watanay}{156}{section*.104}%
 \contentsfinish 

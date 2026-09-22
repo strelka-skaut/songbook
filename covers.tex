@@ -32,3 +32,13 @@
     \end{center}
     \pagebreak
 }
+
+\NewDocumentCommand{\sectioncover}{ m }{
+  \begin{flushleft}
+  \vspace*{36pt}
+  \list{}{\rightmargin0pt \leftmargin\leftpadding}\item\relax
+  \fontsize{50}{50}\selectfont{\setmainfont{Larken Black}#1} 
+  \endlist
+  \end{flushleft}
+  \pagebreak
+}

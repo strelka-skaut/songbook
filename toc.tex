@@ -14,8 +14,8 @@
 \setcounter{secnumdepth}{0}
 
 \makeatletter
-\newcommand{\subsectiontoc}{%
-\newgeometry{paper=a5paper, nohead, bottom=1.25cm, top=1.125cm, left=0cm, right=1.25cm, footskip=0.5cm}
+\newcommand{\subsectiontocold}{%
+\newgeometry{paper=a5paper, nohead, bottom=1.25cm, top=1.125cm, left=0cm, right=1.25cm, twoside=false, footskip=0.5cm}
 \pagenumbering{gobble}
   \begingroup
   \label{content}
@@ -36,4 +36,29 @@
 }
 \makeatother
 
+\newcommand{\subsectiontoc}{%
+\newgeometry{nohead, bottom=1.15cm, top=0.75cm, left=1.25cm, right=0.5cm, footskip=0.5cm}
+\titlespacing*{\section}{0pt}{0pt}{-0.75em}
+\pagenumbering{gobble}
+  \begingroup
+  \let\clearpage\relax
+  \let\cleardoublepage\relax
+  \label{content}
+  \small
+  \printindex
+  \printindex[songs]
+  \printindex[lullaby]
+  \printindex[hymns]
+  \endgroup
+\pagebreak
+\pagenumbering{arabic}
+\restoregeometry
+}
+
+\renewcommand{\indexspace}{}
+\makeindex
+\makeindex[name=songs,title={Písničky}]
+\makeindex[name=lullaby,title={Ukolebávky}]
+\makeindex[name=hymns,title={Slavnostní}]
+\makeindex[name=other,title={Doplňky}]
 
