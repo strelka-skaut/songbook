@@ -21,11 +21,42 @@
 \renewcommand{\arraystretch}{0.75}
 
 
+% Czech collation for the index: build an ASCII sort key (key@display) so that
+% c < č < d, h < ch < i, r < ř < s, s < š < t, z < ž; leading "1. " is sorted as "První";
+% titles starting with a digit go to the very end.
+\ExplSyntaxOn
+\tl_new:N \g__song_sortkey_tl
+\NewDocumentCommand{\songsortkey}{m}
+  {
+    \tl_set:Nx \l_tmpa_tl { \tl_lower_case:n {#1} }
+    \regex_replace_once:nnN { \A 1 \. \  } { první\  } \l_tmpa_tl
+    \regex_replace_all:nnN { ch } { hzzz } \l_tmpa_tl
+    \regex_replace_all:nnN { č } { czzz } \l_tmpa_tl
+    \regex_replace_all:nnN { ř } { rzzz } \l_tmpa_tl
+    \regex_replace_all:nnN { š } { szzz } \l_tmpa_tl
+    \regex_replace_all:nnN { ž } { zzzz } \l_tmpa_tl
+    \regex_replace_all:nnN { [áä] } { a } \l_tmpa_tl
+    \regex_replace_all:nnN { [éě] } { e } \l_tmpa_tl
+    \regex_replace_all:nnN { í } { i } \l_tmpa_tl
+    \regex_replace_all:nnN { ó } { o } \l_tmpa_tl
+    \regex_replace_all:nnN { [úů] } { u } \l_tmpa_tl
+    \regex_replace_all:nnN { ý } { y } \l_tmpa_tl
+    \regex_replace_all:nnN { ď } { d } \l_tmpa_tl
+    \regex_replace_all:nnN { ť } { t } \l_tmpa_tl
+    \regex_replace_all:nnN { ň } { n } \l_tmpa_tl
+    \regex_replace_all:nnN { [!"@|] } { } \l_tmpa_tl
+    \regex_match:nVT { \A [0-9] } \l_tmpa_tl
+      { \tl_set:Nx \l_tmpa_tl { zzzzz \l_tmpa_tl } }
+    \tl_gset_eq:NN \g__song_sortkey_tl \l_tmpa_tl
+  }
+\cs_new:Npn \songkeyvalue { \tl_use:N \g__song_sortkey_tl }
+\ExplSyntaxOff
+
 \makeatletter
 \NewDocumentCommand{\mysong}{O{songs}mmm+m}{%
   \phantomsection
   \addcontentsline{toc}{subsection}{#2}
-  \index[#1]{#2}
+  \songsortkey{#2}\index[#1]{\songkeyvalue @#2}
   \hspace{\leftpadding}
   \begin{tabularx}{\linewidth - \leftpadding - 0.5cm}{Xr} 
     \savecellbox{\shortstack[l]{\fontsize{24}{24}\setmainfont{Larken Bold}\vphantom{Lq}\hyperref[content]{#2}\ifblank{#3}{}{\\\small \trim@spaces{#3}\ifblank{#4}{}{, \trim@spaces{#4}} }} %#2
