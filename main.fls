@@ -452,6 +452,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT ./songs/o-malem-rytiri.tex
 INPUT ./songs/o-malem-rytiri.tex
 INPUT songs/o-malem-rytiri.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/musixtex-fonts/musix11.tfm
 INPUT ./songs/batalion.tex
 INPUT ./songs/batalion.tex
 INPUT songs/batalion.tex
@@ -473,7 +474,6 @@ INPUT songs/lilie.tex
 INPUT ./songs/valecna.tex
 INPUT ./songs/valecna.tex
 INPUT songs/valecna.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/musixtex-fonts/musix11.tfm
 INPUT ./songs/peterburg.tex
 INPUT ./songs/peterburg.tex
 INPUT songs/peterburg.tex

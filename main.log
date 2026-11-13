@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.14)  22 SEP 2026 22:35
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.14)  25 SEP 2026 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1979,7 +1979,7 @@ Overfull \vbox (11.6522pt too high) detected at line 1
  []
 
 LaTeX Font Info:    Font shape `TU/Spectral(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 55.
+(Font)              scaled to size 14.4pt on input line 57.
 
 
 [1
@@ -2159,6 +2159,8 @@ Overfull \vbox (2.45999pt too high) detected at line 1
 Overfull \vbox (12.10822pt too high) detected at line 1
  []
 
+LaTeX Font Info:    Font shape `U/musix/m/n' will be
+(Font)              scaled to size 15.0pt on input line 61.
 
 
 [9])
@@ -2370,8 +2372,6 @@ Overfull \vbox (2.45999pt too high) detected at line 1
 Overfull \vbox (11.6522pt too high) detected at line 1
  []
 
-LaTeX Font Info:    Font shape `U/musix/m/n' will be
-(Font)              scaled to size 15.0pt on input line 49.
 LaTeX Font Info:    Font shape `TU/Spectral(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 49.
 LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
@@ -4842,7 +4842,7 @@ Overfull \vbox (11.8202pt too high) detected at line 1
 
 [146]
 LaTeX Font Info:    Font shape `TU/Spectral(0)/m/n' will be
-(Font)              scaled to size 50.0pt on input line 104.
+(Font)              scaled to size 50.0pt on input line 107.
 
 
 [147] (./songs/ceska-statni-hymna.tex
@@ -5139,4 +5139,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  117i,22n,121p,1500b,1300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (162 pages).
+Output written on main.xdv (162 pages, 2228080 bytes).
